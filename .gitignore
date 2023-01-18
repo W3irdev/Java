@@ -27,3 +27,12 @@ hs_err_pid*
 IDEs
 WSs
 .metadata
+Code/.gitignore
+Code/miprimerproyecto/.classpath
+Code/miprimerproyecto/.gitignore
+Code/miprimerproyecto/.project
+Code/miprimerproyecto/.settings/org.eclipse.core.resources.prefs
+Code/miprimerproyecto/.settings/org.eclipse.jdt.core.prefs
+Code/miprimerproyecto/bin
+Code/miprimerproyecto/.settings
+
