@@ -147,22 +147,41 @@ public class Boletin1 {
 
 	public static void secuenciaAscendente() {
 		int secuencia = 1;
-
-		while (secuencia < 101) {
+		final int LIMITE_SUPERIOR = 101;
+		while (secuencia < LIMITE_SUPERIOR) {
 
 			System.out.println(secuencia++);
 
 		}
+		
+		/*for (int i=1; i<LIMITE_SUPERIOR;i++) {
+			System.out.println(i);
+		}*/
+		
+		secuencia = 1;
+		do {
+			System.out.println(secuencia++);
+		} while (secuencia < LIMITE_SUPERIOR);
 
 	}
 
 	public static void secuenciaDescendente() {
-
-		for (int i = 100; i > 0; i--) {
+		final int LIMITE_INFERIOR = 1;
+		int secuencia = 100;
+		for (int i = LIMITE_INFERIOR; i > 0; i--) {
 
 			System.out.println(i);
 		}
+		
+		/*do {
+			System.out.println(secuencia--);
+		} while (secuencia > LIMITE_INFERIOR);
 
+		while (secuencia > LIMITE_INFERIOR) {
+			System.out.println(secuencia--);
+		} */
+
+		
 	}
 
 	public static void multiplosCinco() {
@@ -437,7 +456,7 @@ y otro llamado calcularLongitudCirculo que devuelva su longitud*/
 
 		// Ejercicio 8
 
-		// System.out.println(realizarSuma());
+		//System.out.println(realizarSuma());
 
 		// Ejercicio 9
 		//System.out.println(multiplosTres());
