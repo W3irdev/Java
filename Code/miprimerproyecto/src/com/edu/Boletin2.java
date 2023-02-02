@@ -71,20 +71,24 @@ Salida -> oHalm nuod
 	
 	public static String codificarCadena(String cadena) {
 		String nuevaCadena="";
-			for (int i = 0; i < cadena.length(); i++) {
+			for (int posicion = 0; posicion < cadena.length()-1; posicion++) {
 			
-				if (i % 2 == 0) {
+				if (cadena.length()%2==0&&posicion % 2 == 0) {
 					
-					nuevaCadena += cadena.charAt(i+1);
-					nuevaCadena += cadena.charAt(i);
+					nuevaCadena += cadena.charAt(posicion+1);
+					nuevaCadena += cadena.charAt(posicion);
 				
+			
 			}
+				
 			
 		}
 		
 		
 		return nuevaCadena;
 	}
+	
+	
 	
 	/*5. Realizar un método llamado esMultiplo que recibirá dos números y devuelva True si
 el primer número es múltiplo del segundo.
@@ -160,6 +164,7 @@ datos no son correctos se deberá devolver -1000*/
 argumento y devuelva un String con el número binario correspondiente.
 */
 	
+	
 	public static String toBinary(int decimal) {
 		String binario="";
 		
@@ -182,7 +187,7 @@ como argumento y devuelva un número con el número decimal correspondiente.
         int decimal = 0;
         int exponent = 0;
         for(int i = binario.length() -1; i >= 0; i--) {
-            decimal += Integer.parseInt(binario.substring(i, i+1)) * Math.pow(2, exponent);
+            decimal += Integer.valueOf(binario.substring(i, i+1)) * Math.pow(2, exponent);
             exponent++;
         }
         return decimal;
@@ -218,6 +223,10 @@ divisor de 24 y 36 es 12, por tanto el mínimo común múltiplo de 24 y 36 es
     	return mcm;
     }
 	
+    /* Realiza una funcion que cifre un caracter segun el cifrado cesar y un desplazamiento dado.
+     * 
+     * crea otra funcion que utilice la anterior para codificar una palabra o texto*/
+     
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Ejercicio 1
@@ -227,7 +236,7 @@ divisor de 24 y 36 es 12, por tanto el mínimo común múltiplo de 24 y 36 es
 		//Ejercicio 3
 		//System.out.println(checkPassword("T65tuv54%"));
 		//Ejercicio 4
-		//System.out.println(codificarCadena("Hola mundo"));
+		System.out.println(codificarCadena("Hola mundo"));
 		//Ejercicio 5
 		//System.out.println(esMultiplo(20, 10));
 		//Ejercicio 6
@@ -242,6 +251,7 @@ divisor de 24 y 36 es 12, por tanto el mínimo común múltiplo de 24 y 36 es
 		//System.out.println(gcd(20, 10));
 		//Ejercicio 11
 		//System.out.println(minimoComunMultiplo(2, 6));
+		
 	}
 
 }

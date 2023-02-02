@@ -364,8 +364,26 @@ de introducir números al indicar la palabra ‘fin’*/
 			suma = Integer.parseInt(numero)>0||Integer.parseInt(numero)<0?suma+Integer.parseInt(numero):suma;
 			System.out.println("Introduzca un numero o fin, para finalizar");
 			numero = sc.nextLine();
+		
 		}
 		return suma;
+	}
+	
+	
+	public static void sumaNumeros() {
+		Scanner sc = new Scanner(System.in);
+		String valor="0";
+		int suma = 0;
+		
+		do {
+			
+			suma+=Integer.valueOf(valor);
+			System.out.println("Introduce valor, fin para salir");
+			valor = sc.nextLine();
+			
+		}while(!valor.equals(suma));
+		System.out.println(suma);
+		
 	}
 	
 	/*16. Pedir 10 valores numéricos que representan el salario mensual de 10 empleados.
@@ -394,7 +412,7 @@ sumando los dos anteriores, por lo que tendríamos que los términos son 1, 1, 2
 	
 	public static String fibonacci (int cantidad) {
 		int acumulador1 = 1;
-		int acumulador2 = 1;
+		int acumulador2 = 0;
 		int acumulador3 =0;
 		String salida = "";
 		for (int i=0; i<cantidad;i++) {
@@ -406,20 +424,20 @@ sumando los dos anteriores, por lo que tendríamos que los términos son 1, 1, 2
 			
 		}
 		
-		return ("1, 1, "+ salida.substring(0, salida.length()-2));
+		return (salida.substring(0, salida.length()-2));
 	}
 	
 	/*18. Realizar un método llamado calcularAreaCirculo que devuelva el área de un círculo
 y otro llamado calcularLongitudCirculo que devuelva su longitud*/
 	
 	public static double calcularAreaCirculo(int radio) {
-		double area = Math.pow(radio, radio)*Math.PI;
+		double area = (radio>0)?Math.pow(radio, 2)*Math.PI:0.0;
 		
 		return area;
 	}
 	
 	public static double calcularLongitudCirculo(int radio) {
-		double longitud = (radio*2)*Math.PI;
+		double longitud = (radio>0)? (radio*2)*Math.PI:0.0;
 		
 		return longitud;
 	}
@@ -483,7 +501,7 @@ y otro llamado calcularLongitudCirculo que devuelva su longitud*/
 		//System.out.println(salario());
 		
 		//Ejercicio 17
-		//System.out.println(fibonacci(10));
+		System.out.println(fibonacci(10));
 		
 		//Ejercicio 18
 		//System.out.println(calcularAreaCirculo(25));
