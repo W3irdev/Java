@@ -1,5 +1,7 @@
 package com.edu;
 
+import java.util.Scanner;
+
 public class Boletin3 {
 
 	/*1. Escribe una función que reciba una cadena de texto y una variable bandera
@@ -320,6 +322,26 @@ El programa no debe distinguir entre mayúsculas y minúsculas*/
 		return cifrado.toString();
 	}
 	
+	public static String cifradoCesarEspecifico (String texto, int nivel) {
+		StringBuilder cadenaCifrada = new StringBuilder ();
+		int nivelEspecifico = 0;
+		Scanner sc = new Scanner (System.in);
+		
+		
+		for (int i = 0 ; i<texto.length(); i++) {
+			
+			System.out.println("Introduzca nivel de cifrado para el caracter "+ (i+1)+"/"+texto.length());
+			nivelEspecifico=Integer.valueOf(sc.nextLine());
+			cadenaCifrada.append(cifradoCesar(texto.substring(i, i+1), nivelEspecifico));
+			
+			
+		}
+		
+		
+		
+		return cadenaCifrada.toString();
+	}
+	
 	public static String nivelCifrado (String palabra1, String palabra2) {
 		int nivelCifrado=-1;
 		boolean descifrado=false;
@@ -360,8 +382,9 @@ El programa no debe distinguir entre mayúsculas y minúsculas*/
 		//System.out.println("En este texto hay varias palabras. Alguna que otra frase.\nY dos parrafos");
 		//System.out.println(devolverPalabrasFrasesParrafos("En este texto hay varias palabras. Alguna que otra frase. \n Y dos parrafos"));
 		// Ejercicio 10
-		System.out.println(nivelCifrado("CASADO", "fdvdgr"));
-		System.out.println(cifradoCesar("CASADO", 3));
+		///System.out.println(nivelCifrado("CASADO", "fdvdgr"));
+		System.out.println(cifradoCesarEspecifico("Lacasa", 0));
+		//System.out.println(cifradoCesar("CASADO", 3));
 		
 	}
 
