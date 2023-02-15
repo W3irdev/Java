@@ -264,17 +264,21 @@ párrafos por saltos de línea.*/
 		int palabras=0;
 		int frases=0;
 		int parrafos=0;
+		StringBuilder palabrasGuardadas = new StringBuilder();
 		
 		if (texto.length()>0) {
 			parrafos++;
+			
 		for (int i=0; i<texto.length();i++) {
 			
 			if (i==0&&!texto.substring(0, 1).equals(" ")){
 				palabras++;
+
 			}else if (!texto.substring(i, i+1).isBlank()&&texto.substring(i-1, i).isBlank()){
 				palabras++;
 				
-			}else if (texto.substring(i, i+1).isBlank()&&texto.substring(i-1, i).equals(".")) {
+				
+			}else if (texto.substring(i, i+1).equals(".")&&!texto.substring(i-1, i).isBlank()) { 
 				
 				frases++;
 			}else if (texto.substring(i, i+1).equals("\n")) {
@@ -346,7 +350,7 @@ El programa no debe distinguir entre mayúsculas y minúsculas*/
 		int nivelCifrado=-1;
 		boolean descifrado=false;
 		String mensaje ="";
-		for (int i=0; i<=27;i++) {
+		for (int i=0; i<27;i++) {
 		
 		if (!descifrado&&palabra1.toLowerCase().equals(cifradoCesar(palabra2.toLowerCase(), i))) {
 			nivelCifrado=27-i;
@@ -380,10 +384,10 @@ El programa no debe distinguir entre mayúsculas y minúsculas*/
 		//System.out.println(reemplazar("En esta frase hay que reemplazar coche por moto", "coche", "moto"));
 		// Ejercicio 9
 		//System.out.println("En este texto hay varias palabras. Alguna que otra frase.\nY dos parrafos");
-		//System.out.println(devolverPalabrasFrasesParrafos("En este texto hay varias palabras. Alguna que otra frase. \n Y dos parrafos"));
+		System.out.println(devolverPalabrasFrasesParrafos("En este texto hay varias palabras. Alguna que otra frase. \n Y dos parrafos."));
 		// Ejercicio 10
 		///System.out.println(nivelCifrado("CASADO", "fdvdgr"));
-		System.out.println(cifradoCesarEspecifico("Lacasa", 0));
+		//System.out.println(cifradoCesarEspecifico("Lacasa", 0));
 		//System.out.println(cifradoCesar("CASADO", 3));
 		
 	}
