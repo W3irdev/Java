@@ -5,11 +5,6 @@ import java.util.Scanner;
 public class UsoAvion {
 
 	static Avion a1 = new Avion();
-	public static boolean asignarVuelo(int asientos, double distancia) {
-		
-		return a1.getCapacidad()<asientos&&distancia>0;
-		
-	}
 	
 	public static void main(String[] args) {
 
@@ -85,8 +80,8 @@ public class UsoAvion {
 				System.out.println("¿Cuantos asientos estaran ocupados?");
 				int asientos = Integer.parseInt(sc.nextLine());
 				System.out.println("Distancia del viaje");
-				double distancia = Double.parseDouble(sc.nextLine());
-				if (asignarVuelo(asientos, distancia)) {
+				Double distancia = Double.parseDouble(sc.nextLine());
+				if (a1.asignarVuelo(asientos, distancia)) {
 					a1.setKmVolados(a1.getKmVolados()+distancia);
 					a1.setNumVuelos(a1.getNumVuelos()+1);
 					

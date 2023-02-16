@@ -76,7 +76,11 @@ public class Avion {
 		this.kmVolados = kmVolados;
 	}
 	
-	
+	public boolean asignarVuelo(int asientos, Double distancia) {
+		
+		return capacidad>asientos&&distancia>0;
+		
+	}
 	
 	
 
