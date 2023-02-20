@@ -2,6 +2,8 @@ package com.edu.aerolines;
 
 import java.util.Scanner;
 
+import com.edu.aerolines.models.Avion;
+
 public class UsoAvion {
 
 	static Avion a1 = new Avion();
@@ -58,17 +60,17 @@ public class UsoAvion {
 		do {
 			System.out.println("""
 				
-				a) Asignar Vuelo\
+				a) Asignar Vuelo
 				
-				b) Obtener el numero de vuelos\
+				b) Obtener el numero de vuelos
 				
-				c) Obtener el numero de kilometros\
+				c) Obtener el numero de kilometros
 				
-				d) Obtener la media de kilometros por vuelo\
+				d) Obtener la media de kilometros por vuelo
 				
-				e) Cambio de compañia\
+				e) Cambio de compañia
 				
-				f) Mostrar informacion del avion\
+				f) Mostrar informacion del avion
 				
 				g) Salir""");
 			
@@ -81,14 +83,9 @@ public class UsoAvion {
 				int asientos = Integer.parseInt(sc.nextLine());
 				System.out.println("Distancia del viaje");
 				Double distancia = Double.parseDouble(sc.nextLine());
-				if (a1.asignarVuelo(asientos, distancia)) {
-					a1.setKmVolados(a1.getKmVolados()+distancia);
-					a1.setNumVuelos(a1.getNumVuelos()+1);
-					
+				a1.asignarVuelo(asientos, distancia);
 				}
 				
-				
-			}
 			case "b" -> System.out.println("El avion ha realizado "+ a1.getNumVuelos()+ " vuelos.");
 				
 			case "c" -> System.out.println("El avion ha recorrido "+ a1.getKmVolados()+"Kms");
@@ -98,9 +95,7 @@ public class UsoAvion {
 				compania = sc.nextLine();
 				a1.setCompannia(compania);
 			}
-			case "f" -> System.out.println("Avion con id: "+a1.getIdAvion()+" de la compañia "
-					+a1.getCompannia()+" ha realizado "+a1.getNumVuelos()+" vuelos, con un total de "
-							+ a1.getKmVolados() +" kms y una media de "+ a1.getMediaKm()+" kms por vuelo.");
+			case "f" -> System.out.println(a1.toString());
 			
 			}
 			

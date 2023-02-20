@@ -1,4 +1,4 @@
-package com.edu.aerolines;
+package com.edu.aerolines.models;
 
 public class Avion {
 
@@ -18,7 +18,12 @@ public class Avion {
 	}
 	
 	public Double getMediaKm() {
-		return this.kmVolados/this.numVuelos;
+		Double media=0.0;
+		if (kmVolados>=1&&numVuelos>=1) {
+			media = this.kmVolados/this.numVuelos;
+		}
+		
+		return media;
 	}
 
 	
@@ -48,17 +53,11 @@ public class Avion {
 		return idAvion;
 	}
 
-	public void setIdAvion(String idAvion) {
-		this.idAvion = idAvion;
-	}
 
 	public Integer getCapacidad() {
 		return capacidad;
 	}
 
-	protected void setCapacidad(Integer capacidad) {
-		this.capacidad = capacidad;
-	}
 
 	public String getCompannia() {
 		return compannia;
@@ -77,10 +76,23 @@ public class Avion {
 	}
 	
 	public boolean asignarVuelo(int asientos, Double distancia) {
+		boolean esPosibleAsignarVuelvo = false;
 		
-		return capacidad>asientos&&distancia>0;
+		if (capacidad>=asientos&&asientos>0&&distancia>0) {
+			this.numVuelos++;
+			this.kmVolados+=distancia;
+			
+		}
+		
+		return esPosibleAsignarVuelvo;
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Avion con id: " + idAvion + ", de la compañia: " + compannia +", ha realizado " + numVuelos + ", con un total de " + kmVolados + "kms, y una media de: " + getMediaKm() + " kms por vuelo";
+	}
+	
 	
 	
 
