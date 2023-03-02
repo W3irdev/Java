@@ -14,9 +14,9 @@ public class Rectangulo {
 	}
 	
 	public Rectangulo(double longitud, double ancho) {
-		super();
-		this.longitud = longitud;
-		this.ancho = ancho;
+		this();
+		setAncho(ancho);
+		setLongitud(longitud);
 	}
 	public double getLongitud() {
 		return longitud;
