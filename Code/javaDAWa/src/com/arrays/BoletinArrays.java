@@ -1,4 +1,4 @@
-package com.edu.Arrays;
+package com.arrays;
 
 import java.util.Arrays;
 
@@ -54,14 +54,55 @@ NOTA: Sólo debe usarse un vector, no crear vectores auxiliares.*/
 	    }
 	}
 	
+	/*3. Realizar un programa que solicite por teclado números entre 1 y 1000
+hasta que el usuario informe de que ya no desea introducir más
+números. Después debe mostrar:
+• La media de los números leídos.
+• Cuántos números terminan en cada uno de los dígitos (0 .. 9).
+• El dígito en el que más números terminan.
+• En qué dígitos no ha terminado ningún número.
+Pista: crear un vector de contadores de 10 elementos*/
+	
+	public static double mediaLista(double[] listaNumeros ) {
+		double suma=0;
+		
+		for (int i=0; i<listaNumeros.length;i++) {
+			
+			suma+=listaNumeros[i];
+		}
+		
+		return suma/listaNumeros.length;
+	}
+	
+	public static int terminaCon(int[] numeros, char digitoFinal) {
+		int contador=0;
+		
+		for (int i=0; i<numeros.length;i++) {
+			
+			if(String.valueOf(numeros[i]).equals(String.valueOf(digitoFinal))||String.valueOf(numeros[i]).endsWith(String.valueOf(digitoFinal))) {
+				contador++;
+			}
+		}
+		
+		
+		return contador;
+	}
+
+
+	
+	
 	public static void main(String[] args) {
 		int[] numeros= {5,10,2,30,4,15,6,88,3,9};
-		
+		double[] listaNumeros = {1,2,3,4,5,6,7,8,9,10};
 		
 		/*for (int ni:ordenInverso(numeros)) {
 			System.out.println(ni);
 		}*/
-		desplazarVector(numeros);
+		//desplazarVector(numeros);
+		
+		//System.out.println(mediaLista(listaNumeros));
+		
+		//System.out.println(terminaCon(numeros, '5'));
 		
 
 	}

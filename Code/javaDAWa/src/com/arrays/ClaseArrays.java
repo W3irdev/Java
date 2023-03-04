@@ -1,4 +1,4 @@
-package com.edu.Arrays;
+package com.arrays;
 
 public class ClaseArrays {
 
