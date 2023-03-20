@@ -17,9 +17,39 @@ public class Baraja {
 	
 	public void barajar() {
 		this.siguiente=-1;
+		boolean esta = false;
+		Carta nueva;
+		int contador=0;
 		for(int i=0; i< this.numCartas;i++) {
 			
-			cartas[i] = new Carta(generaNumero(), generaPalo());
+			contador = 0;
+			do {
+				esta=false;
+				nueva = new Carta(generaNumero(), generaPalo());
+				for(int j=0; j<cartas.length&&!esta;j++) {
+					if(cartas[j]!=null&&nueva.equals(cartas[j])) {
+						esta=true;
+					}
+				}
+				contador++;
+				
+				if(contador>=5) {
+					contador=0;
+					esta=false;
+					for(int c=1; c<13&&esta;c++) {
+						esta=false;
+						nueva = new Carta(c, nueva.getPalo());
+						for(int j=0; j<cartas.length&&!esta;j++) {
+							if(cartas[j]!=null&&nueva.equals(cartas[j])) {
+								esta=true;
+							}
+						}
+					}
+				}
+			} while (esta);
+			
+			
+			cartas[i] = nueva;
 		}
 	}
 	
