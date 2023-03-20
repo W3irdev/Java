@@ -3,7 +3,7 @@ package com.enums.example.model;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Persona implements Comparable<Persona>{
+public class Persona implements Comparable<Persona>, Musico{
 
 	private Genero genero;
 	private String nombre;
@@ -43,6 +43,16 @@ public class Persona implements Comparable<Persona>{
 		return "Soy " + genero + " y me llamo " + nombre + " " + apellidos + " tengo "
 				;
 	}
+
+
+	@Override
+	public String instrumento() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
 	
 	
 	

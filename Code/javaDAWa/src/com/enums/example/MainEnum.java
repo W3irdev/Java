@@ -51,21 +51,34 @@ public class MainEnum {
 		Persona juana = new Persona("Juana", "Revilla", Genero.MUJER, fechaNacimiento);
 		Persona ana = new Persona("Ana", "Revilla", Genero.MUJER, fechaNacimiento);
 		Persona otro = new Persona("Otro", "Revilla", Genero.HOMBRE, fechaNacimiento);
+		Persona helicopter = new Persona("heli", "Revilla", Genero.HELICOPTER, fechaNacimiento);
+		Persona otrohel = new Persona("Hela", "Revilla", Genero.HELICOPTER, fechaNacimiento);
+		Persona casa = new Persona("casa", "Revilla", Genero.HOMBRE, fechaNacimiento);
 		
-		Persona[] personas = new Persona[4];
+		Persona[] personas = new Persona[7];
 		personas[0]=pepe;
 		personas[1]=juana;
 		personas[2]=ana;
 		personas[3]=otro;
+		personas[4]=helicopter;
+		personas[5]=otrohel;
+		personas[6]=casa;
+
 		
 		for (Persona p:personas) {
-			System.out.println(p);
+			if (p!=null) {
+				System.out.println(p);
+				
+			}
 		}
 		
 		Arrays.sort(personas);
 		System.out.println("_____________________");
 		for (Persona p:personas) {
-			System.out.println(p);
+			if(p!=null) {
+				System.out.println(p);
+				
+			}
 		}
 		
 	}
