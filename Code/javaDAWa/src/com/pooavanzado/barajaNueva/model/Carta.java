@@ -2,7 +2,7 @@ package com.pooavanzado.barajaNueva.model;
 
 import java.util.Objects;
 
-public class Carta {
+public class Carta implements Comparable<Carta>{
 	
 	private int number;
 	private Palo palo;
@@ -52,6 +52,12 @@ public class Carta {
 		esIgual=(obj!=null&&this == obj&&(obj instanceof Carta))||(other!=null&&this.number == other.number && Objects.equals(palo, other.palo));
 		
 		return esIgual;
+	}
+
+	@Override
+	public int compareTo(Carta o) {
+		
+		return this.number-o.number;
 	}
 	
 	
