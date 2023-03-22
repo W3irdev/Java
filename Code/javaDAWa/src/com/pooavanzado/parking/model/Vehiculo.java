@@ -66,6 +66,39 @@ public class Vehiculo implements Comparable<Vehiculo>{
 
 
 
+	public String getMarca() {
+		return marca;
+	}
+
+	
+
+
+
+
+	public String getMatricula() {
+		return matricula;
+	}
+
+
+
+
+
+	public String getModelo() {
+		return modelo;
+	}
+
+
+
+
+
+	public Tipo getTipo() {
+		return tipo;
+	}
+
+
+
+
+
 	public void setTipo(String tipo) throws TipoNotExist {
 		try {
 			this.tipo = Tipo.valueOf(tipo.toUpperCase());
@@ -79,13 +112,17 @@ public class Vehiculo implements Comparable<Vehiculo>{
 
 
 
+	public LocalDate getFechaEntrada() {
+		return fechaEntrada;
+	}
+
+
+
+
+
 	@Override
 	public int compareTo(Vehiculo o) {
 		
-		return compareToDefault(o);
-	}
-	
-	public int compareToDefault(Vehiculo o) {
 		int compare;
 		if(o!=null) {
 			compare= this.fechaEntrada.compareTo(o.fechaEntrada);
@@ -96,26 +133,6 @@ public class Vehiculo implements Comparable<Vehiculo>{
 		return compare;
 	}
 	
-	public int compareToMarca(Vehiculo o) {
-		int comparable;
-		
-		comparable = this.marca.compareTo(o.marca)==0?this.modelo.compareTo(o.modelo):this.marca.compareTo(o.marca);
-		
-		return comparable;
-	}
-
-	public int compareToTipo(Vehiculo o) {
-		int comparable;
-		
-		comparable = this.tipo.compareTo(o.tipo)==0?this.combustible.compareTo(o.combustible):this.tipo.compareTo(o.tipo);
-		
-		return comparable;
-	}
-
-	public int compareToMatricula(Vehiculo o) {
-		
-		return this.matricula.compareTo(o.matricula);
-	}
 
 
 

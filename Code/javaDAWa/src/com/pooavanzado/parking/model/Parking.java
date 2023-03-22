@@ -2,16 +2,51 @@ package com.pooavanzado.parking.model;
 
 import java.util.Arrays;
 
-public class Parking{
+public class Parking {
 
 	private Vehiculo[] vehiculo;
 	private final int PLAZAS=50;
+	private static int contador = 0;
 	
 	
 	public Parking() {
 		super();
 		vehiculo= new Vehiculo[0];
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public Vehiculo[] getVehiculo() {
+		return vehiculo;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -53,6 +88,32 @@ public class Parking{
 		Arrays.sort(vehiculo);
 		return String.format("Los vehiculos estacionados en el parking son los siguientes: %s]", Arrays.toString(vehiculo));
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 
