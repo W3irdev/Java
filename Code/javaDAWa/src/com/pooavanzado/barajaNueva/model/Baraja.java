@@ -2,8 +2,6 @@ package com.pooavanzado.barajaNueva.model;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-import com.pooavanzado.barajaNueva.model.Carta;
-
 public class Baraja {
 	
 	protected int numCartas;
@@ -12,20 +10,19 @@ public class Baraja {
 	private final static int MAX_BARAJA=40;
 
 	
-	public Baraja() {
+	public Baraja() throws Exception {
 		this.siguiente=0;
 		this.numCartas=40;
 		int posicion=0;
-		Carta[] baraja = new Carta[MAX_BARAJA];
+		baraja = new Carta[MAX_BARAJA];
 		
 		for(Palo p:Palo.values()) {
 			for(int i=1;i<13;i++) {
 				if(i!=8&&i!=9) {
-					try {
-						this.baraja[posicion++] = new Carta(i, p);
-					} catch (Exception e) {
-						e.printStackTrace();
-					}
+					
+				this.baraja[posicion++] = new Carta(i, p);
+					 
+					
 				}
 			}
 		}

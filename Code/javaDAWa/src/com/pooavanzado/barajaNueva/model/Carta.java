@@ -2,16 +2,18 @@ package com.pooavanzado.barajaNueva.model;
 
 import java.util.Objects;
 
-public class Carta {
+public class Carta implements Comparable<Carta>{
 	
 	private int number;
 	private Palo palo;
+	private final static Exception MSG = new Exception("Yeeepaaaaa");
 	
 	public Carta(int number, Palo palo) throws Exception {
 		super();
 		
-		if(this.number>12||this.number<1||this.number==7||this.number==8) {
-			throw new Exception("El valor de la carta es incorrecto");
+		
+		if(number>12||number<1) {
+			throw MSG;
 		}
 		this.number = number;
 		this.palo = palo;
@@ -52,6 +54,12 @@ public class Carta {
 		esIgual=(obj!=null&&this == obj&&(obj instanceof Carta))||(other!=null&&this.number == other.number && Objects.equals(palo, other.palo));
 		
 		return esIgual;
+	}
+
+	@Override
+	public int compareTo(Carta o) {
+		
+		return this.number-o.number;
 	}
 	
 	
