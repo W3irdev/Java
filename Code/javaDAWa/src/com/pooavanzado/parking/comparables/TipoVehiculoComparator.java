@@ -12,6 +12,10 @@ public class TipoVehiculoComparator implements Comparator<Vehiculo>{
 		
 		if(o1!=null&&o2!=null) {
 			comparable = o1.getTipo().compareTo(o2.getTipo());
+		}else if(o1==null) {
+			comparable = 1;
+		}else if(o2==null) {
+			comparable = -1;
 		}
 		
 		

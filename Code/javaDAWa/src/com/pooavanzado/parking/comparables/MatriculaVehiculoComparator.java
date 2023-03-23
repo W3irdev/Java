@@ -11,6 +11,10 @@ public class MatriculaVehiculoComparator implements Comparator<Vehiculo> {
 		int comparable = 0;
 		if(o1!=null&&o2!=null) {
 			comparable=o1.getMatricula().compareTo(o2.getMatricula());
+		}else if(o1==null) {
+			comparable = 1;
+		}else if(o2==null) {
+			comparable = -1;
 		}
 		
 		return comparable;
