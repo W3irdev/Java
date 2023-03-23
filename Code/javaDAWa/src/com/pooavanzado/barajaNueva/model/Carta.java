@@ -6,12 +6,14 @@ public class Carta implements Comparable<Carta>{
 	
 	private int number;
 	private Palo palo;
+	private final static Exception MSG = new Exception("Yeeepaaaaa");
 	
 	public Carta(int number, Palo palo) throws Exception {
 		super();
 		
-		if(this.number>12||this.number<1||this.number==7||this.number==8) {
-			throw new Exception("El valor de la carta es incorrecto");
+		
+		if(number>12||number<1) {
+			throw MSG;
 		}
 		this.number = number;
 		this.palo = palo;
