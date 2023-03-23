@@ -15,6 +15,10 @@ public class MarcaVehiculoComparator implements Comparator<Vehiculo>{
 			if (comparable==0) {
 				comparable = o1.getModelo().compareTo(o2.getModelo());
 			}
+		}else if(o1==null) {
+			comparable = 1;
+		}else if(o2==null) {
+			comparable = -1;
 		}
 		
 		return comparable;
