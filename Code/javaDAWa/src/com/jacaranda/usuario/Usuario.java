@@ -2,6 +2,8 @@ package com.jacaranda.usuario;
 
 import java.util.Objects;
 
+import com.jacaranda.Exception.PublicacionException;
+
 public class Usuario {
 
 	private String login;
@@ -14,14 +16,15 @@ public class Usuario {
 		this.pass = pass;
 	}
 	
-	public String getLogin() {
-		
+	public String getLogin(){
 		return this.login;
+		
+		
 	}
 	
 	public boolean setPass(String antigua, String nueva) {
 		boolean set = false;
-		if(antigua.equals(this.pass)) {
+		if(checkPass(antigua)) {
 			this.pass = nueva;
 			set = true;
 		}
