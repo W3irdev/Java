@@ -27,7 +27,7 @@ public class MemoryStorage {
 	
 	private int posicionUsuario(String usuario) throws PublicacionException {
 		int posicion=-1;
-		for(int u=0; u<this.usuarios.length;u++) {
+		for(int u=0; u<this.usuarios.length&&posicion==-1;u++) {
 			if(usuarios[u]!=null && usuarios[u].getLogin().equals(usuario)) {
 				posicion=u;
 			}

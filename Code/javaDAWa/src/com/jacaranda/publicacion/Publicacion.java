@@ -77,7 +77,7 @@ public abstract class Publicacion implements Valorable, Comparable<Publicacion>{
 
 
 	@Override
-	public boolean valorar(String valoracion) {
+	public boolean valorar(String valoracion) throws Exception {
 		boolean valorado = false;
 		if (Valoraciones.valueOf(valoracion) != null) {
 			valorado = true;
@@ -89,7 +89,7 @@ public abstract class Publicacion implements Valorable, Comparable<Publicacion>{
 				this.valoracion-=2;
 			}
 			
-		}
+		}else throw new Exception("No existe ese tipo de valoracion");
 		return valorado;
 	}
 

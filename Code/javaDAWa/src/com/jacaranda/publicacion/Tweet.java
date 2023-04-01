@@ -19,19 +19,25 @@ public class Tweet extends Publicacion implements Valorable {
 	}
 
 	@Override
-	public boolean valorar(String valoracion) {
+	public boolean valorar(String valoracion) throws PublicacionException {
 		boolean valorado = false;
-		if (Valoraciones.valueOf(valoracion) != null) {
-			valorado = true;
-			if (valoracion.equals("MUYBUENA")) {
-				this.valoracion+=4;
-			}else if (valoracion.equals("NORMAL")) {
-				this.valoracion+=2;
-			}else if (valoracion.equals("MUYMALA")){
-				this.valoracion-=4;
+		try {
+			if (Valoraciones.valueOf(valoracion.toUpperCase()) != null) {
+				valorado = true;
+				if (valoracion.equalsIgnoreCase("MUYBUENA")) {
+					this.valoracion+=4;
+				}else if (valoracion.equalsIgnoreCase("NORMAL")) {
+					this.valoracion+=2;
+				}else if (valoracion.equalsIgnoreCase("MUYMALA")){
+					this.valoracion-=4;
+				}
+				
 			}
 			
+		} catch (IllegalArgumentException e) {
+			throw new PublicacionException("No existe la valoracion");
 		}
+		
 		return valorado;
 		
 	}

@@ -9,7 +9,9 @@ import com.pooavanzado.parking.comparables.TipoVehiculoComparator;
 public class Parking {
 
 	private Vehiculo[] vehiculo;
-	private final int PLAZAS=50;
+	private static final int PLAZAS=50;
+	
+	
 	public Parking() {
 		super();
 		vehiculo= new Vehiculo[0];
@@ -51,6 +53,7 @@ public class Parking {
 
 	public String ordenarPorMarca() {
 		Arrays.sort(vehiculo, new MarcaVehiculoComparator());
+
 		
 		return arraysToString(vehiculo);
 	}

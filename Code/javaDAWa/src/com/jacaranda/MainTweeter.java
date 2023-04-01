@@ -1,5 +1,8 @@
 package com.jacaranda;
 
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+
 import com.jacaranda.memoryStorage.MemoryStorage;
 import com.jacaranda.publicacion.Publicacion;
 import com.jacaranda.publicacion.Tweet;
@@ -11,6 +14,11 @@ public class MainTweeter {
 		MemoryStorage tweeter = new MemoryStorage();
 		
 		try {
+			LocalDateTime horas = LocalDateTime.now();
+			LocalDateTime futuro = LocalDateTime.now().plusDays(2);
+			System.out.println(ChronoUnit.HOURS.between(horas, futuro));
+			
+			System.out.println(horas.getHour());
 			System.out.println(tweeter.mostrarListaPublicaciones());
 			tweeter.addUsuario("Josemi", "hola");
 			tweeter.addPublicacion("Prueba", "Josemi");
@@ -24,14 +32,14 @@ public class MainTweeter {
 			Usuario josemi = new Usuario("Josemi", "holai");
 			Publicacion pruebaValoracion = new Tweet("Prueba Valoracion", josemi);
 			System.out.println(pruebaValoracion);
-			pruebaValoracion.valorar("MUYBUENA");
+			pruebaValoracion.valorar("uybuena");
 			System.out.println(pruebaValoracion);
-			
 			
 		} catch (Exception e) {
 
 			e.printStackTrace();
 		}
+		
 
 	}
 

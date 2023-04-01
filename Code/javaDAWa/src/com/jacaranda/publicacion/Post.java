@@ -16,7 +16,7 @@ public class Post extends Publicacion implements Valorable {
 
 	@Override
 	protected void setTexto(String texto) throws PublicacionException {
-		if(texto!=null || !texto.isBlank()) {
+		if(texto!=null && !texto.isBlank()) {
 			this.texto = texto;
 		}else {
 			throw new PublicacionException("El mensaje no puede estar en blanco");

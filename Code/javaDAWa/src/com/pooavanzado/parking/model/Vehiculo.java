@@ -152,8 +152,8 @@ public class Vehiculo implements Comparable<Vehiculo>{
 		boolean igual= this == obj;
 		
 
-		if (!igual&&obj!=null&&(obj instanceof Vehiculo)) {
-			Vehiculo other = (Vehiculo) obj;
+		if (obj!=null&&!igual&&(obj instanceof Vehiculo other)) {
+			
 			igual = other.matricula.equals(this.matricula);
 		}
 		return igual;
