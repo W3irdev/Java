@@ -6,8 +6,6 @@ public class Alquiler {
 
 	private static final int MAXIMO_VEHICULOS=200;
 	private int codigo;
-	private int dias;
-	private double precio;
 	private Vehiculo[] alquiler;
 
 	

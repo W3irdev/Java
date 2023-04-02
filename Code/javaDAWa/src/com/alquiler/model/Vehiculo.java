@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Vehiculo{
 
 	protected String matricula;
-	Gama gama;
+	protected Gama gama;
 	protected double precioBase;
 	
 	/**
