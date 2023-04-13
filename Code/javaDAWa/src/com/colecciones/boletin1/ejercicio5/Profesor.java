@@ -1,4 +1,4 @@
-package com.colecciones.boletin1.ejercicio5.model;
+package com.colecciones.boletin1.ejercicio5;
 
 public class Profesor extends Persona {
 

@@ -14,12 +14,12 @@ public class PaginaWeb {
 	}
 	
 	public PaginaWeb(String url, LocalDateTime visita) {
-		this.url = url;
+		this(url);
 		this.visita = visita;
 	}
 	
 	
-	
+
 	
 
 	public LocalDateTime getVisita() {
