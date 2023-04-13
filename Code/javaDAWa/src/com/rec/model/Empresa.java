@@ -1,12 +1,13 @@
 package com.rec.model;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class Empresa {
 
 	private static final int NUM_MAXIMO_EMPLEADOS=11;
 	private Candidate[] empresa;
 	private int numEmpleado;
+	
 	
 	public Empresa() {
 		empresa=new Candidate[NUM_MAXIMO_EMPLEADOS];
@@ -42,7 +43,6 @@ public class Empresa {
 	public String ordenarPorExperiencia() {
 		StringBuilder sb = new StringBuilder();
 		Arrays.sort(empresa, new CandidatosExperienciaComparator());
-		
 		for(Candidate c:empresa) {
 			if(c!=null) {
 				sb.append(c.toString()+ "\n");
@@ -54,7 +54,7 @@ public class Empresa {
 
 	@Override
 	public String toString() {
-		return String.format("%s", ordenarPorExperiencia());
+		return String.format("%s", Arrays.toString(empresa));
 	}
 	
 	

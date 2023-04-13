@@ -38,7 +38,7 @@ public class BackendProgrammer extends Candidate implements Backend {
 				this.maintenanceCost()-(this.maintenanceCost()*REDUCCION_PARCIAL);
 		}
 		
-		totalSalario=totalSalario*1*((5*(ChronoUnit.YEARS.between(getStartDate(), LocalDate.now())))/100);
+		totalSalario=totalSalario*1*((5*(ChronoUnit.YEARS.between(getStartDate(), LocalDate.now())))/(double)100);
 		
 		return totalSalario;
 	}

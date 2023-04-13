@@ -18,7 +18,6 @@ public class MainParking {
 		
 		System.out.println(pk);
 		
-		Vehiculo coche = new Vehiculo("Ford", "Mondeo", "2503GNX", "GASOIL", "20-03-2023", "AUTOMOVIL");
 		
 		System.out.println(pk.ordenarPorTipo());
 

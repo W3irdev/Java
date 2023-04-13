@@ -7,7 +7,7 @@ public class Baraja {
 	protected int numCartas;
 	protected int siguiente;
 	private Carta[] baraja;
-	private final static int MAX_BARAJA=40;
+	private static final int MAX_BARAJA=40;
 
 	
 	public Baraja() throws Exception {
@@ -49,10 +49,6 @@ public class Baraja {
 		return ThreadLocalRandom.current().nextInt(0, MAX_BARAJA);
 	}
 	
-	
-	private Palo generaPalo() {
-		return Palo.values()[ThreadLocalRandom.current().nextInt(0, 3)];
-	}
-	
+
 	
 }
