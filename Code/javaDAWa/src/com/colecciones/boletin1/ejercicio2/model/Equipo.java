@@ -33,7 +33,7 @@ public class Equipo {
 	
 	public Alumno existeAlumno(Alumno alumno) {
 		Alumno miembro=null;
-		if(alumno!=null && miembros.contains(alumno)==true) {
+		if(alumno!=null && miembros.contains(alumno)) {
 			miembro=alumno;
 			
 		}
@@ -45,7 +45,7 @@ public class Equipo {
 	public Equipo unionEquipo(Equipo equipoExterno){
 		if(equipoExterno!=null && !this.equals(equipoExterno)) {
 			
-			boolean nuevoEquipo = this.miembros.addAll(equipoExterno.miembros);
+			this.miembros.addAll(equipoExterno.miembros);
 		}
 		
 		return this;
@@ -69,6 +69,14 @@ public class Equipo {
 		}
 		return nuevoEquipoFinal;
 		
+	}
+	
+	public String mostrarAlumnos() {
+		StringBuilder sb = new StringBuilder();
+		for(Alumno alumno:miembros) {
+			sb.append(alumno + "\n");
+		}
+		return sb.toString();
 	}
 	
 	@Override

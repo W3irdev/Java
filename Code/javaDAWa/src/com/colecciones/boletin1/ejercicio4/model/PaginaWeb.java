@@ -10,14 +10,15 @@ public class PaginaWeb {
 	
 	public PaginaWeb(String url) {
 		this.url = url;
-		setVisita(LocalDateTime.now());
+		this.visita = LocalDateTime.now();
 	}
 	
-	public void setVisita(LocalDateTime time) {
-		if(visita==null || visita.isBefore(time) || visita.equals(time)) {
-			visita=LocalDateTime.now();
-		}
+	public PaginaWeb(String url, LocalDateTime visita) {
+		this.url = url;
+		this.visita = visita;
 	}
+	
+	
 	
 	
 
@@ -43,7 +44,7 @@ public class PaginaWeb {
 
 	@Override
 	public String toString() {
-		return String.format("%s, se visito el %s]", url, visita);
+		return String.format("%s, se visito el %s", url, visita);
 	}
 	
 	
