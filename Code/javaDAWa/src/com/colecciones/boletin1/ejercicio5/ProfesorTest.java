@@ -14,6 +14,7 @@ class ProfesorTest {
 	void testEnviarMensaje() {
 
 		p.enviarMensaje(p2, MENSAJE);
+		
 	}
 
 	@Test
@@ -26,6 +27,7 @@ class ProfesorTest {
 		p.enviarMensaje(p2, MENSAJE);
 		p.enviarMensaje(p2, "Este es un mensaje prueba2");
 		p2.leerMensajes();
+		System.out.println(p2.leerMensajes());
 	}
 
 	@Test

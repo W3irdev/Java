@@ -11,11 +11,11 @@ public class Historial {
 	public Historial() {
 		this.datos = new ArrayList<>();
 	}
-	
+
 	public void addPagina(PaginaWeb web) throws Exception {
 		if(web!=null && datos.isEmpty()) {
 			datos.add(web);
-			
+		
 		}else if (web!=null && web.getVisita().isAfter(this.datos.get(datos.size()-1).getVisita())) {
 			datos.add(web);
 		}

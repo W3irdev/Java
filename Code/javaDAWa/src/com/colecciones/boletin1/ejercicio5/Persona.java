@@ -31,7 +31,7 @@ public abstract class Persona {
 		
 		for (Mensaje mensaje : chat) {
 			if(mensaje!=null) {
-				sb.append(String.format("Mensaje %s: %n"
+				sb.append(String.format("%nMensaje %s: %n"
 									  + "De: %s %n"
 									  + "Texto: %s %n"
 									  + "Fecha y hora: %s", 
@@ -51,6 +51,7 @@ public abstract class Persona {
 	public void borrarMensaje(int numMensaje) throws Exception {
 		if(numMensaje<0 || numMensaje >= chat.size() || chat.get(numMensaje)==null) throw new Exception("El mensaje no existe");
 		chat.remove(numMensaje);
+		
 		
 	}
 	
