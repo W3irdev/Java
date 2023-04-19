@@ -1,5 +1,6 @@
 package com.colecciones.boletin1.ejercicio4;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import com.colecciones.boletin1.ejercicio4.model.Historial;
@@ -23,7 +24,7 @@ public class mainHistorial {
 			System.out.println(historia);
 			
 			System.out.println(historia.consultarHistorial());
-			System.out.println(historia.consultarHistorial(LocalDateTime.now()));
+			System.out.println(historia.consultarHistorial(LocalDate.now()));
 			
 			historia.borrarHistorial();
 			System.out.println(historia);
