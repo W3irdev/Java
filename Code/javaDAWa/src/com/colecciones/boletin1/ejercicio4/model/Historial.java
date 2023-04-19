@@ -1,7 +1,8 @@
 package com.colecciones.boletin1.ejercicio4.model;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Historial {
@@ -39,12 +40,12 @@ public class Historial {
 	 * @author Josemi
 	 */
 
-	public String consultarHistorial(LocalDateTime dia) {
+	public String consultarHistorial(LocalDate dia) {
 
 		StringBuilder sb = new StringBuilder();
 		
 		for (PaginaWeb paginaWeb : datos) {
-			if(paginaWeb!=null && paginaWeb.getVisita().getDayOfYear()==dia.getDayOfYear()) {
+			if(paginaWeb!=null && paginaWeb.getVisita().toLocalDate().isEqual(dia)) {
 				sb.append(paginaWeb + "\n");
 			}
 		}
@@ -80,8 +81,13 @@ public class Historial {
 		datos.clear();
 	}
 	
-	public void borrarHistorial(PaginaWeb web) {
-		if(datos.contains(web)) datos.remove(web);
+	public void borrarHistorial(String url) {
+		Iterator<PaginaWeb> it = datos.iterator();
+		while(it.hasNext()) {
+			if(it.next().getUrl().equals(url)) {
+				it.remove();
+			}
+		}
 	}
 
 	@Override
