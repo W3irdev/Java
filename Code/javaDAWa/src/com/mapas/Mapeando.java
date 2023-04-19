@@ -15,23 +15,13 @@ public class Mapeando {
 	 */
 	public Map<Genero, Collection<Persona>> mapearPersonasPorGenero(Collection<Persona> personas) {
 		Map<Genero, Collection<Persona>> porGenero = new EnumMap<>(Genero.class);
-		Set<Persona> iguales = new HashSet<>();
-		Iterator<Persona> it = personas.iterator();
-		Genero genero;
 		
-		while(it.hasNext()) {
-			genero = it.next().getGenero();
-			if(!porGenero.containsKey(genero)) {
-				for(Persona p : personas) {
-					if(p.getGenero().equals(genero)) {
-						iguales.add(p);
-					}
-				}
-				porGenero.put(genero, iguales);
+		for(Persona p : personas) {
+			if(!porGenero.containsKey(p.getGenero())) {
+				porGenero.put(p.getGenero(), new HashSet<>());
 			}
+			porGenero.get(p.getGenero()).add(p);
 		}
-		
-
 		return porGenero;
 	}
 	
@@ -43,8 +33,16 @@ public class Mapeando {
 	 * @return Tabla de frecuencias de los números facilitados
 	 */
 	public Map<Integer, Integer> contarNumeros(Collection<Integer> numeros){
-		//ToDo
-		return null;
+		Map<Integer, Integer> frecuencia = new HashMap<>();
+		Integer contador;
+		for(Integer i:numeros) {
+			if(!frecuencia.containsKey(i)) {
+				frecuencia.put(i, 0);
+			}
+			contador = frecuencia.get(i)+1;
+			frecuencia.put(i, contador);
+		}
+		return frecuencia;
 	}
 	
 	
@@ -54,9 +52,10 @@ public class Mapeando {
 	 * @return lista de size números aleatorios
 	 */
 	public static Collection<Integer> generarNumerosAleatorios(int size){
-		List<Integer> numeros = new ArrayList<>() {{
+		List<Integer> numeros = new ArrayList<>(); {{
+			
 			for(int i=0; i<size; i++) {
-				add(new Random().nextInt(0, 20));
+				numeros.add(new Random().nextInt(0, 20));
 			}
 		}};
 		

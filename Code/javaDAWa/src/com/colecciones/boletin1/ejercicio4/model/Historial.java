@@ -1,6 +1,6 @@
 package com.colecciones.boletin1.ejercicio4.model;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,12 +39,12 @@ public class Historial {
 	 * @author Josemi
 	 */
 
-	public String consultarHistorial(LocalDateTime dia) {
+	public String consultarHistorial(LocalDate dia) {
 
 		StringBuilder sb = new StringBuilder();
 		
 		for (PaginaWeb paginaWeb : datos) {
-			if(paginaWeb!=null && paginaWeb.getVisita().getDayOfYear()==dia.getDayOfYear()) {
+			if(paginaWeb!=null && paginaWeb.getVisita().toLocalDate().isEqual(dia)) {
 				sb.append(paginaWeb + "\n");
 			}
 		}
