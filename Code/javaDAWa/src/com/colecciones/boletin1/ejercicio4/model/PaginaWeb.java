@@ -19,7 +19,9 @@ public class PaginaWeb {
 	}
 	
 	
-
+	public String getUrl() {
+		return this.url;
+	}
 	
 
 	public LocalDateTime getVisita() {

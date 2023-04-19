@@ -2,6 +2,7 @@ package com.colecciones.boletin1.ejercicio4.model;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Historial {
@@ -80,8 +81,13 @@ public class Historial {
 		datos.clear();
 	}
 	
-	public void borrarHistorial(PaginaWeb web) {
-		if(datos.contains(web)) datos.remove(web);
+	public void borrarHistorial(String url) {
+		Iterator<PaginaWeb> it = datos.iterator();
+		while(it.hasNext()) {
+			if(it.next().getUrl().equals(url)) {
+				it.remove();
+			}
+		}
 	}
 
 	@Override

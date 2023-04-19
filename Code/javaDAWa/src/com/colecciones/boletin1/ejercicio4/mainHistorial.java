@@ -35,7 +35,7 @@ public class mainHistorial {
 			
 			System.out.println(historia);
 			
-			historia.borrarHistorial(web3);
+			historia.borrarHistorial("chatGPT.es");
 			
 			System.out.println(historia);
 			
