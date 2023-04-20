@@ -5,7 +5,7 @@ public class Cliente {
 	private int codCliente;
 
 	public Cliente() {
-		codCliente++;
+		++codCliente;
 	}
 	
 	
