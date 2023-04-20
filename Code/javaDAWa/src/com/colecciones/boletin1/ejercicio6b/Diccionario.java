@@ -30,17 +30,20 @@ public class Diccionario {
 		
 	}
 	
-	public String searchPalabra(String palabra) {
+	public String searchPalabra(String palabra) throws Exception {
 		boolean esta = false;
 		Palabra pal=null;
 		Iterator<Palabra> it = entradas.iterator();
-		while(it.hasNext() && !esta) {
-			pal=it.next();
-			if(pal.getSignificante().equals(palabra)) {
-				esta=true;		
-
+		if(palabra!=null) {
+			while(it.hasNext() && !esta) {
+				pal=it.next();
+				if(pal.getSignificante().equals(palabra)) {
+					esta=true;		
+					
+				}
 			}
-		}
+			
+		}else throw new Exception("No existe la palabra");
 		return pal.toString();
 	}
 	

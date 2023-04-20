@@ -43,16 +43,28 @@ class DiccionarioTest {
 		dic.addPalabra("zalamero", "Que demuestra cariño de una forma exagerada y a veces empalagosa, generalmente para conseguir algo.");
 		
 		
-		dic.searchPalabra("flamenco");
+		try {
+			dic.searchPalabra("flamenco");
+		} catch (Exception e) {
+			assert(false);
+		}
 	}
 
 	@Test
 	void testBorrarPalabra() {
 		dic.addPalabra("diccionario", "Catálogo de noticias o datos de un mismo ");
-		assertFalse(dic.searchPalabra("diccionario")==null);
+		try {
+			assertFalse(dic.searchPalabra("diccionario")==null);
+		} catch (Exception e) {
+			assert(false);
+		}
 		dic.borrarPalabra("diccionario");
 		
-		assertTrue(dic.searchPalabra("diccionario")==null);
+		try {
+			assertTrue(dic.searchPalabra("diccionario")==null);
+		} catch (Exception e) {
+			assert(true);
+		}
 	}
 
 	@Test
