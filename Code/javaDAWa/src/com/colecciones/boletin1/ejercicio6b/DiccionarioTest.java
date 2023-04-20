@@ -1,4 +1,4 @@
-package com.colecciones.boletin1.ejercicio6;
+package com.colecciones.boletin1.ejercicio6b;
 
 import static org.junit.jupiter.api.Assertions.*;
 
