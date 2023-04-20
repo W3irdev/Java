@@ -7,11 +7,12 @@ import java.util.Set;
 public class Almacen {
 
 	private List<Caja> caja;
+	private static final int MAXIMO_CAJAS=20;
 
 	public Almacen() {
 		this.caja= new ArrayList<>();
 		
-		for(int i=0; i<20; i++) {
+		for(int i=0; i<MAXIMO_CAJAS; i++) {
 			this.caja.add(new Caja(i, false));
 		}
 		
