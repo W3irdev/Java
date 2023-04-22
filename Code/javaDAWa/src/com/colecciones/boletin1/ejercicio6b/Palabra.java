@@ -6,16 +6,16 @@ import java.util.TreeSet;
 public class Palabra {
 
 	private String significante;
-	private Set<String> significado;
+	private Set<String> significados;
 	
 	public Palabra(String significante, String descripcion) {
-		significado=new TreeSet<>();
+		significados=new TreeSet<>();
 		this.significante=significante;
-		significado.add(descripcion);
+		significados.add(descripcion);
 	}
 	
 	public void addSignificado(String descripcion) {
-		significado.add(descripcion);
+		significados.add(descripcion);
 	}
 	
 
@@ -25,7 +25,7 @@ public class Palabra {
 
 	@Override
 	public String toString() {
-		return String.format("%s", significado.toString());
+		return String.format("%s", significados.toString());
 	}
 	
 	

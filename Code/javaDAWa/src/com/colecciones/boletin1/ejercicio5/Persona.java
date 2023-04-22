@@ -8,6 +8,7 @@ import java.util.Objects;
 
 public abstract class Persona {
 
+	//Hacer sin chat protected
 	protected String nombre;
 	protected int edad;
 	protected String dni;

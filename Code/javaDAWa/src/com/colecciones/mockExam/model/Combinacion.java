@@ -65,6 +65,21 @@ public class Combinacion {
 		return estrellas;
 	}
 
+	public int comprobarCombinacion(Combinacion numero) {
+		int aciertos = 0;
+		for(Integer n:this.numeros) {
+			if(numero.numeros.contains(n)) {
+				aciertos++;
+			}
+		}
+		
+		for(Integer e:this.estrellas) {
+			if(numero.estrellas.contains(e)) {
+				aciertos++;
+			}
+		}
+		return aciertos;
+	}
 
 	@Override
 	public int hashCode() {
