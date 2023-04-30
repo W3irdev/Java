@@ -46,7 +46,7 @@ public class Mensaje {
 
 	@Override
 	public String toString() {
-		return String.format("%s %s %s]", remitente, texto, envio);
+		return String.format("%s %s %s", remitente, texto, envio);
 	}
 	
 	

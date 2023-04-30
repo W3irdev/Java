@@ -13,7 +13,7 @@ public class Mapeando {
 	 * @param personas
 	 * @return Mapa con la colección de personas clasificadas por género
 	 */
-	public Map<Genero, Collection<Persona>> mapearPersonasPorGenero(Collection<Persona> personas) {
+	public static Map<Genero, Collection<Persona>> mapearPersonasPorGenero(Collection<Persona> personas) {
 		Map<Genero, Collection<Persona>> porGenero = new EnumMap<>(Genero.class);
 		
 		for(Persona p : personas) {

@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class Historial {
@@ -18,7 +19,7 @@ public class Historial {
 		sorteos=new TreeMap<>();
 		
 	}
-	
+
 	public boolean addSorteo(LocalDate fecha, Combinacion sorteo) throws HistorialException {
 		boolean guardado = false;
 		if(fecha!=null && sorteo!=null && !sorteos.containsKey(fecha)) {
@@ -51,7 +52,7 @@ public class Historial {
 		List<String> listado = new ArrayList<>();
 		
 		for (LocalDate d : sorteos.keySet()) {
-			if(d.isAfter(fecha)) {
+			if(fecha==null || d.isAfter(fecha)) {
 				listado.add(sorteos.get(d).toString());
 			}
 		}
@@ -59,14 +60,24 @@ public class Historial {
 		}
 	
 	public List<String> mostrarHistorico(){
-		List<String> listado = new ArrayList<>();
+		/*List<String> listado = new ArrayList<>();
 		for(LocalDate d : sorteos.keySet()) {
 			listado.add(sorteos.get(d).toString());
 		}
-		
-		return listado;
+
+		return listado;*/
+		return listarSorteosDesdeFecha(null);
 		
 	}
+
+	
+	/*public List mostrarHistorico () {
+
+        Set <Map.Entry <LocalDate, Combinacion>> histSorteos = sorteos.entrySet();
+        List <Map.Entry<LocalDate, Combinacion>> historico = new ArrayList<>(histSorteos);
+
+        return historico;
+    }*/
 	
 	public Map<String,Integer> comprobarAciertos(LocalDate fecha, Combinacion numeros) throws HistorialException{
 		Map<String,Integer> aciertos = new HashMap<>();

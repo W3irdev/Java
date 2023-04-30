@@ -9,7 +9,7 @@ public class Caja {
 	private boolean estado;
 	private List<Cliente> cola;
 	
-	
+
 	
 	public Caja(int numCaja, boolean estado) {
 		super();

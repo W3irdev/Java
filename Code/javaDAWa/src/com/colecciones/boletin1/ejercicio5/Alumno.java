@@ -16,4 +16,8 @@ public class Alumno extends Persona {
 		destinatario.chat.add(enviar);
 	}
 
+
+
+
+
 }

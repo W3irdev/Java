@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
-public abstract class Persona {
+public abstract class Persona implements Comparable<Persona>{
 
 	//Hacer sin chat protected
 	protected String nombre;
@@ -92,7 +92,11 @@ public abstract class Persona {
 		return String.format("%s %s", nombre, dni);
 	}
 	
-	
+	@Override
+	public int compareTo(Persona o) {
+		// TODO Auto-generated method stub
+		return this.nombre.compareTo(o.nombre);
+	}
 	
 	
 	

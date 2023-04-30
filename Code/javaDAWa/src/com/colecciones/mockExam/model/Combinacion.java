@@ -14,11 +14,11 @@ public class Combinacion {
 	protected static final int TOTAL_ESTRELLAS=2;
 	private Set<Integer> numeros;
 	private Set<Integer> estrellas;
-	
+
 	
 	
 	public Combinacion(int num1, int num2, int num3, int num4,
-			int num5, int estrella1, int estrella2) {
+			int num5, int estrella1, int estrella2) throws CombinacionException {
 		super();
 		numeros=new HashSet<>();
 		estrellas=new HashSet<>();
@@ -26,34 +26,32 @@ public class Combinacion {
 		Integer[] estrellas = {estrella1, estrella2};
 		arrayToSet(numeros);
 		arrayToSet(estrellas);
-		
 	}
-	
+
 	
 
-
-	public Combinacion(int[] numeros, int[] estrellas) {
+	public Combinacion(int[] numeros, int[] estrellas) throws CombinacionException {
 		this(numeros[0],numeros[1],numeros[2],numeros[3],numeros[4],estrellas[0],estrellas[1]);
 	}
 
 
-
-
-
-	public void arrayToSet(Integer[] arrayNumeros) {
-		if(arrayNumeros.length>2) {
+	public void arrayToSet(Integer[] arrayNumeros) throws CombinacionException {
+		if(arrayNumeros.length==TOTAL_NUMEROS) {
 			for(Integer n:arrayNumeros) {
-				if(n!=null && n.intValue()>0) this.numeros.add(n);
+				if(n!=null && n.intValue()>=VALOR_MINIMO && n.intValue()<=VALOR_MAXIMO_NUMEROS) {
+					this.numeros.add(n);
+				}else throw new CombinacionException("Los numeros no son correcto");
 			}
 			
-		}else if(arrayNumeros.length==2) {
+		}else if(arrayNumeros.length==TOTAL_ESTRELLAS) {
 			for(Integer e:arrayNumeros) {
-				if(e!=null && e.intValue()>0) this.estrellas.add(e);
+				if(e!=null && e.intValue()>=VALOR_MINIMO && e.intValue()<=VALOR_MAXIMO_ESTRELLAS) {
+					this.estrellas.add(e);
+				}else throw new CombinacionException("Las estrellas no son correcta");
 			
 			}
-		}
+		}else throw new CombinacionException("Faltan numeros.");
 	}
-	
 	
 	
 	public Set<Integer> getNumeros(){
@@ -80,6 +78,17 @@ public class Combinacion {
 		}
 		return aciertos;
 	}
+	
+	/*public int comprobarCombinacion(Combinacion numero) {
+		Set<Integer> aciertosNumeros = new HashSet<>();
+		Set<Integer> aciertosEstrellas = new HashSet<>();
+	
+		aciertosNumeros.retainAll(numero.numeros); 
+		aciertosEstrellas.retainAll(numero.estrellas);
+		
+		return aciertosNumeros.size()+aciertosEstrellas();
+		
+	}*/
 
 	@Override
 	public int hashCode() {

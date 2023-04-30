@@ -16,19 +16,21 @@ public class Almacen {
 			this.caja.add(new Caja(i, false));
 		}
 		
-	}
+	} 
 	
 	public Almacen(List cajas) {
 		this.caja= new ArrayList<>(cajas);
 		
 	}
 	
+	//Corregir, quien hace la accion es la propia caja (Realizar logica en clase caja)
 	public void abrirCaja(int numeroCaja) {
 		if(!caja.get(numeroCaja).isEstado()) {
 			caja.get(numeroCaja).setEstado(true);
 		}
 	}
 	
+	//Corregir, quien hace la accion es la propia caja (Realizar logica en clase caja)
 	public void cerrarCaja(int numeroCaja) {
 		if(caja.get(numeroCaja).isEstado()) {
 			caja.get(numeroCaja).setEstado(false);

@@ -5,9 +5,10 @@ import java.util.Objects;
 public class Cliente {
 
 	private int codCliente;
+	private static int secuencia = 1;
 
 	public Cliente() {
-		++codCliente;
+		this.codCliente=secuencia++;
 	}
 	
 	
