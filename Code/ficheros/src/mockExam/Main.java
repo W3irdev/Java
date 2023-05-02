@@ -16,7 +16,7 @@ public class Main {
 
 		
 		try {
-			Historial historial = new Historial();
+			Historial historial = new Historial("C:\\Users\\darsh\\Desktop\\DAW\\Programacion\\Java\\Code\\ficheros\\src\\mockExam\\model\\Euromillones.csv");
 			Combinacion combi = new Combinacion(10,23,34,43,5,2,5);
 			//System.out.println(Historial.estadisticas());
 			System.out.println(historial.numeroMenosRepetido());
