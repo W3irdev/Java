@@ -9,75 +9,97 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class Historial {
 
 	private Map<LocalDate,Combinacion> sorteos;
 	private FileReader combinaciones;
-	private Map<Integer, Integer> estadisticas;
+	private Map<LocalDate, Combinacion> estadisticas;
 	private File euromillones;
 
-	public Historial() throws IOException {
+	public Historial() throws IOException, CombinacionException {
 		super();
 		sorteos=new TreeMap<>();
-		//No encuentro forma de ponerlo con ruta relativa.
-		this.euromillones=new File("C:\\Users\\darsh\\Desktop\\DAW\\Programacion\\Java\\Code\\ficheros\\src\\mockExam\\model\\Euromillones.csv");
+		
+		
+	}
+	public Historial(String uri) throws IOException, CombinacionException {
+		this();
+		this.euromillones=new File(uri);
 		this.combinaciones=new FileReader(euromillones);
 		this.estadisticas=estadisticas();
+		
 	}
 
-	public Map<Integer,Integer> estadisticas() throws IOException {
-		
+	public Map<LocalDate,Combinacion> estadisticas() throws IOException, CombinacionException {
+		//Remodelado, pasamos de archivo a mapa.
 		BufferedReader br = new BufferedReader(combinaciones);
-		Map<Integer,Integer> numeros = new HashMap<>();
-		String linea="";
-		int numeroCapturado=0;
+		Map<LocalDate,Combinacion> numeros = new HashMap<>();
+		br.readLine();
+		String linea=br.readLine();
+		int[] combinacion = new int[7];
 		boolean sigue=true;
+		LocalDate fecha = null;
 		while(linea!=null) {
-			
 			String[] digitos = linea.split(",*,");
+			int contador=0;
 			for(String digito:digitos) {
 				if(!digito.isBlank() && sigue) {
-					try {
-						numeroCapturado=Integer.valueOf(digito);
-						if(numeros.containsKey(numeroCapturado)) {
-							numeros.replace(numeroCapturado, numeros.get(numeroCapturado)+1);
-						}else numeros.put(numeroCapturado, 0);
-						
-					} catch (NumberFormatException e) {
-						sigue=true;
+					if(digito.length()>2) {
+						fecha = LocalDate.parse(digito, DateTimeFormatter.ofPattern("d/MM/yyyy"));
+					}else {
+						combinacion[contador]=Integer.parseInt(digito);
+						contador++;
 					}
 					
 				}
+				}
+			if(fecha!=null && !numeros.containsKey(fecha)) {
+				numeros.put(fecha, new Combinacion(combinacion[0], combinacion[1], combinacion[2], combinacion[3], combinacion[4], combinacion[5], combinacion[6]));
 			}
 			linea=br.readLine();
 		}
 		
-		
-		
-		
 		return numeros;
 	}
 	
-	public int numeroMasRepetido() throws IOException {
+	private Map<Integer, Integer> repetidos(){
+		Combinacion comb;
+		Set<Combinacion> toList = new HashSet<>(this.estadisticas.values());
+		List<Integer> total = new ArrayList<>();
+		Map<Integer,Integer> repeticiones = new HashMap<>();
+		Iterator<Combinacion> it = toList.iterator();
+		while(it.hasNext()) {
+			comb=it.next();
+			total.addAll(comb.getNumeros());
+			total.addAll(comb.getEstrellas());
+		}
 		
-		List<Integer> ordenado = new ArrayList<>(this.estadisticas.values()) ;
-		Collections.sort(ordenado);
-		Integer masRepe = ordenado.get(ordenado.size()-1);
-		
-		boolean encontrado=false;
-		/*for(Integer i:mapa.keySet()) {
-			if(!encontrado && mapa.get(i).equals(masRepe)) {
-				encontrado = true;
-				masRepe=i;
+		for(Integer i:total) {
+			if(!repeticiones.containsKey(i)) {
+				repeticiones.put(i, 0);
 			}
-		}*/
+			repeticiones.replace(i, repeticiones.get(i)+1);
+		}
+		return repeticiones;
+	}
+	
+	public int numeroMasRepetido() {
+		//Remodelado, pasar de mapa a int.
+		boolean encontrado = false;
+		List<Integer> vecesRepetidas = new ArrayList<>(repetidos().values());
+		Collections.sort(vecesRepetidas);
 		
-		for(int i=1;i<estadisticas.size() && !encontrado;i++) {
-			if(estadisticas.get(i).equals(masRepe)) {
+		Integer masRepe = vecesRepetidas.get(vecesRepetidas.size()-1);
+		
+		for(int i=1;i<vecesRepetidas.size() && !encontrado;i++) {
+			if(repetidos().get(i).equals(masRepe)) {
 				encontrado = true;
 				masRepe=i;
 			}
@@ -87,90 +109,49 @@ public class Historial {
 		
 	}
 	
-	public int maximoAciertosEstadistico(Combinacion combinacion) throws IOException, CombinacionException {
-		this.combinaciones=new FileReader(this.euromillones);
-		BufferedReader br = new BufferedReader(combinaciones);
-		String linea=br.readLine();
-		int numeroCapturado=0;
-		boolean sigue=true;
-		int[] numeros=new int[7];
-		int contador=0;
-		Combinacion combi = null;
-		int maximoAciertos=0;
-		while(linea!=null) {
-			String[] digitos = linea.split(",*,");
-			contador=0;
-			for(String digito:digitos) {
-				if(!digito.isBlank() && sigue) {
-					try {
-						numeroCapturado=Integer.valueOf(digito);
-						numeros[contador]=numeroCapturado;
-						contador++;
-					} catch (NumberFormatException e) {
-						sigue=true;
-					}
-				}
-
-				if(numeros[6]!=0) {
-					
-					combi=new Combinacion(numeros[0],numeros[1],numeros[2],numeros[3],numeros[4],numeros[5],numeros[6]);
-					maximoAciertos = combinacion.comprobarCombinacion(combi)>maximoAciertos?combinacion.comprobarCombinacion(combi):maximoAciertos;
-					
-				}
-				
-			}
-			linea=br.readLine();
+	public int maximoAciertosEstadistico(Combinacion combinacion) throws CombinacionException {
+		int maximo=0;
+		Set<Combinacion> combinaciones = new HashSet<>(this.estadisticas.values());
+		
+		for(Combinacion combi:combinaciones) {
+			maximo=combinacion.comprobarCombinacion(combi)>maximo?combinacion.comprobarCombinacion(combi):maximo;
 		}
 		
-		return maximoAciertos;
+		
+		return maximo;
 	}
 	
-	public int maximoConsecutivos() throws IOException{
-		this.combinaciones=new FileReader(this.euromillones);
-		BufferedReader br = new BufferedReader(combinaciones);
-		String linea=br.readLine();
-		int numeroCapturado=0;
-		boolean sigue=true;
-		int[] numeros=new int[7];
-		int contador=0;
-		int consecutivos=0;
+	public int maximoConsecutivos(){
 		int consecutivosAnterior=0;
-		while(linea!=null) {
-			String[] digitos = linea.split(",*,");
-			contador=0;
-			for(String digito:digitos) {
-				if(!digito.isBlank() && sigue) {
-					try {
-						numeroCapturado=Integer.valueOf(digito);
-						numeros[contador]=numeroCapturado;
-						contador++;
-					} catch (NumberFormatException e) {
-						sigue=true;
-					}
-				}
-
-				if(numeros[6]!=0) {
-					for(int i=1; i<numeros.length;i++) {
-						consecutivos=(numeros[i]==numeros[i-1]+1)?consecutivos+1:consecutivos;
-					}
-					consecutivosAnterior=consecutivos>consecutivosAnterior?consecutivos:consecutivosAnterior;
-					consecutivos=0;
-				}
-				
-			}
-			linea=br.readLine();
-		}
 		
+		Set<Combinacion> combinaciones = new HashSet<>(this.estadisticas.values());
+		List<Integer> linea = new ArrayList<>();
+		for(Combinacion combi:combinaciones) {
+			int contador=0;
+			int anterior=-1;
+			linea.clear();
+			linea.addAll(combi.getNumeros());
+			linea.addAll(combi.getEstrellas());
+			for(int i:linea) {
+				if(i==anterior+1) {
+					contador++;
+				}
+				anterior=i;
+			}
+			consecutivosAnterior=contador>consecutivosAnterior?contador:consecutivosAnterior;
+		}
 		return consecutivosAnterior;
 	}
 	
-	public int numeroMenosRepetido() throws IOException {
-		List<Integer> ordenado = new ArrayList<>(estadisticas.values()) ;
-		Collections.sort(ordenado);
-		Integer menosRepe = ordenado.get(0);
+	public int numeroMenosRepetido(){
+		//Remodelado, pasar de mapa a int.
 		boolean encontrado = false;
-		for(int i=1;i<estadisticas.size() && !encontrado;i++) {
-			if(estadisticas.get(i).equals(menosRepe)) {
+		List<Integer> vecesRepetidas = new ArrayList<>(repetidos().values());
+	
+		Integer menosRepe = vecesRepetidas.get(0);
+		
+		for(int i=1;i<vecesRepetidas.size() && !encontrado;i++) {
+			if(repetidos().get(i).equals(menosRepe)) {
 				encontrado = true;
 				menosRepe=i;
 			}

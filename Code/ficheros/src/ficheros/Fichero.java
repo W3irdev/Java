@@ -32,7 +32,6 @@ public class Fichero {
 		this.extension=file.getName().substring(file.getName().lastIndexOf("."), file.getName().length()) ;
 		this.esDirectorio=file.isDirectory();
 		this.fechaCreacion=attrs.creationTime();;
-		
 		this.ficherosHijos=getFicherosHijos();
 		this.directoriosHijos=getDirectoriosHijos();
 	
