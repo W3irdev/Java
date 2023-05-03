@@ -64,7 +64,7 @@ public class City {
 	}
 	@Override
 	public String toString() {
-		return String.format("id: %s, nombre: %s%n", id, name);
+		return String.format("id: %s, nombre: %s Numero de direcciones: %s %n		", id, name, sizeAddresses());
 	}
 	
 	
