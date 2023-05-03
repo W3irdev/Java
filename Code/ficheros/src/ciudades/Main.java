@@ -11,6 +11,7 @@ public class Main {
 		try {
 			FileCountryGenerator fcg = new FileCountryGenerator();
 			fcg.generateFile();
+			fcg.generateJson();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

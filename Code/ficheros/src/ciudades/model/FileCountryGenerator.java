@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.google.gson.Gson;
+
 public class FileCountryGenerator {
 
 	private Set<Country> countries;
@@ -53,7 +55,18 @@ public class FileCountryGenerator {
 	}
 
 
-	
+	public void generateJson() throws IOException {
+		Gson gson = new Gson();
+		String json = gson.toJson(countries);
+		File documento = new File("files/generadoJSON.json");
+		documento.createNewFile();
+		FileWriter fw = new FileWriter(documento);
+		BufferedWriter bw = new BufferedWriter(fw);
+		bw.append(json);
+		bw.close();
+		fw.close();
+
+	}
 	
 	
 	
