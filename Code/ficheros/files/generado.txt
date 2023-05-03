@@ -1,0 +1,109 @@
+id pais: 78, nombre pais: Romania, numero ciudades: 2 numero de direcciones: 1
+id pais: 79, nombre pais: Runion, numero ciudades: 1 numero de direcciones: 1
+id pais: 100, nombre pais: Ukraine, numero ciudades: 6 numero de direcciones: 4
+id pais: 101, nombre pais: United Arab Emirates, numero ciudades: 3 numero de direcciones: 3
+id pais: 102, nombre pais: United Kingdom, numero ciudades: 8 numero de direcciones: 4
+id pais: 103, nombre pais: United States, numero ciudades: 35 numero de direcciones: 30
+id pais: 104, nombre pais: Venezuela, numero ciudades: 7 numero de direcciones: 5
+id pais: 105, nombre pais: Vietnam, numero ciudades: 6 numero de direcciones: 3
+id pais: 106, nombre pais: Virgin Islands, numero ciudades: 1 numero de direcciones: 1
+id pais: 80, nombre pais: Russian Federation, numero ciudades: 28 numero de direcciones: 25
+id pais: 107, nombre pais: Yemen, numero ciudades: 4 numero de direcciones: 4
+id pais: 81, nombre pais: Saint Vincent and the Grenadines, numero ciudades: 1 numero de direcciones: 1
+id pais: 108, nombre pais: Yugoslavia, numero ciudades: 2 numero de direcciones: 1
+id pais: 82, nombre pais: Saudi Arabia, numero ciudades: 5 numero de direcciones: 5
+id pais: 109, nombre pais: Zambia, numero ciudades: 1 numero de direcciones: 1
+id pais: 83, nombre pais: Senegal, numero ciudades: 1 numero de direcciones: 1
+id pais: 84, nombre pais: Slovakia, numero ciudades: 1 numero de direcciones: 1
+id pais: 85, nombre pais: South Africa, numero ciudades: 11 numero de direcciones: 10
+id pais: 86, nombre pais: South Korea, numero ciudades: 5 numero de direcciones: 4
+id pais: 87, nombre pais: Spain, numero ciudades: 5 numero de direcciones: 4
+id pais: 88, nombre pais: Sri Lanka, numero ciudades: 1 numero de direcciones: 1
+id pais: 89, nombre pais: Sudan, numero ciudades: 2 numero de direcciones: 2
+id pais: 90, nombre pais: Sweden, numero ciudades: 1 numero de direcciones: 1
+id pais: 91, nombre pais: Switzerland, numero ciudades: 3 numero de direcciones: 2
+id pais: 92, nombre pais: Taiwan, numero ciudades: 10 numero de direcciones: 6
+id pais: 93, nombre pais: Tanzania, numero ciudades: 3 numero de direcciones: 2
+id pais: 94, nombre pais: Thailand, numero ciudades: 3 numero de direcciones: 3
+id pais: 95, nombre pais: Tonga, numero ciudades: 1 numero de direcciones: 1
+id pais: 96, nombre pais: Tunisia, numero ciudades: 1 numero de direcciones: 1
+id pais: 97, nombre pais: Turkey, numero ciudades: 15 numero de direcciones: 9
+id pais: 10, nombre pais: Azerbaijan, numero ciudades: 2 numero de direcciones: 2
+id pais: 98, nombre pais: Turkmenistan, numero ciudades: 1 numero de direcciones: 1
+id pais: 11, nombre pais: Bahrain, numero ciudades: 1 numero de direcciones: 0
+id pais: 99, nombre pais: Tuvalu, numero ciudades: 1 numero de direcciones: 1
+id pais: 12, nombre pais: Bangladesh, numero ciudades: 3 numero de direcciones: 3
+id pais: 13, nombre pais: Belarus, numero ciudades: 2 numero de direcciones: 1
+id pais: 14, nombre pais: Bolivia, numero ciudades: 2 numero de direcciones: 2
+id pais: 15, nombre pais: Brazil, numero ciudades: 28 numero de direcciones: 25
+id pais: 16, nombre pais: Brunei, numero ciudades: 1 numero de direcciones: 1
+id pais: 17, nombre pais: Bulgaria, numero ciudades: 2 numero de direcciones: 1
+id pais: 18, nombre pais: Cambodia, numero ciudades: 2 numero de direcciones: 1
+id pais: 19, nombre pais: Cameroon, numero ciudades: 2 numero de direcciones: 2
+id pais: 1, nombre pais: Afghanistan, numero ciudades: 1 numero de direcciones: 1
+id pais: 2, nombre pais: Algeria, numero ciudades: 3 numero de direcciones: 3
+id pais: 3, nombre pais: American Samoa, numero ciudades: 1 numero de direcciones: 1
+id pais: 4, nombre pais: Angola, numero ciudades: 2 numero de direcciones: 1
+id pais: 5, nombre pais: Anguilla, numero ciudades: 1 numero de direcciones: 1
+id pais: 6, nombre pais: Argentina, numero ciudades: 13 numero de direcciones: 10
+id pais: 7, nombre pais: Armenia, numero ciudades: 1 numero de direcciones: 1
+id pais: 8, nombre pais: Australia, numero ciudades: 1 numero de direcciones: 2
+id pais: 9, nombre pais: Austria, numero ciudades: 3 numero de direcciones: 3
+id pais: 20, nombre pais: Canada, numero ciudades: 7 numero de direcciones: 6
+id pais: 21, nombre pais: Chad, numero ciudades: 1 numero de direcciones: 0
+id pais: 22, nombre pais: Chile, numero ciudades: 3 numero de direcciones: 2
+id pais: 23, nombre pais: China, numero ciudades: 53 numero de direcciones: 35
+id pais: 24, nombre pais: Colombia, numero ciudades: 6 numero de direcciones: 5
+id pais: 25, nombre pais: Congo, numero ciudades: 2 numero de direcciones: 2
+id pais: 26, nombre pais: Czech Republic, numero ciudades: 1 numero de direcciones: 1
+id pais: 27, nombre pais: Dominican Republic, numero ciudades: 3 numero de direcciones: 3
+id pais: 28, nombre pais: Ecuador, numero ciudades: 3 numero de direcciones: 1
+id pais: 29, nombre pais: Egypt, numero ciudades: 6 numero de direcciones: 4
+id pais: 30, nombre pais: Estonia, numero ciudades: 1 numero de direcciones: 1
+id pais: 31, nombre pais: Ethiopia, numero ciudades: 1 numero de direcciones: 1
+id pais: 32, nombre pais: Faroe Islands, numero ciudades: 1 numero de direcciones: 1
+id pais: 33, nombre pais: Finland, numero ciudades: 1 numero de direcciones: 1
+id pais: 34, nombre pais: France, numero ciudades: 4 numero de direcciones: 4
+id pais: 35, nombre pais: French Guiana, numero ciudades: 1 numero de direcciones: 1
+id pais: 36, nombre pais: French Polynesia, numero ciudades: 2 numero de direcciones: 2
+id pais: 37, nombre pais: Gambia, numero ciudades: 1 numero de direcciones: 0
+id pais: 38, nombre pais: Germany, numero ciudades: 7 numero de direcciones: 7
+id pais: 39, nombre pais: Greece, numero ciudades: 2 numero de direcciones: 1
+id pais: 40, nombre pais: Greenland, numero ciudades: 1 numero de direcciones: 1
+id pais: 41, nombre pais: Holy See Vatican City State, numero ciudades: 1 numero de direcciones: 1
+id pais: 42, nombre pais: Hong Kong, numero ciudades: 1 numero de direcciones: 1
+id pais: 43, nombre pais: Hungary, numero ciudades: 1 numero de direcciones: 0
+id pais: 44, nombre pais: India, numero ciudades: 60 numero de direcciones: 53
+id pais: 45, nombre pais: Indonesia, numero ciudades: 14 numero de direcciones: 9
+id pais: 46, nombre pais: Iran, numero ciudades: 8 numero de direcciones: 8
+id pais: 47, nombre pais: Iraq, numero ciudades: 1 numero de direcciones: 0
+id pais: 48, nombre pais: Israel, numero ciudades: 4 numero de direcciones: 3
+id pais: 49, nombre pais: Italy, numero ciudades: 7 numero de direcciones: 4
+id pais: 50, nombre pais: Japan, numero ciudades: 31 numero de direcciones: 25
+id pais: 51, nombre pais: Kazakstan, numero ciudades: 2 numero de direcciones: 1
+id pais: 52, nombre pais: Kenya, numero ciudades: 2 numero de direcciones: 2
+id pais: 53, nombre pais: Kuwait, numero ciudades: 1 numero de direcciones: 1
+id pais: 54, nombre pais: Latvia, numero ciudades: 2 numero de direcciones: 2
+id pais: 55, nombre pais: Liechtenstein, numero ciudades: 1 numero de direcciones: 1
+id pais: 56, nombre pais: Lithuania, numero ciudades: 1 numero de direcciones: 0
+id pais: 57, nombre pais: Madagascar, numero ciudades: 1 numero de direcciones: 1
+id pais: 58, nombre pais: Malawi, numero ciudades: 1 numero de direcciones: 1
+id pais: 59, nombre pais: Malaysia, numero ciudades: 3 numero de direcciones: 3
+id pais: 60, nombre pais: Mexico, numero ciudades: 30 numero de direcciones: 21
+id pais: 61, nombre pais: Moldova, numero ciudades: 1 numero de direcciones: 1
+id pais: 62, nombre pais: Morocco, numero ciudades: 3 numero de direcciones: 2
+id pais: 63, nombre pais: Mozambique, numero ciudades: 3 numero de direcciones: 3
+id pais: 64, nombre pais: Myanmar, numero ciudades: 2 numero de direcciones: 2
+id pais: 65, nombre pais: Nauru, numero ciudades: 1 numero de direcciones: 0
+id pais: 66, nombre pais: Nepal, numero ciudades: 1 numero de direcciones: 1
+id pais: 67, nombre pais: Netherlands, numero ciudades: 5 numero de direcciones: 4
+id pais: 68, nombre pais: New Zealand, numero ciudades: 1 numero de direcciones: 1
+id pais: 69, nombre pais: Nigeria, numero ciudades: 13 numero de direcciones: 12
+id pais: 70, nombre pais: North Korea, numero ciudades: 1 numero de direcciones: 1
+id pais: 71, nombre pais: Oman, numero ciudades: 2 numero de direcciones: 1
+id pais: 72, nombre pais: Pakistan, numero ciudades: 5 numero de direcciones: 5
+id pais: 73, nombre pais: Paraguay, numero ciudades: 3 numero de direcciones: 3
+id pais: 74, nombre pais: Peru, numero ciudades: 4 numero de direcciones: 2
+id pais: 75, nombre pais: Philippines, numero ciudades: 20 numero de direcciones: 16
+id pais: 76, nombre pais: Poland, numero ciudades: 8 numero de direcciones: 4
+id pais: 77, nombre pais: Puerto Rico, numero ciudades: 2 numero de direcciones: 2
