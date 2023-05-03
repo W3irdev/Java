@@ -1,109 +1,927 @@
-id pais: 78, nombre pais: Romania, numero ciudades: 2 numero de direcciones: 1
-id pais: 79, nombre pais: Runion, numero ciudades: 1 numero de direcciones: 1
-id pais: 100, nombre pais: Ukraine, numero ciudades: 6 numero de direcciones: 4
-id pais: 101, nombre pais: United Arab Emirates, numero ciudades: 3 numero de direcciones: 3
-id pais: 102, nombre pais: United Kingdom, numero ciudades: 8 numero de direcciones: 4
-id pais: 103, nombre pais: United States, numero ciudades: 35 numero de direcciones: 30
-id pais: 104, nombre pais: Venezuela, numero ciudades: 7 numero de direcciones: 5
-id pais: 105, nombre pais: Vietnam, numero ciudades: 6 numero de direcciones: 3
-id pais: 106, nombre pais: Virgin Islands, numero ciudades: 1 numero de direcciones: 1
-id pais: 80, nombre pais: Russian Federation, numero ciudades: 28 numero de direcciones: 25
-id pais: 107, nombre pais: Yemen, numero ciudades: 4 numero de direcciones: 4
-id pais: 81, nombre pais: Saint Vincent and the Grenadines, numero ciudades: 1 numero de direcciones: 1
-id pais: 108, nombre pais: Yugoslavia, numero ciudades: 2 numero de direcciones: 1
-id pais: 82, nombre pais: Saudi Arabia, numero ciudades: 5 numero de direcciones: 5
-id pais: 109, nombre pais: Zambia, numero ciudades: 1 numero de direcciones: 1
-id pais: 83, nombre pais: Senegal, numero ciudades: 1 numero de direcciones: 1
-id pais: 84, nombre pais: Slovakia, numero ciudades: 1 numero de direcciones: 1
-id pais: 85, nombre pais: South Africa, numero ciudades: 11 numero de direcciones: 10
-id pais: 86, nombre pais: South Korea, numero ciudades: 5 numero de direcciones: 4
-id pais: 87, nombre pais: Spain, numero ciudades: 5 numero de direcciones: 4
-id pais: 88, nombre pais: Sri Lanka, numero ciudades: 1 numero de direcciones: 1
-id pais: 89, nombre pais: Sudan, numero ciudades: 2 numero de direcciones: 2
-id pais: 90, nombre pais: Sweden, numero ciudades: 1 numero de direcciones: 1
-id pais: 91, nombre pais: Switzerland, numero ciudades: 3 numero de direcciones: 2
-id pais: 92, nombre pais: Taiwan, numero ciudades: 10 numero de direcciones: 6
-id pais: 93, nombre pais: Tanzania, numero ciudades: 3 numero de direcciones: 2
-id pais: 94, nombre pais: Thailand, numero ciudades: 3 numero de direcciones: 3
-id pais: 95, nombre pais: Tonga, numero ciudades: 1 numero de direcciones: 1
-id pais: 96, nombre pais: Tunisia, numero ciudades: 1 numero de direcciones: 1
-id pais: 97, nombre pais: Turkey, numero ciudades: 15 numero de direcciones: 9
-id pais: 10, nombre pais: Azerbaijan, numero ciudades: 2 numero de direcciones: 2
-id pais: 98, nombre pais: Turkmenistan, numero ciudades: 1 numero de direcciones: 1
-id pais: 11, nombre pais: Bahrain, numero ciudades: 1 numero de direcciones: 0
-id pais: 99, nombre pais: Tuvalu, numero ciudades: 1 numero de direcciones: 1
-id pais: 12, nombre pais: Bangladesh, numero ciudades: 3 numero de direcciones: 3
-id pais: 13, nombre pais: Belarus, numero ciudades: 2 numero de direcciones: 1
-id pais: 14, nombre pais: Bolivia, numero ciudades: 2 numero de direcciones: 2
-id pais: 15, nombre pais: Brazil, numero ciudades: 28 numero de direcciones: 25
-id pais: 16, nombre pais: Brunei, numero ciudades: 1 numero de direcciones: 1
-id pais: 17, nombre pais: Bulgaria, numero ciudades: 2 numero de direcciones: 1
-id pais: 18, nombre pais: Cambodia, numero ciudades: 2 numero de direcciones: 1
-id pais: 19, nombre pais: Cameroon, numero ciudades: 2 numero de direcciones: 2
-id pais: 1, nombre pais: Afghanistan, numero ciudades: 1 numero de direcciones: 1
-id pais: 2, nombre pais: Algeria, numero ciudades: 3 numero de direcciones: 3
-id pais: 3, nombre pais: American Samoa, numero ciudades: 1 numero de direcciones: 1
-id pais: 4, nombre pais: Angola, numero ciudades: 2 numero de direcciones: 1
-id pais: 5, nombre pais: Anguilla, numero ciudades: 1 numero de direcciones: 1
-id pais: 6, nombre pais: Argentina, numero ciudades: 13 numero de direcciones: 10
-id pais: 7, nombre pais: Armenia, numero ciudades: 1 numero de direcciones: 1
-id pais: 8, nombre pais: Australia, numero ciudades: 1 numero de direcciones: 2
-id pais: 9, nombre pais: Austria, numero ciudades: 3 numero de direcciones: 3
-id pais: 20, nombre pais: Canada, numero ciudades: 7 numero de direcciones: 6
-id pais: 21, nombre pais: Chad, numero ciudades: 1 numero de direcciones: 0
-id pais: 22, nombre pais: Chile, numero ciudades: 3 numero de direcciones: 2
-id pais: 23, nombre pais: China, numero ciudades: 53 numero de direcciones: 35
-id pais: 24, nombre pais: Colombia, numero ciudades: 6 numero de direcciones: 5
-id pais: 25, nombre pais: Congo, numero ciudades: 2 numero de direcciones: 2
-id pais: 26, nombre pais: Czech Republic, numero ciudades: 1 numero de direcciones: 1
-id pais: 27, nombre pais: Dominican Republic, numero ciudades: 3 numero de direcciones: 3
-id pais: 28, nombre pais: Ecuador, numero ciudades: 3 numero de direcciones: 1
-id pais: 29, nombre pais: Egypt, numero ciudades: 6 numero de direcciones: 4
-id pais: 30, nombre pais: Estonia, numero ciudades: 1 numero de direcciones: 1
-id pais: 31, nombre pais: Ethiopia, numero ciudades: 1 numero de direcciones: 1
-id pais: 32, nombre pais: Faroe Islands, numero ciudades: 1 numero de direcciones: 1
-id pais: 33, nombre pais: Finland, numero ciudades: 1 numero de direcciones: 1
-id pais: 34, nombre pais: France, numero ciudades: 4 numero de direcciones: 4
-id pais: 35, nombre pais: French Guiana, numero ciudades: 1 numero de direcciones: 1
-id pais: 36, nombre pais: French Polynesia, numero ciudades: 2 numero de direcciones: 2
-id pais: 37, nombre pais: Gambia, numero ciudades: 1 numero de direcciones: 0
-id pais: 38, nombre pais: Germany, numero ciudades: 7 numero de direcciones: 7
-id pais: 39, nombre pais: Greece, numero ciudades: 2 numero de direcciones: 1
-id pais: 40, nombre pais: Greenland, numero ciudades: 1 numero de direcciones: 1
-id pais: 41, nombre pais: Holy See Vatican City State, numero ciudades: 1 numero de direcciones: 1
-id pais: 42, nombre pais: Hong Kong, numero ciudades: 1 numero de direcciones: 1
-id pais: 43, nombre pais: Hungary, numero ciudades: 1 numero de direcciones: 0
-id pais: 44, nombre pais: India, numero ciudades: 60 numero de direcciones: 53
-id pais: 45, nombre pais: Indonesia, numero ciudades: 14 numero de direcciones: 9
-id pais: 46, nombre pais: Iran, numero ciudades: 8 numero de direcciones: 8
-id pais: 47, nombre pais: Iraq, numero ciudades: 1 numero de direcciones: 0
-id pais: 48, nombre pais: Israel, numero ciudades: 4 numero de direcciones: 3
-id pais: 49, nombre pais: Italy, numero ciudades: 7 numero de direcciones: 4
-id pais: 50, nombre pais: Japan, numero ciudades: 31 numero de direcciones: 25
-id pais: 51, nombre pais: Kazakstan, numero ciudades: 2 numero de direcciones: 1
-id pais: 52, nombre pais: Kenya, numero ciudades: 2 numero de direcciones: 2
-id pais: 53, nombre pais: Kuwait, numero ciudades: 1 numero de direcciones: 1
-id pais: 54, nombre pais: Latvia, numero ciudades: 2 numero de direcciones: 2
-id pais: 55, nombre pais: Liechtenstein, numero ciudades: 1 numero de direcciones: 1
-id pais: 56, nombre pais: Lithuania, numero ciudades: 1 numero de direcciones: 0
-id pais: 57, nombre pais: Madagascar, numero ciudades: 1 numero de direcciones: 1
-id pais: 58, nombre pais: Malawi, numero ciudades: 1 numero de direcciones: 1
-id pais: 59, nombre pais: Malaysia, numero ciudades: 3 numero de direcciones: 3
-id pais: 60, nombre pais: Mexico, numero ciudades: 30 numero de direcciones: 21
-id pais: 61, nombre pais: Moldova, numero ciudades: 1 numero de direcciones: 1
-id pais: 62, nombre pais: Morocco, numero ciudades: 3 numero de direcciones: 2
-id pais: 63, nombre pais: Mozambique, numero ciudades: 3 numero de direcciones: 3
-id pais: 64, nombre pais: Myanmar, numero ciudades: 2 numero de direcciones: 2
-id pais: 65, nombre pais: Nauru, numero ciudades: 1 numero de direcciones: 0
-id pais: 66, nombre pais: Nepal, numero ciudades: 1 numero de direcciones: 1
-id pais: 67, nombre pais: Netherlands, numero ciudades: 5 numero de direcciones: 4
-id pais: 68, nombre pais: New Zealand, numero ciudades: 1 numero de direcciones: 1
-id pais: 69, nombre pais: Nigeria, numero ciudades: 13 numero de direcciones: 12
-id pais: 70, nombre pais: North Korea, numero ciudades: 1 numero de direcciones: 1
-id pais: 71, nombre pais: Oman, numero ciudades: 2 numero de direcciones: 1
-id pais: 72, nombre pais: Pakistan, numero ciudades: 5 numero de direcciones: 5
-id pais: 73, nombre pais: Paraguay, numero ciudades: 3 numero de direcciones: 3
-id pais: 74, nombre pais: Peru, numero ciudades: 4 numero de direcciones: 2
-id pais: 75, nombre pais: Philippines, numero ciudades: 20 numero de direcciones: 16
-id pais: 76, nombre pais: Poland, numero ciudades: 8 numero de direcciones: 4
-id pais: 77, nombre pais: Puerto Rico, numero ciudades: 2 numero de direcciones: 2
+id pais: 78, nombre pais: Romania
+	Ciudades:2 
+		id: 95, nombre: Bucuresti Numero de direcciones: 0 
+		id: 86, nombre: Botosani Numero de direcciones: 1 
+		
+id pais: 79, nombre pais: Runion
+	Ciudades:1 
+		id: 442, nombre: Saint-Denis Numero de direcciones: 1 
+		
+id pais: 100, nombre pais: Ukraine
+	Ciudades:6 
+		id: 275, nombre: Konotop Numero de direcciones: 0 
+		id: 385, nombre: ostka Numero de direcciones: 0 
+		id: 258, nombre: Kamjanets-Podilskyi Numero de direcciones: 1 
+		id: 345, nombre: Mukateve Numero de direcciones: 1 
+		id: 479, nombre: Simferopol Numero de direcciones: 1 
+		id: 506, nombre: Sumy Numero de direcciones: 1 
+		
+id pais: 101, nombre pais: United Arab Emirates
+	Ciudades:3 
+		id: 3, nombre: Abu Dhabi Numero de direcciones: 1 
+		id: 470, nombre: Sharja Numero de direcciones: 1 
+		id: 12, nombre: al-Ayn Numero de direcciones: 1 
+		
+id pais: 102, nombre pais: United Kingdom
+	Ciudades:8 
+		id: 494, nombre: Southampton Numero de direcciones: 0 
+		id: 496, nombre: Southport Numero de direcciones: 0 
+		id: 500, nombre: Stockport Numero de direcciones: 0 
+		id: 589, nombre: York Numero de direcciones: 0 
+		id: 88, nombre: Bradford Numero de direcciones: 1 
+		id: 149, nombre: Dundee Numero de direcciones: 1 
+		id: 312, nombre: London Numero de direcciones: 1 
+		id: 495, nombre: Southend-on-Sea Numero de direcciones: 1 
+		
+id pais: 103, nombre pais: United States
+	Ciudades:35 
+		id: 11, nombre: Akron Numero de direcciones: 0 
+		id: 101, nombre: Cape Coral Numero de direcciones: 0 
+		id: 177, nombre: Garden Grove Numero de direcciones: 0 
+		id: 178, nombre: Garland Numero de direcciones: 0 
+		id: 245, nombre: Joliet Numero de direcciones: 0 
+		id: 33, nombre: Arlington Numero de direcciones: 1 
+		id: 41, nombre: Augusta-Richmond County Numero de direcciones: 1 
+		id: 42, nombre: Aurora Numero de direcciones: 1 
+		id: 65, nombre: Bellevue Numero de direcciones: 1 
+		id: 94, nombre: Brockton Numero de direcciones: 1 
+		id: 120, nombre: Citrus Heights Numero de direcciones: 1 
+		id: 123, nombre: Clarksville Numero de direcciones: 1 
+		id: 126, nombre: Compton Numero de direcciones: 1 
+		id: 135, nombre: Dallas Numero de direcciones: 1 
+		id: 140, nombre: Dayton Numero de direcciones: 1 
+		id: 155, nombre: El Monte Numero de direcciones: 1 
+		id: 171, nombre: Fontana Numero de direcciones: 1 
+		id: 185, nombre: Grand Prairie Numero de direcciones: 1 
+		id: 187, nombre: Greensboro Numero de direcciones: 1 
+		id: 262, nombre: Kansas City Numero de direcciones: 1 
+		id: 292, nombre: Lancaster Numero de direcciones: 1 
+		id: 295, nombre: Laredo Numero de direcciones: 1 
+		id: 306, nombre: Lincoln Numero de direcciones: 1 
+		id: 322, nombre: Manchester Numero de direcciones: 1 
+		id: 333, nombre: Memphis Numero de direcciones: 1 
+		id: 404, nombre: Peoria Numero de direcciones: 1 
+		id: 433, nombre: Roanoke Numero de direcciones: 1 
+		id: 435, nombre: Rockford Numero de direcciones: 1 
+		id: 441, nombre: Saint Louis Numero de direcciones: 1 
+		id: 446, nombre: Salinas Numero de direcciones: 1 
+		id: 449, nombre: San Bernardino Numero de direcciones: 1 
+		id: 499, nombre: Sterling Heights Numero de direcciones: 1 
+		id: 508, nombre: Sunnyvale Numero de direcciones: 1 
+		id: 520, nombre: Tallahassee Numero de direcciones: 1 
+		id: 573, nombre: Warren Numero de direcciones: 1 
+		
+id pais: 104, nombre pais: Venezuela
+	Ciudades:7 
+		id: 55, nombre: Barcelona Numero de direcciones: 0 
+		id: 561, nombre: Valencia Numero de direcciones: 0 
+		id: 102, nombre: Caracas Numero de direcciones: 1 
+		id: 132, nombre: Cuman Numero de direcciones: 1 
+		id: 326, nombre: Maracabo Numero de direcciones: 1 
+		id: 373, nombre: Ocumare del Tuy Numero de direcciones: 1 
+		id: 562, nombre: Valle de la Pascua Numero de direcciones: 1 
+		
+id pais: 105, nombre pais: Vietnam
+	Ciudades:6 
+		id: 100, nombre: Cam Ranh Numero de direcciones: 0 
+		id: 366, nombre: Nha Trang Numero de direcciones: 0 
+		id: 571, nombre: Vinh Numero de direcciones: 0 
+		id: 194, nombre: Haiphong Numero de direcciones: 1 
+		id: 201, nombre: Hanoi Numero de direcciones: 1 
+		id: 359, nombre: Nam Dinh Numero de direcciones: 1 
+		
+id pais: 106, nombre pais: Virgin Islands
+	Ciudades:1 
+		id: 111, nombre: Charlotte Amalie Numero de direcciones: 1 
+		
+id pais: 80, nombre pais: Russian Federation
+	Ciudades:28 
+		id: 259, nombre: Kamyin Numero de direcciones: 0 
+		id: 408, nombre: Pjatigorsk Numero de direcciones: 0 
+		id: 466, nombre: Serpuhov Numero de direcciones: 0 
+		id: 39, nombre: Atinsk Numero de direcciones: 1 
+		id: 49, nombre: Balaiha Numero de direcciones: 1 
+		id: 150, nombre: Dzerzinsk Numero de direcciones: 1 
+		id: 156, nombre: Elista Numero de direcciones: 1 
+		id: 225, nombre: Ivanovo Numero de direcciones: 1 
+		id: 235, nombre: Jaroslavl Numero de direcciones: 1 
+		id: 238, nombre: Jelets Numero de direcciones: 1 
+		id: 254, nombre: Kaliningrad Numero de direcciones: 1 
+		id: 270, nombre: Kirovo-Tepetsk Numero de direcciones: 1 
+		id: 274, nombre: Kolpino Numero de direcciones: 1 
+		id: 278, nombre: Korolev Numero de direcciones: 1 
+		id: 285, nombre: Kurgan Numero de direcciones: 1 
+		id: 286, nombre: Kursk Numero de direcciones: 1 
+		id: 308, nombre: Lipetsk Numero de direcciones: 1 
+		id: 310, nombre: Ljubertsy Numero de direcciones: 1 
+		id: 320, nombre: Maikop Numero de direcciones: 1 
+		id: 343, nombre: Moscow Numero de direcciones: 1 
+		id: 352, nombre: Nabereznyje Telny Numero de direcciones: 1 
+		id: 367, nombre: Niznekamsk Numero de direcciones: 1 
+		id: 369, nombre: Novoterkassk Numero de direcciones: 1 
+		id: 484, nombre: Smolensk Numero de direcciones: 1 
+		id: 510, nombre: Syktyvkar Numero de direcciones: 1 
+		id: 531, nombre: Teboksary Numero de direcciones: 1 
+		id: 558, nombre: Usolje-Sibirskoje Numero de direcciones: 1 
+		id: 597, nombre: Zeleznogorsk Numero de direcciones: 1 
+		
+id pais: 107, nombre pais: Yemen
+	Ciudades:4 
+		id: 7, nombre: Aden Numero de direcciones: 1 
+		id: 206, nombre: Hodeida Numero de direcciones: 1 
+		id: 455, nombre: Sanaa Numero de direcciones: 1 
+		id: 518, nombre: Taizz Numero de direcciones: 1 
+		
+id pais: 81, nombre pais: Saint Vincent and the Grenadines
+	Ciudades:1 
+		id: 269, nombre: Kingstown Numero de direcciones: 1 
+		
+id pais: 108, nombre pais: Yugoslavia
+	Ciudades:2 
+		id: 368, nombre: Novi Sad Numero de direcciones: 0 
+		id: 280, nombre: Kragujevac Numero de direcciones: 1 
+		
+id pais: 82, nombre pais: Saudi Arabia
+	Ciudades:5 
+		id: 2, nombre: Abha Numero de direcciones: 1 
+		id: 237, nombre: Jedda Numero de direcciones: 1 
+		id: 515, nombre: Tabuk Numero de direcciones: 1 
+		id: 13, nombre: al-Hawiya Numero de direcciones: 1 
+		id: 16, nombre: al-Qatif Numero de direcciones: 1 
+		
+id pais: 109, nombre pais: Zambia
+	Ciudades:1 
+		id: 272, nombre: Kitwe Numero de direcciones: 1 
+		
+id pais: 83, nombre pais: Senegal
+	Ciudades:1 
+		id: 600, nombre: Ziguinchor Numero de direcciones: 1 
+		
+id pais: 84, nombre pais: Slovakia
+	Ciudades:1 
+		id: 90, nombre: Bratislava Numero de direcciones: 1 
+		
+id pais: 85, nombre pais: South Africa
+	Ciudades:11 
+		id: 112, nombre: Chatsworth Numero de direcciones: 0 
+		id: 85, nombre: Boksburg Numero de direcciones: 1 
+		id: 87, nombre: Botshabelo Numero de direcciones: 1 
+		id: 244, nombre: Johannesburg Numero de direcciones: 1 
+		id: 267, nombre: Kimberley Numero de direcciones: 1 
+		id: 273, nombre: Klerksdorp Numero de direcciones: 1 
+		id: 364, nombre: Newcastle Numero de direcciones: 1 
+		id: 392, nombre: Paarl Numero de direcciones: 1 
+		id: 437, nombre: Rustenburg Numero de direcciones: 1 
+		id: 491, nombre: Soshanguve Numero de direcciones: 1 
+		id: 497, nombre: Springs Numero de direcciones: 1 
+		
+id pais: 86, nombre pais: South Korea
+	Ciudades:5 
+		id: 539, nombre: Tonghae Numero de direcciones: 0 
+		id: 113, nombre: Cheju Numero de direcciones: 1 
+		id: 268, nombre: Kimchon Numero de direcciones: 1 
+		id: 357, nombre: Naju Numero de direcciones: 1 
+		id: 553, nombre: Uijongbu Numero de direcciones: 1 
+		
+id pais: 87, nombre pais: Spain
+	Ciudades:5 
+		id: 459, nombre: Santiago de Compostela Numero de direcciones: 0 
+		id: 1, nombre: A Corua La Corua Numero de direcciones: 1 
+		id: 146, nombre: Donostia-San Sebastin Numero de direcciones: 1 
+		id: 181, nombre: Gijn Numero de direcciones: 1 
+		id: 388, nombre: Ourense Orense Numero de direcciones: 1 
+		
+id pais: 88, nombre pais: Sri Lanka
+	Ciudades:1 
+		id: 230, nombre: Jaffna Numero de direcciones: 1 
+		
+id pais: 89, nombre pais: Sudan
+	Ciudades:2 
+		id: 379, nombre: Omdurman Numero de direcciones: 1 
+		id: 15, nombre: al-Qadarif Numero de direcciones: 1 
+		
+id pais: 90, nombre pais: Sweden
+	Ciudades:1 
+		id: 321, nombre: Malm Numero de direcciones: 1 
+		
+id pais: 91, nombre pais: Switzerland
+	Ciudades:3 
+		id: 296, nombre: Lausanne Numero de direcciones: 0 
+		id: 56, nombre: Basel Numero de direcciones: 1 
+		id: 72, nombre: Bern Numero de direcciones: 1 
+		
+id pais: 92, nombre pais: Taiwan
+	Ciudades:10 
+		id: 116, nombre: Chungho Numero de direcciones: 0 
+		id: 168, nombre: Fengshan Numero de direcciones: 0 
+		id: 526, nombre: Tanshui Numero de direcciones: 0 
+		id: 546, nombre: Tsaotun Numero de direcciones: 0 
+		id: 108, nombre: Changhwa Numero de direcciones: 1 
+		id: 114, nombre: Chiayi Numero de direcciones: 1 
+		id: 209, nombre: Hsichuh Numero de direcciones: 1 
+		id: 316, nombre: Lungtan Numero de direcciones: 1 
+		id: 361, nombre: Nantou Numero de direcciones: 1 
+		id: 542, nombre: Touliu Numero de direcciones: 1 
+		
+id pais: 93, nombre pais: Tanzania
+	Ciudades:3 
+		id: 347, nombre: Mwanza Numero de direcciones: 0 
+		id: 513, nombre: Tabora Numero de direcciones: 1 
+		id: 593, nombre: Zanzibar Numero de direcciones: 1 
+		
+id pais: 94, nombre pais: Thailand
+	Ciudades:3 
+		id: 358, nombre: Nakhon Sawan Numero de direcciones: 1 
+		id: 394, nombre: Pak Kret Numero de direcciones: 1 
+		id: 489, nombre: Songkhla Numero de direcciones: 1 
+		
+id pais: 95, nombre pais: Tonga
+	Ciudades:1 
+		id: 370, nombre: Nukualofa Numero de direcciones: 1 
+		
+id pais: 96, nombre pais: Tunisia
+	Ciudades:1 
+		id: 492, nombre: Sousse Numero de direcciones: 1 
+		
+id pais: 97, nombre pais: Turkey
+	Ciudades:15 
+		id: 142, nombre: Denizli Numero de direcciones: 0 
+		id: 163, nombre: Eskisehir Numero de direcciones: 0 
+		id: 180, nombre: Gaziantep Numero de direcciones: 0 
+		id: 482, nombre: Sivas Numero de direcciones: 0 
+		id: 504, nombre: Sultanbeyli Numero de direcciones: 0 
+		id: 538, nombre: Tokat Numero de direcciones: 0 
+		id: 5, nombre: Adana Numero de direcciones: 1 
+		id: 50, nombre: Balikesir Numero de direcciones: 1 
+		id: 58, nombre: Batman Numero de direcciones: 1 
+		id: 222, nombre: Inegl Numero de direcciones: 1 
+		id: 266, nombre: Kilis Numero de direcciones: 1 
+		id: 281, nombre: Ktahya Numero de direcciones: 1 
+		id: 384, nombre: Osmaniye Numero de direcciones: 1 
+		id: 529, nombre: Tarsus Numero de direcciones: 1 
+		id: 557, nombre: Usak Numero de direcciones: 1 
+		
+id pais: 10, nombre pais: Azerbaijan
+	Ciudades:2 
+		id: 48, nombre: Baku Numero de direcciones: 1 
+		id: 505, nombre: Sumqayit Numero de direcciones: 1 
+		
+id pais: 98, nombre pais: Turkmenistan
+	Ciudades:1 
+		id: 35, nombre: Ashgabat Numero de direcciones: 1 
+		
+id pais: 11, nombre pais: Bahrain
+	Ciudades:1 
+		id: 14, nombre: al-Manama Numero de direcciones: 0 
+		
+id pais: 99, nombre pais: Tuvalu
+	Ciudades:1 
+		id: 173, nombre: Funafuti Numero de direcciones: 1 
+		
+id pais: 12, nombre pais: Bangladesh
+	Ciudades:3 
+		id: 143, nombre: Dhaka Numero de direcciones: 1 
+		id: 234, nombre: Jamalpur Numero de direcciones: 1 
+		id: 525, nombre: Tangail Numero de direcciones: 1 
+		
+id pais: 13, nombre pais: Belarus
+	Ciudades:2 
+		id: 339, nombre: Mogiljov Numero de direcciones: 0 
+		id: 340, nombre: Molodetno Numero de direcciones: 1 
+		
+id pais: 14, nombre pais: Bolivia
+	Ciudades:2 
+		id: 153, nombre: El Alto Numero de direcciones: 1 
+		id: 501, nombre: Sucre Numero de direcciones: 1 
+		
+id pais: 15, nombre pais: Brazil
+	Ciudades:28 
+		id: 21, nombre: Alvorada Numero de direcciones: 0 
+		id: 248, nombre: Juiz de Fora Numero de direcciones: 0 
+		id: 485, nombre: So Bernardo do Campo Numero de direcciones: 0 
+		id: 25, nombre: Angra dos Reis Numero de direcciones: 1 
+		id: 26, nombre: Anpolis Numero de direcciones: 1 
+		id: 28, nombre: Aparecida de Goinia Numero de direcciones: 1 
+		id: 30, nombre: Araatuba Numero de direcciones: 1 
+		id: 44, nombre: Bag Numero de direcciones: 1 
+		id: 66, nombre: Belm Numero de direcciones: 1 
+		id: 83, nombre: Blumenau Numero de direcciones: 1 
+		id: 84, nombre: Boa Vista Numero de direcciones: 1 
+		id: 89, nombre: Braslia Numero de direcciones: 1 
+		id: 183, nombre: Goinia Numero de direcciones: 1 
+		id: 189, nombre: Guaruj Numero de direcciones: 1 
+		id: 215, nombre: Ibirit Numero de direcciones: 1 
+		id: 247, nombre: Juazeiro do Norte Numero de direcciones: 1 
+		id: 317, nombre: Luzinia Numero de direcciones: 1 
+		id: 328, nombre: Maring Numero de direcciones: 1 
+		id: 410, nombre: Po Numero de direcciones: 1 
+		id: 413, nombre: Poos de Caldas Numero de direcciones: 1 
+		id: 431, nombre: Rio Claro Numero de direcciones: 1 
+		id: 456, nombre: Santa Brbara dOeste Numero de direcciones: 1 
+		id: 461, nombre: Santo Andr Numero de direcciones: 1 
+		id: 486, nombre: So Leopoldo Numero de direcciones: 1 
+		id: 490, nombre: Sorocaba Numero de direcciones: 1 
+		id: 569, nombre: Vila Velha Numero de direcciones: 1 
+		id: 572, nombre: Vitria de Santo Anto Numero de direcciones: 1 
+		id: 190, nombre: guas Lindas de Gois Numero de direcciones: 1 
+		
+id pais: 16, nombre pais: Brunei
+	Ciudades:1 
+		id: 53, nombre: Bandar Seri Begawan Numero de direcciones: 1 
+		
+id pais: 17, nombre pais: Bulgaria
+	Ciudades:2 
+		id: 436, nombre: Ruse Numero de direcciones: 0 
+		id: 498, nombre: Stara Zagora Numero de direcciones: 1 
+		
+id pais: 18, nombre pais: Cambodia
+	Ciudades:2 
+		id: 60, nombre: Battambang Numero de direcciones: 0 
+		id: 406, nombre: Phnom Penh Numero de direcciones: 1 
+		
+id pais: 19, nombre pais: Cameroon
+	Ciudades:2 
+		id: 52, nombre: Bamenda Numero de direcciones: 1 
+		id: 585, nombre: Yaound Numero de direcciones: 1 
+		
+id pais: 1, nombre pais: Afghanistan
+	Ciudades:1 
+		id: 251, nombre: Kabul Numero de direcciones: 1 
+		
+id pais: 2, nombre pais: Algeria
+	Ciudades:3 
+		id: 59, nombre: Batna Numero de direcciones: 1 
+		id: 63, nombre: Bchar Numero de direcciones: 1 
+		id: 483, nombre: Skikda Numero de direcciones: 1 
+		
+id pais: 3, nombre pais: American Samoa
+	Ciudades:1 
+		id: 516, nombre: Tafuna Numero de direcciones: 1 
+		
+id pais: 4, nombre pais: Angola
+	Ciudades:2 
+		id: 67, nombre: Benguela Numero de direcciones: 0 
+		id: 360, nombre: Namibe Numero de direcciones: 1 
+		
+id pais: 5, nombre pais: Anguilla
+	Ciudades:1 
+		id: 493, nombre: South Hill Numero de direcciones: 1 
+		
+id pais: 6, nombre pais: Argentina
+	Ciudades:13 
+		id: 43, nombre: Avellaneda Numero de direcciones: 0 
+		id: 165, nombre: Ezeiza Numero de direcciones: 0 
+		id: 424, nombre: Quilmes Numero de direcciones: 0 
+		id: 20, nombre: Almirante Brown Numero de direcciones: 1 
+		id: 45, nombre: Baha Blanca Numero de direcciones: 1 
+		id: 128, nombre: Crdoba Numero de direcciones: 1 
+		id: 161, nombre: Escobar Numero de direcciones: 1 
+		id: 289, nombre: La Plata Numero de direcciones: 1 
+		id: 334, nombre: Merlo Numero de direcciones: 1 
+		id: 454, nombre: San Miguel de Tucumn Numero de direcciones: 1 
+		id: 457, nombre: Santa F Numero de direcciones: 1 
+		id: 524, nombre: Tandil Numero de direcciones: 1 
+		id: 567, nombre: Vicente Lpez Numero de direcciones: 1 
+		
+id pais: 7, nombre pais: Armenia
+	Ciudades:1 
+		id: 586, nombre: Yerevan Numero de direcciones: 1 
+		
+id pais: 8, nombre pais: Australia
+	Ciudades:1 
+		id: 576, nombre: Woodridge Numero de direcciones: 2 
+		
+id pais: 9, nombre pais: Austria
+	Ciudades:3 
+		id: 186, nombre: Graz Numero de direcciones: 1 
+		id: 307, nombre: Linz Numero de direcciones: 1 
+		id: 447, nombre: Salzburg Numero de direcciones: 1 
+		
+id pais: 20, nombre pais: Canada
+	Ciudades:7 
+		id: 179, nombre: Gatineau Numero de direcciones: 0 
+		id: 313, nombre: London Numero de direcciones: 0 
+		id: 196, nombre: Halifax Numero de direcciones: 1 
+		id: 383, nombre: Oshawa Numero de direcciones: 1 
+		id: 430, nombre: Richmond Hill Numero de direcciones: 1 
+		id: 565, nombre: Vancouver Numero de direcciones: 1 
+		id: 300, nombre: Lethbridge Numero de direcciones: 2 
+		
+id pais: 21, nombre pais: Chad
+	Ciudades:1 
+		id: 363, nombre: NDjamna Numero de direcciones: 0 
+		
+id pais: 22, nombre pais: Chile
+	Ciudades:3 
+		id: 127, nombre: Coquimbo Numero de direcciones: 0 
+		id: 27, nombre: Antofagasta Numero de direcciones: 1 
+		id: 428, nombre: Rancagua Numero de direcciones: 1 
+		
+id pais: 23, nombre pais: China
+	Ciudades:53 
+		id: 46, nombre: Baicheng Numero de direcciones: 0 
+		id: 47, nombre: Baiyin Numero de direcciones: 0 
+		id: 80, nombre: Binzhou Numero de direcciones: 0 
+		id: 193, nombre: Haining Numero de direcciones: 0 
+		id: 241, nombre: Jining Numero de direcciones: 0 
+		id: 242, nombre: Jinzhou Numero de direcciones: 0 
+		id: 299, nombre: Leshan Numero de direcciones: 0 
+		id: 432, nombre: Rizhao Numero de direcciones: 0 
+		id: 462, nombre: Sanya Numero de direcciones: 0 
+		id: 469, nombre: Shaoguan Numero de direcciones: 0 
+		id: 502, nombre: Suihua Numero de direcciones: 0 
+		id: 537, nombre: Tieli Numero de direcciones: 0 
+		id: 574, nombre: Weifang Numero de direcciones: 0 
+		id: 580, nombre: Xintai Numero de direcciones: 0 
+		id: 587, nombre: Yinchuan Numero de direcciones: 0 
+		id: 588, nombre: Yingkou Numero de direcciones: 0 
+		id: 594, nombre: Zaoyang Numero de direcciones: 0 
+		id: 599, nombre: Zhoushan Numero de direcciones: 0 
+		id: 109, nombre: Changzhou Numero de direcciones: 1 
+		id: 136, nombre: Datong Numero de direcciones: 1 
+		id: 139, nombre: Daxian Numero de direcciones: 1 
+		id: 145, nombre: Dongying Numero de direcciones: 1 
+		id: 157, nombre: Emeishan Numero de direcciones: 1 
+		id: 159, nombre: Enshi Numero de direcciones: 1 
+		id: 166, nombre: Ezhou Numero de direcciones: 1 
+		id: 174, nombre: Fuyu Numero de direcciones: 1 
+		id: 175, nombre: Fuzhou Numero de direcciones: 1 
+		id: 199, nombre: Hami Numero de direcciones: 1 
+		id: 207, nombre: Hohhot Numero de direcciones: 1 
+		id: 210, nombre: Huaian Numero de direcciones: 1 
+		id: 240, nombre: Jinchang Numero de direcciones: 1 
+		id: 249, nombre: Junan Numero de direcciones: 1 
+		id: 277, nombre: Korla Numero de direcciones: 1 
+		id: 291, nombre: Laiwu Numero de direcciones: 1 
+		id: 293, nombre: Laohekou Numero de direcciones: 1 
+		id: 298, nombre: Lengshuijiang Numero de direcciones: 1 
+		id: 302, nombre: Liaocheng Numero de direcciones: 1 
+		id: 332, nombre: Meixian Numero de direcciones: 1 
+		id: 362, nombre: Nanyang Numero de direcciones: 1 
+		id: 407, nombre: Pingxiang Numero de direcciones: 1 
+		id: 422, nombre: Qinhuangdao Numero de direcciones: 1 
+		id: 468, nombre: Shanwei Numero de direcciones: 1 
+		id: 471, nombre: Shenzhen Numero de direcciones: 1 
+		id: 535, nombre: Tianjin Numero de direcciones: 1 
+		id: 536, nombre: Tiefa Numero de direcciones: 1 
+		id: 540, nombre: Tongliao Numero de direcciones: 1 
+		id: 578, nombre: Xiangfan Numero de direcciones: 1 
+		id: 579, nombre: Xiangtan Numero de direcciones: 1 
+		id: 581, nombre: Xinxiang Numero de direcciones: 1 
+		id: 584, nombre: Yantai Numero de direcciones: 1 
+		id: 590, nombre: Yuncheng Numero de direcciones: 1 
+		id: 591, nombre: Yuzhou Numero de direcciones: 1 
+		id: 592, nombre: Zalantun Numero de direcciones: 1 
+		
+id pais: 24, nombre pais: Colombia
+	Ciudades:6 
+		id: 487, nombre: Sogamoso Numero de direcciones: 0 
+		id: 96, nombre: Buenaventura Numero de direcciones: 1 
+		id: 147, nombre: Dos Quebradas Numero de direcciones: 1 
+		id: 170, nombre: Florencia Numero de direcciones: 1 
+		id: 405, nombre: Pereira Numero de direcciones: 1 
+		id: 480, nombre: Sincelejo Numero de direcciones: 1 
+		
+id pais: 25, nombre pais: Congo
+	Ciudades:2 
+		id: 315, nombre: Lubumbashi Numero de direcciones: 1 
+		id: 348, nombre: Mwene-Ditu Numero de direcciones: 1 
+		
+id pais: 26, nombre pais: Czech Republic
+	Ciudades:1 
+		id: 378, nombre: Olomouc Numero de direcciones: 1 
+		
+id pais: 27, nombre pais: Dominican Republic
+	Ciudades:3 
+		id: 290, nombre: La Romana Numero de direcciones: 1 
+		id: 450, nombre: San Felipe de Puerto Plata Numero de direcciones: 1 
+		id: 460, nombre: Santiago de los Caballeros Numero de direcciones: 1 
+		
+id pais: 28, nombre pais: Ecuador
+	Ciudades:3 
+		id: 311, nombre: Loja Numero de direcciones: 0 
+		id: 434, nombre: Robamba Numero de direcciones: 0 
+		id: 414, nombre: Portoviejo Numero de direcciones: 1 
+		
+id pais: 29, nombre pais: Egypt
+	Ciudades:6 
+		id: 79, nombre: Bilbays Numero de direcciones: 0 
+		id: 337, nombre: Mit Ghamr Numero de direcciones: 0 
+		id: 216, nombre: Idfu Numero de direcciones: 1 
+		id: 421, nombre: Qalyub Numero de direcciones: 1 
+		id: 465, nombre: Sawhaj Numero de direcciones: 1 
+		id: 476, nombre: Shubra al-Khayma Numero de direcciones: 1 
+		
+id pais: 30, nombre pais: Estonia
+	Ciudades:1 
+		id: 530, nombre: Tartu Numero de direcciones: 1 
+		
+id pais: 31, nombre pais: Ethiopia
+	Ciudades:1 
+		id: 6, nombre: Addis Abeba Numero de direcciones: 1 
+		
+id pais: 32, nombre pais: Faroe Islands
+	Ciudades:1 
+		id: 545, nombre: Trshavn Numero de direcciones: 1 
+		
+id pais: 33, nombre pais: Finland
+	Ciudades:1 
+		id: 387, nombre: Oulu Numero de direcciones: 1 
+		
+id pais: 34, nombre pais: France
+	Ciudades:4 
+		id: 92, nombre: Brest Numero de direcciones: 1 
+		id: 297, nombre: Le Mans Numero de direcciones: 1 
+		id: 543, nombre: Toulon Numero de direcciones: 1 
+		id: 544, nombre: Toulouse Numero de direcciones: 1 
+		
+id pais: 35, nombre pais: French Guiana
+	Ciudades:1 
+		id: 105, nombre: Cayenne Numero de direcciones: 1 
+		
+id pais: 36, nombre pais: French Polynesia
+	Ciudades:2 
+		id: 167, nombre: Faaa Numero de direcciones: 1 
+		id: 397, nombre: Papeete Numero de direcciones: 1 
+		
+id pais: 37, nombre pais: Gambia
+	Ciudades:1 
+		id: 54, nombre: Banjul Numero de direcciones: 0 
+		
+id pais: 38, nombre pais: Germany
+	Ciudades:7 
+		id: 148, nombre: Duisburg Numero de direcciones: 1 
+		id: 160, nombre: Erlangen Numero de direcciones: 1 
+		id: 198, nombre: Halle/Saale Numero de direcciones: 1 
+		id: 325, nombre: Mannheim Numero de direcciones: 1 
+		id: 439, nombre: Saarbrcken Numero de direcciones: 1 
+		id: 477, nombre: Siegen Numero de direcciones: 1 
+		id: 575, nombre: Witten Numero de direcciones: 1 
+		
+id pais: 39, nombre pais: Greece
+	Ciudades:2 
+		id: 401, nombre: Patras Numero de direcciones: 0 
+		id: 38, nombre: Athenai Numero de direcciones: 1 
+		
+id pais: 40, nombre pais: Greenland
+	Ciudades:1 
+		id: 371, nombre: Nuuk Numero de direcciones: 1 
+		
+id pais: 41, nombre pais: Holy See Vatican City State
+	Ciudades:1 
+		id: 121, nombre: Citt del Vaticano Numero de direcciones: 1 
+		
+id pais: 42, nombre pais: Hong Kong
+	Ciudades:1 
+		id: 279, nombre: Kowloon and New Kowloon Numero de direcciones: 1 
+		
+id pais: 43, nombre pais: Hungary
+	Ciudades:1 
+		id: 512, nombre: Szkesfehrvr Numero de direcciones: 0 
+		
+id pais: 44, nombre pais: India
+	Ciudades:60 
+		id: 24, nombre: Amroha Numero de direcciones: 0 
+		id: 75, nombre: Bhimavaram Numero de direcciones: 0 
+		id: 110, nombre: Chapra Numero de direcciones: 0 
+		id: 261, nombre: Kanchrapara Numero de direcciones: 0 
+		id: 426, nombre: Rajkot Numero de direcciones: 0 
+		id: 478, nombre: Siliguri Shiliguri Numero de direcciones: 0 
+		id: 568, nombre: Vijayawada Numero de direcciones: 0 
+		id: 8, nombre: Adoni Numero de direcciones: 1 
+		id: 9, nombre: Ahmadnagar Numero de direcciones: 1 
+		id: 18, nombre: Allappuzha Alleppey Numero de direcciones: 1 
+		id: 22, nombre: Ambattur Numero de direcciones: 1 
+		id: 51, nombre: Balurghat Numero de direcciones: 1 
+		id: 71, nombre: Berhampore Baharampur Numero de direcciones: 1 
+		id: 73, nombre: Bhavnagar Numero de direcciones: 1 
+		id: 74, nombre: Bhilwara Numero de direcciones: 1 
+		id: 76, nombre: Bhopal Numero de direcciones: 1 
+		id: 77, nombre: Bhusawal Numero de direcciones: 1 
+		id: 78, nombre: Bijapur Numero de direcciones: 1 
+		id: 107, nombre: Chandrapur Numero de direcciones: 1 
+		id: 144, nombre: Dhule Dhulia Numero de direcciones: 1 
+		id: 164, nombre: Etawah Numero de direcciones: 1 
+		id: 169, nombre: Firozabad Numero de direcciones: 1 
+		id: 176, nombre: Gandhinagar Numero de direcciones: 1 
+		id: 191, nombre: Gulbarga Numero de direcciones: 1 
+		id: 195, nombre: Haldia Numero de direcciones: 1 
+		id: 197, nombre: Halisahar Numero de direcciones: 1 
+		id: 208, nombre: Hoshiarpur Numero de direcciones: 1 
+		id: 211, nombre: Hubli-Dharwad Numero de direcciones: 1 
+		id: 231, nombre: Jaipur Numero de direcciones: 1 
+		id: 239, nombre: Jhansi Numero de direcciones: 1 
+		id: 243, nombre: Jodhpur Numero de direcciones: 1 
+		id: 257, nombre: Kamarhati Numero de direcciones: 1 
+		id: 263, nombre: Karnal Numero de direcciones: 1 
+		id: 264, nombre: Katihar Numero de direcciones: 1 
+		id: 283, nombre: Kumbakonam Numero de direcciones: 1 
+		id: 336, nombre: Miraj Numero de direcciones: 1 
+		id: 346, nombre: Munger Monghyr Numero de direcciones: 1 
+		id: 350, nombre: Mysore Numero de direcciones: 1 
+		id: 354, nombre: Nagaon Numero de direcciones: 1 
+		id: 395, nombre: Palghat Palakkad Numero de direcciones: 1 
+		id: 398, nombre: Parbhani Numero de direcciones: 1 
+		id: 399, nombre: Pathankot Numero de direcciones: 1 
+		id: 400, nombre: Patiala Numero de direcciones: 1 
+		id: 416, nombre: Pudukkottai Numero de direcciones: 1 
+		id: 417, nombre: Pune Numero de direcciones: 1 
+		id: 418, nombre: Purnea Purnia Numero de direcciones: 1 
+		id: 425, nombre: Rae Bareli Numero de direcciones: 1 
+		id: 427, nombre: Rampur Numero de direcciones: 1 
+		id: 429, nombre: Ranchi Numero de direcciones: 1 
+		id: 448, nombre: Sambhal Numero de direcciones: 1 
+		id: 464, nombre: Satna Numero de direcciones: 1 
+		id: 473, nombre: Shimoga Numero de direcciones: 1 
+		id: 475, nombre: Shivapuri Numero de direcciones: 1 
+		id: 522, nombre: Tambaram Numero de direcciones: 1 
+		id: 550, nombre: Udaipur Numero de direcciones: 1 
+		id: 554, nombre: Uluberia Numero de direcciones: 1 
+		id: 559, nombre: Uttarpara-Kotrung Numero de direcciones: 1 
+		id: 564, nombre: Valparai Numero de direcciones: 1 
+		id: 566, nombre: Varanasi Benares Numero de direcciones: 1 
+		id: 582, nombre: Yamuna Nagar Numero de direcciones: 1 
+		
+id pais: 45, nombre pais: Indonesia
+	Ciudades:14 
+		id: 301, nombre: Lhokseumawe Numero de direcciones: 0 
+		id: 318, nombre: Madiun Numero de direcciones: 0 
+		id: 396, nombre: Pangkal Pinang Numero de direcciones: 0 
+		id: 412, nombre: Pontianak Numero de direcciones: 0 
+		id: 419, nombre: Purwakarta Numero de direcciones: 0 
+		id: 117, nombre: Cianjur Numero de direcciones: 1 
+		id: 118, nombre: Ciomas Numero de direcciones: 1 
+		id: 119, nombre: Ciparay Numero de direcciones: 1 
+		id: 184, nombre: Gorontalo Numero de direcciones: 1 
+		id: 232, nombre: Jakarta Numero de direcciones: 1 
+		id: 403, nombre: Pemalang Numero de direcciones: 1 
+		id: 415, nombre: Probolinggo Numero de direcciones: 1 
+		id: 509, nombre: Surakarta Numero de direcciones: 1 
+		id: 532, nombre: Tegal Numero de direcciones: 1 
+		
+id pais: 46, nombre pais: Iran
+	Ciudades:8 
+		id: 31, nombre: Arak Numero de direcciones: 1 
+		id: 162, nombre: Esfahan Numero de direcciones: 1 
+		id: 265, nombre: Kermanshah Numero de direcciones: 1 
+		id: 356, nombre: Najafabad Numero de direcciones: 1 
+		id: 423, nombre: Qomsheh Numero de direcciones: 1 
+		id: 467, nombre: Shahr-e Kord Numero de direcciones: 1 
+		id: 481, nombre: Sirjan Numero de direcciones: 1 
+		id: 514, nombre: Tabriz Numero de direcciones: 1 
+		
+id pais: 47, nombre pais: Iraq
+	Ciudades:1 
+		id: 344, nombre: Mosul Numero de direcciones: 0 
+		
+id pais: 48, nombre pais: Israel
+	Ciudades:4 
+		id: 36, nombre: Ashqelon Numero de direcciones: 0 
+		id: 34, nombre: Ashdod Numero de direcciones: 1 
+		id: 57, nombre: Bat Yam Numero de direcciones: 1 
+		id: 533, nombre: Tel Aviv-Jaffa Numero de direcciones: 1 
+		
+id pais: 49, nombre pais: Italy
+	Ciudades:7 
+		id: 93, nombre: Brindisi Numero de direcciones: 0 
+		id: 309, nombre: Livorno Numero de direcciones: 0 
+		id: 551, nombre: Udine Numero de direcciones: 0 
+		id: 17, nombre: Alessandria Numero de direcciones: 1 
+		id: 70, nombre: Bergamo Numero de direcciones: 1 
+		id: 91, nombre: Brescia Numero de direcciones: 1 
+		id: 511, nombre: Syrakusa Numero de direcciones: 1 
+		
+id pais: 50, nombre pais: Japan
+	Ciudades:31 
+		id: 10, nombre: Akishima Numero de direcciones: 0 
+		id: 224, nombre: Isesaki Numero de direcciones: 0 
+		id: 260, nombre: Kanazawa Numero de direcciones: 0 
+		id: 287, nombre: Kuwana Numero de direcciones: 0 
+		id: 376, nombre: Okayama Numero de direcciones: 0 
+		id: 552, nombre: Ueda Numero de direcciones: 0 
+		id: 172, nombre: Fukuyama Numero de direcciones: 1 
+		id: 203, nombre: Higashiosaka Numero de direcciones: 1 
+		id: 204, nombre: Hino Numero de direcciones: 1 
+		id: 205, nombre: Hiroshima Numero de direcciones: 1 
+		id: 226, nombre: Iwaki Numero de direcciones: 1 
+		id: 227, nombre: Iwakuni Numero de direcciones: 1 
+		id: 228, nombre: Iwatsuki Numero de direcciones: 1 
+		id: 229, nombre: Izumisano Numero de direcciones: 1 
+		id: 253, nombre: Kakamigahara Numero de direcciones: 1 
+		id: 256, nombre: Kamakura Numero de direcciones: 1 
+		id: 276, nombre: Koriyama Numero de direcciones: 1 
+		id: 284, nombre: Kurashiki Numero de direcciones: 1 
+		id: 331, nombre: Matsue Numero de direcciones: 1 
+		id: 338, nombre: Miyakonojo Numero de direcciones: 1 
+		id: 355, nombre: Nagareyama Numero de direcciones: 1 
+		id: 377, nombre: Okinawa Numero de direcciones: 1 
+		id: 380, nombre: Omiya Numero de direcciones: 1 
+		id: 382, nombre: Onomichi Numero de direcciones: 1 
+		id: 386, nombre: Otsu Numero de direcciones: 1 
+		id: 440, nombre: Sagamihara Numero de direcciones: 1 
+		id: 463, nombre: Sasebo Numero de direcciones: 1 
+		id: 474, nombre: Shimonoseki Numero de direcciones: 1 
+		id: 521, nombre: Tama Numero de direcciones: 1 
+		id: 547, nombre: Tsuyama Numero de direcciones: 1 
+		id: 555, nombre: Urawa Numero de direcciones: 1 
+		
+id pais: 51, nombre pais: Kazakstan
+	Ciudades:2 
+		id: 598, nombre: Zhezqazghan Numero de direcciones: 0 
+		id: 402, nombre: Pavlodar Numero de direcciones: 1 
+		
+id pais: 52, nombre pais: Kenya
+	Ciudades:2 
+		id: 271, nombre: Kisumu Numero de direcciones: 1 
+		id: 372, nombre: Nyeri Numero de direcciones: 1 
+		
+id pais: 53, nombre pais: Kuwait
+	Ciudades:1 
+		id: 233, nombre: Jalib al-Shuyukh Numero de direcciones: 1 
+		
+id pais: 54, nombre pais: Latvia
+	Ciudades:2 
+		id: 137, nombre: Daugavpils Numero de direcciones: 1 
+		id: 303, nombre: Liepaja Numero de direcciones: 1 
+		
+id pais: 55, nombre pais: Liechtenstein
+	Ciudades:1 
+		id: 560, nombre: Vaduz Numero de direcciones: 1 
+		
+id pais: 56, nombre pais: Lithuania
+	Ciudades:1 
+		id: 570, nombre: Vilnius Numero de direcciones: 0 
+		
+id pais: 57, nombre pais: Madagascar
+	Ciudades:1 
+		id: 319, nombre: Mahajanga Numero de direcciones: 1 
+		
+id pais: 58, nombre pais: Malawi
+	Ciudades:1 
+		id: 304, nombre: Lilongwe Numero de direcciones: 1 
+		
+id pais: 59, nombre pais: Malaysia
+	Ciudades:3 
+		id: 223, nombre: Ipoh Numero de direcciones: 1 
+		id: 282, nombre: Kuching Numero de direcciones: 1 
+		id: 507, nombre: Sungai Petani Numero de direcciones: 1 
+		
+id pais: 60, nombre pais: Mexico
+	Ciudades:30 
+		id: 4, nombre: Acua Numero de direcciones: 0 
+		id: 103, nombre: Carmen Numero de direcciones: 0 
+		id: 106, nombre: Celaya Numero de direcciones: 0 
+		id: 125, nombre: Coatzacoalcos Numero de direcciones: 0 
+		id: 131, nombre: Cuernavaca Numero de direcciones: 0 
+		id: 212, nombre: Huejutla de Reyes Numero de direcciones: 0 
+		id: 246, nombre: Jos Azueta Numero de direcciones: 0 
+		id: 288, nombre: La Paz Numero de direcciones: 0 
+		id: 341, nombre: Monclova Numero de direcciones: 0 
+		id: 19, nombre: Allende Numero de direcciones: 1 
+		id: 40, nombre: Atlixco Numero de direcciones: 1 
+		id: 124, nombre: Coacalco de Berriozbal Numero de direcciones: 1 
+		id: 129, nombre: Cuauhtmoc Numero de direcciones: 1 
+		id: 130, nombre: Cuautla Numero de direcciones: 1 
+		id: 154, nombre: El Fuerte Numero de direcciones: 1 
+		id: 188, nombre: Guadalajara Numero de direcciones: 1 
+		id: 202, nombre: Hidalgo Numero de direcciones: 1 
+		id: 213, nombre: Huixquilucan Numero de direcciones: 1 
+		id: 250, nombre: Jurez Numero de direcciones: 1 
+		id: 330, nombre: Matamoros Numero de direcciones: 1 
+		id: 335, nombre: Mexicali Numero de direcciones: 1 
+		id: 365, nombre: Nezahualcyotl Numero de direcciones: 1 
+		id: 393, nombre: Pachuca de Soto Numero de direcciones: 1 
+		id: 445, nombre: Salamanca Numero de direcciones: 1 
+		id: 451, nombre: San Felipe del Progreso Numero de direcciones: 1 
+		id: 452, nombre: San Juan Bautista Tuxtepec Numero de direcciones: 1 
+		id: 541, nombre: Torren Numero de direcciones: 1 
+		id: 556, nombre: Uruapan Numero de direcciones: 1 
+		id: 563, nombre: Valle de Santiago Numero de direcciones: 1 
+		id: 595, nombre: Zapopan Numero de direcciones: 1 
+		
+id pais: 61, nombre pais: Moldova
+	Ciudades:1 
+		id: 115, nombre: Chisinau Numero de direcciones: 1 
+		
+id pais: 62, nombre pais: Morocco
+	Ciudades:3 
+		id: 68, nombre: Beni-Mellal Numero de direcciones: 0 
+		id: 353, nombre: Nador Numero de direcciones: 1 
+		id: 443, nombre: Sal Numero de direcciones: 1 
+		
+id pais: 63, nombre pais: Mozambique
+	Ciudades:3 
+		id: 64, nombre: Beira Numero de direcciones: 1 
+		id: 351, nombre: Naala-Porto Numero de direcciones: 1 
+		id: 534, nombre: Tete Numero de direcciones: 1 
+		
+id pais: 64, nombre pais: Myanmar
+	Ciudades:2 
+		id: 342, nombre: Monywa Numero de direcciones: 1 
+		id: 349, nombre: Myingyan Numero de direcciones: 1 
+		
+id pais: 65, nombre pais: Nauru
+	Ciudades:1 
+		id: 583, nombre: Yangor Numero de direcciones: 0 
+		
+id pais: 66, nombre pais: Nepal
+	Ciudades:1 
+		id: 81, nombre: Birgunj Numero de direcciones: 1 
+		
+id pais: 67, nombre pais: Netherlands
+	Ciudades:5 
+		id: 158, nombre: Emmen Numero de direcciones: 0 
+		id: 23, nombre: Amersfoort Numero de direcciones: 1 
+		id: 29, nombre: Apeldoorn Numero de direcciones: 1 
+		id: 151, nombre: Ede Numero de direcciones: 1 
+		id: 438, nombre: s-Hertogenbosch Numero de direcciones: 1 
+		
+id pais: 68, nombre pais: New Zealand
+	Ciudades:1 
+		id: 200, nombre: Hamilton Numero de direcciones: 1 
+		
+id pais: 69, nombre pais: Nigeria
+	Ciudades:13 
+		id: 488, nombre: Sokoto Numero de direcciones: 0 
+		id: 69, nombre: Benin City Numero de direcciones: 1 
+		id: 141, nombre: Deba Habe Numero de direcciones: 1 
+		id: 152, nombre: Effon-Alaiye Numero de direcciones: 1 
+		id: 217, nombre: Ife Numero de direcciones: 1 
+		id: 218, nombre: Ikerre Numero de direcciones: 1 
+		id: 220, nombre: Ilorin Numero de direcciones: 1 
+		id: 252, nombre: Kaduna Numero de direcciones: 1 
+		id: 374, nombre: Ogbomosho Numero de direcciones: 1 
+		id: 381, nombre: Ondo Numero de direcciones: 1 
+		id: 389, nombre: Owo Numero de direcciones: 1 
+		id: 390, nombre: Oyo Numero de direcciones: 1 
+		id: 596, nombre: Zaria Numero de direcciones: 1 
+		
+id pais: 70, nombre pais: North Korea
+	Ciudades:1 
+		id: 420, nombre: Pyongyang Numero de direcciones: 1 
+		
+id pais: 71, nombre pais: Oman
+	Ciudades:2 
+		id: 444, nombre: Salala Numero de direcciones: 0 
+		id: 329, nombre: Masqat Numero de direcciones: 1 
+		
+id pais: 72, nombre pais: Pakistan
+	Ciudades:5 
+		id: 134, nombre: Dadu Numero de direcciones: 1 
+		id: 324, nombre: Mandi Bahauddin Numero de direcciones: 1 
+		id: 327, nombre: Mardan Numero de direcciones: 1 
+		id: 375, nombre: Okara Numero de direcciones: 1 
+		id: 472, nombre: Shikarpur Numero de direcciones: 1 
+		
+id pais: 73, nombre pais: Paraguay
+	Ciudades:3 
+		id: 37, nombre: Asuncin Numero de direcciones: 1 
+		id: 122, nombre: Ciudad del Este Numero de direcciones: 1 
+		id: 453, nombre: San Lorenzo Numero de direcciones: 1 
+		
+id pais: 74, nombre pais: Peru
+	Ciudades:4 
+		id: 214, nombre: Hunuco Numero de direcciones: 0 
+		id: 503, nombre: Sullana Numero de direcciones: 0 
+		id: 99, nombre: Callao Numero de direcciones: 1 
+		id: 305, nombre: Lima Numero de direcciones: 1 
+		
+id pais: 75, nombre pais: Philippines
+	Ciudades:20 
+		id: 219, nombre: Iligan Numero de direcciones: 0 
+		id: 458, nombre: Santa Rosa Numero de direcciones: 0 
+		id: 519, nombre: Talavera Numero de direcciones: 0 
+		id: 528, nombre: Tarlac Numero de direcciones: 0 
+		id: 61, nombre: Baybay Numero de direcciones: 1 
+		id: 62, nombre: Bayugan Numero de direcciones: 1 
+		id: 82, nombre: Bislig Numero de direcciones: 1 
+		id: 98, nombre: Cabuyao Numero de direcciones: 1 
+		id: 104, nombre: Cavite Numero de direcciones: 1 
+		id: 138, nombre: Davao Numero de direcciones: 1 
+		id: 182, nombre: Gingoog Numero de direcciones: 1 
+		id: 192, nombre: Hagonoy Numero de direcciones: 1 
+		id: 221, nombre: Imus Numero de direcciones: 1 
+		id: 294, nombre: Lapu-Lapu Numero de direcciones: 1 
+		id: 323, nombre: Mandaluyong Numero de direcciones: 1 
+		id: 391, nombre: Ozamis Numero de direcciones: 1 
+		id: 517, nombre: Taguig Numero de direcciones: 1 
+		id: 523, nombre: Tanauan Numero de direcciones: 1 
+		id: 527, nombre: Tanza Numero de direcciones: 1 
+		id: 548, nombre: Tuguegarao Numero de direcciones: 1 
+		
+id pais: 76, nombre pais: Poland
+	Ciudades:8 
+		id: 133, nombre: Czestochowa Numero de direcciones: 0 
+		id: 314, nombre: Lublin Numero de direcciones: 0 
+		id: 409, nombre: Plock Numero de direcciones: 0 
+		id: 577, nombre: Wroclaw Numero de direcciones: 0 
+		id: 97, nombre: Bydgoszcz Numero de direcciones: 1 
+		id: 236, nombre: Jastrzebie-Zdrj Numero de direcciones: 1 
+		id: 255, nombre: Kalisz Numero de direcciones: 1 
+		id: 549, nombre: Tychy Numero de direcciones: 1 
+		
+id pais: 77, nombre pais: Puerto Rico
+	Ciudades:2 
+		id: 32, nombre: Arecibo Numero de direcciones: 1 
+		id: 411, nombre: Ponce Numero de direcciones: 1 
+		

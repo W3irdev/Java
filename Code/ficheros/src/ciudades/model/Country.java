@@ -45,13 +45,17 @@ public class Country {
 		}
 	}
 
-	private int getNumDirecciones() {
-		int direcciones=0;
+	
+	public String citiesToString() {
+		StringBuilder sb = new StringBuilder();
 		for(City c:this.listCities) {
-			direcciones+=c.sizeAddresses();
+			if(c!=null) {
+				sb.append(c.toString());
+			}
 		}
-		return direcciones;
+		return sb.toString();
 	}
+	
 	
 	@Override
 	public int hashCode() {
@@ -65,7 +69,10 @@ public class Country {
 	public String toString() {
 		
 	
-		return String.format("id pais: %s, nombre pais: %s, numero ciudades: %s numero de direcciones: %s", this.id, this.name, this.listCities.size(), this.getNumDirecciones());
+		return String.format("id pais: %s, nombre pais: %s%n"
+				+ "	Ciudades:%s %n"
+				+ "		%s"
+			, this.id, this.name, this.listCities.size(), citiesToString());
 	}
 	
 	
