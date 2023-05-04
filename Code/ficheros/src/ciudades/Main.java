@@ -13,7 +13,6 @@ public class Main {
 			fcg.generateFile();
 			fcg.generateJson();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

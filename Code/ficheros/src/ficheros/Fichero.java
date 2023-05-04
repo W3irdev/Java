@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.FileTime;
-import java.time.LocalDateTime;
 
 public class Fichero {
 
@@ -21,7 +20,7 @@ public class Fichero {
 	private File file;
 	
 	public Fichero(String rutaAbsoluta) throws IOException {
-		this.file=new File("C:\\Users\\darsh\\Desktop\\DAW\\Programacion\\Java\\Ficheros\\Fichero1.txt");
+		this.file=new File(rutaAbsoluta);
 		if(!file.exists()) file.mkdir();
 		BasicFileAttributes attrs;
 		attrs=Files.readAttributes(file.toPath(), BasicFileAttributes.class);
@@ -31,7 +30,7 @@ public class Fichero {
 		this.permisos=getPermisos();
 		this.extension=file.getName().substring(file.getName().lastIndexOf("."), file.getName().length()) ;
 		this.esDirectorio=file.isDirectory();
-		this.fechaCreacion=attrs.creationTime();;
+		this.fechaCreacion=attrs.creationTime();
 		this.ficherosHijos=getFicherosHijos();
 		this.directoriosHijos=getDirectoriosHijos();
 	
