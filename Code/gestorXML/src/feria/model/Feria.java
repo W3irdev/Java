@@ -1,6 +1,8 @@
 package feria.model;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -14,6 +16,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import com.google.gson.Gson;
 
 public class Feria {
 
@@ -105,6 +109,19 @@ public class Feria {
 			
 		}
 		if(!borrado) throw new Exception("La calle o el numero no existe");
+	}
+	
+	public void exportarJson() throws IOException {
+		File exportado = new File("./files/casetas.json");
+		exportado.createNewFile();
+		Gson gson = new Gson();
+		String datos = gson.toJson(casetas);
+		FileWriter fw = new FileWriter(exportado);
+		BufferedWriter bw = new BufferedWriter(fw);
+		bw.append(datos);
+		bw.close();
+		fw.close();
+		
 	}
 	
 }
