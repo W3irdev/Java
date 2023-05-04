@@ -1,5 +1,6 @@
 package feria;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 import feria.model.Feria;
@@ -23,6 +24,11 @@ public class Main {
 		String numero=""; 
 		String opcion ="";
 		String calle="";
+		try {
+			casetas.exportarJson();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
 		while(!opcion.equals("8")) {
 			System.out.println(menu + "\nIntroduzca Opcion: ");
 			opcion=sc.nextLine();
