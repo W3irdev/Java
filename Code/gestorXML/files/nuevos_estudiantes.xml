@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<estudiantes>
+    <estudiante id="1">
+        <nombre>Ernesto</nombre>
+        <apellido>González Rodríguez</apellido>
+        <fechaNacimiento>1975-11-11</fechaNacimiento>
+        <genero>HOMBRE</genero>
+    </estudiante>
+    <estudiante id="2">
+        <nombre>María</nombre>
+        <apellido>Rodríguez González</apellido>
+        <fechaNacimiento>2001-01-15</fechaNacimiento>
+        <genero>MUJER</genero>
+    </estudiante>
+    <estudiante id="3">
+        <nombre>Carmela</nombre>
+        <apellido>Sánchez Gómez</apellido>
+        <fechaNacimiento>1998-11-15</fechaNacimiento>
+        <genero>MUJER</genero>
+    </estudiante>
+</estudiantes>

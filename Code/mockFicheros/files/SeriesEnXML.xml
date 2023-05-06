@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<series>
+    <serie>
+        <nombre>Friends</nombre>
+        <year>1990</year>
+        <tema>COMEDIA</tema>
+    </serie>
+    <serie>
+        <nombre>This is us</nombre>
+        <year>2015</year>
+        <tema>DRAMA</tema>
+    </serie>
+    <serie>
+        <nombre>Dallas</nombre>
+        <year>1970</year>
+        <tema>INTRIGA</tema>
+    </serie>
+</series>

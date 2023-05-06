@@ -48,9 +48,10 @@ public class Feria {
 				String numero = nodo.getElementsByTagName("NUMERO").item(0).getTextContent();
 				String modulos = nodo.getElementsByTagName("MODULOS").item(0).getTextContent();
 				String clase = nodo.getElementsByTagName("CLASE").item(0).getTextContent();
+				String entidad = nodo.getElementsByTagName("ENTIDAD").item(0)!=null?nodo.getElementsByTagName("ENTIDAD").item(0).getTextContent():" ";
 				String idCalle = nodo.getElementsByTagName("ID_CALLE").item(0).getTextContent();
 				
-				Caseta caseta = new Caseta(titulo, calle, numero, modulos, clase, id, idCalle);
+				Caseta caseta = new Caseta(titulo, calle, numero, modulos, clase, entidad, id, idCalle);
 				this.casetas.add(caseta);
 				
 			}
@@ -76,8 +77,11 @@ public class Feria {
 		StringBuilder sb = new StringBuilder();
 		
 		for(Caseta c:casetas) {
-			if(c!=null && c.getClase().equals(tipo)) sb.append(c+"\n");
-			if(c!=null && tipo.equals("OTROS") && !tipo.equals("FAMILIAR") && !tipo.equals("DISTRITO")) sb.append(c+"\n");
+			if(c!=null && tipo.equals("OTROS") && !c.getClase().equals("FAMILIAR") && !c.getClase().equals("DISTRITO")) {
+				sb.append(c+"\n");
+			}else if((c!=null && c.getClase().equals(tipo))) {
+				sb.append(c+"\n");
+			}
 		}
 		
 		return sb.toString();
