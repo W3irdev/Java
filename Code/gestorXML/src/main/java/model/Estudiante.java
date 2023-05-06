@@ -17,6 +17,38 @@ public class Estudiante {
 		this.genero = genero;
 	}
 
+	
+	
+	public int getId() {
+		return id;
+	}
+
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+
+	public String getApellidos() {
+		return apellidos;
+	}
+
+
+
+	public String getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+
+
+	public Genero getGenero() {
+		return genero;
+	}
+
+
+
 	@Override
 	public String toString() {
 		return String.format("Estudiante con id %s nombre %s apellidos %s"

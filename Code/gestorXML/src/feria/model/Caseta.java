@@ -11,14 +11,16 @@ public class Caseta {
 	private String clase;
 	private String id;
 	private String id_calle;
+	private String entidad;
 	
-	public Caseta(String titulo, String calle, String numero, String modulos, String clase, String id, String id_calle) {
+	public Caseta(String titulo, String calle, String numero, String modulos, String clase, String entidad, String id, String id_calle) {
 		super();
 		this.titulo = titulo;
 		this.calle = calle;
 		this.numero = numero;
 		this.modulos = modulos;
 		this.clase = clase;
+		this.entidad = entidad;
 		this.id = id;
 		this.id_calle = id_calle;
 	}
