@@ -6,6 +6,7 @@ public class Constantes {
 	public static final int NUM_GEMAS 					= 5;
 	public static final int NUM_POCIONES 				= 3;
 	public static final int NUM_DINERO 					= 2;
+	public static final int MAX_DADOS					= 6;
 
 	public static final int ROCA 						= 1;
 	public static final int GEMA 						= 2;

@@ -6,13 +6,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
-import elementos.Coordenada;
 import elementos.Element;
 import elementos.ElementType;
 import elementos.Jugador;
 import elementos.JugadorException;
 import elementos.PlayerType;
+
 
 public class Juego {
 
@@ -20,7 +21,7 @@ public class Juego {
 	private List<Coordenada> coordenadaJugadores;
 	private int jugadorJuega;
 	private int dado; // Dado para ver los movimientos del jugador que juega
-
+	
 
 
 	public Juego(PlayerType[] tipos) {
@@ -195,18 +196,21 @@ public class Juego {
 		return false;
 	}
 
-	//TODO
+
 	public int getValorDado() {
-		return 0;
+		return this.dado;
 	}
 
-	//TODO
+
 	public void setDado() {
+		int caraDado = new Random().nextInt(Constantes.MAX_DADOS);
+		if(caraDado==0) caraDado=1;
+		this.dado=caraDado;
 	}
 
 	//TODO
 	public String getNombreJuegadorQueJuega() {
-		return null;
+		return String.valueOf(Constantes.NOMBRE_JUGADORES[this.jugadorJuega]);
 	}
 
 	//TODO
@@ -230,6 +234,6 @@ public class Juego {
 
 	//TODO
 	public void decrementaDado() {
-		
+		this.dado--;
 	}
 }

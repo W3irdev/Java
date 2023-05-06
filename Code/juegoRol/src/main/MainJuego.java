@@ -101,7 +101,7 @@ public class MainJuego {
 
 			int tipo = Integer.parseInt(teclado.nextLine());
 			
-			if (tipo >=1 && tipo < jugadores.size()) {
+			if (tipo >=1 && tipo <= jugadores.size()) {
 				ordenJugadores[numJugadores++]= jugadores.get(tipo-1);
 				jugadores.remove(tipo-1);
 			}else {

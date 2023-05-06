@@ -1,4 +1,4 @@
-package logicaJuego;
+package elementos;
 
 public class JugadorException extends Exception {
 
