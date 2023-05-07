@@ -1,8 +1,10 @@
 package elementos;
 
+import java.util.Objects;
 import java.util.Random;
 
 import logicaJuego.Constantes;
+import logicaJuego.Coordenada;
 
 public class Jugador extends Element {
 
@@ -12,6 +14,7 @@ public class Jugador extends Element {
 	private int pociones;
 	private String nombre;
 	private static int jugador;
+	private Coordenada coordenada; //Añadido, coordenada de un jugador.
 	
 	
 	public Jugador(PlayerType type) {
@@ -21,7 +24,8 @@ public class Jugador extends Element {
 		try {
 			setDinero(Constantes.DINERO);
 			setPociones(Constantes.POCION);
-			setGemas(Constantes.GEMA);
+			setGemas(Constantes.NUM_GEMAS);
+			this.coordenada = new Coordenada();
 		} catch (JugadorException e) {
 			e.printStackTrace();
 		}
@@ -99,6 +103,10 @@ public class Jugador extends Element {
 		
 	}
 	
+	public Coordenada getCoordenadas() {
+		return this.coordenada;
+	}
+	
 	public int encuentraRoca() {
 		int ocurre = new Random().nextInt(2);
 		if(ocurre==0) this.gemas--;
@@ -120,6 +128,31 @@ public class Jugador extends Element {
 		this.gemas = gana!=0?gemas+gana:gemas+1;
 	}
 	
+	public void moverJugador(Coordenada coordDestino) {
+		this.coordenada=coordDestino;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%nJugador dinero=%s, gemas=%s, player=%s, pociones=%s, nombre=%s, coordenada=%s", dinero,
+				gemas, player, pociones, nombre, coordenada);
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		result = prime * result + Objects.hash(player);
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return obj instanceof Jugador j && this.hashCode()==j.hashCode();
+	}
+	
 	
 
+	
+	
 }

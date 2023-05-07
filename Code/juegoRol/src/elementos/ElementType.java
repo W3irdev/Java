@@ -8,24 +8,26 @@ import logicaJuego.Constantes;
 
 public enum ElementType {
 	
-	ROCA(Constantes.ROCA,'R',"roca.png"),
-	DINERO(Constantes.DINERO,'D',"dinero.png"),
-	GEMA(Constantes.GEMA,'Y',"gema.png"),
-	POCION(Constantes.POCION,'P',"pocion.png"),
-	ELFO(Constantes.ELFO,'E',"elfo.png"),
-	GUERRERO(Constantes.GUERRERO,'G',"guerrero.png"),
-	MAGO(Constantes.MAGO,'M',"mago.png"),
-	OGRO(Constantes.OGRO,'O',"ogro.png");
+	ROCA(Constantes.ROCA,'R',"roca.png", Constantes.NUM_ROCAS),
+	DINERO(Constantes.DINERO,'D',"dinero.png", Constantes.NUM_DINERO),
+	GEMA(Constantes.GEMA,'Y',"gema.png", Constantes.NUM_GEMAS),
+	POCION(Constantes.POCION,'P',"pocion.png", Constantes.NUM_POCIONES),
+	ELFO(Constantes.ELFO,'E',"elfo.png", 0),
+	GUERRERO(Constantes.GUERRERO,'G',"guerrero.png", 0),
+	MAGO(Constantes.MAGO,'M',"mago.png", 0),
+	OGRO(Constantes.OGRO,'O',"ogro.png", 0);
 	
 	private int type;
 	private char symbol;
 	private String image;
+	private int cantidad;
 	
 	
-	private ElementType(int type, char symbol, String image) {
+	private ElementType(int type, char symbol, String image, int cantidad) {
 		this.type = type;
 		this.symbol = symbol;
 		this.image = image;
+		this.cantidad = cantidad;
 	}
 
 	public int getType() {
@@ -38,6 +40,10 @@ public enum ElementType {
 
 	public String getImage() {
 		return image;
+	}
+	
+	public int getCantidad() {
+		return cantidad;
 	}
 	
 	

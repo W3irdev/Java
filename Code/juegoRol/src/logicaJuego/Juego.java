@@ -3,6 +3,7 @@ package logicaJuego;
 import static logicaJuego.JuegoUtils.crearSeparador;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,7 +22,7 @@ public class Juego {
 	private List<Coordenada> coordenadaJugadores;
 	private int jugadorJuega;
 	private int dado; // Dado para ver los movimientos del jugador que juega
-	
+	private List<Jugador> jugadores;
 
 
 	public Juego(PlayerType[] tipos) {
@@ -29,10 +30,57 @@ public class Juego {
 		this.tablero= new HashMap<>();
 		this.coordenadaJugadores = new ArrayList<>();
 		this.jugadorJuega=0;
+		jugadores= new ArrayList<>();
+		generarJugadores(tipos);
+		establecerCoords();
+		generarTableroJugadores();
+		generarTableroItems();
+		
+	}
+
+
+	private void generarJugadores(PlayerType[] tipos) {
+		for(int i=0;i<4;i++) {
+			jugadores.add(new Jugador(tipos[i]));
+		}
+	}
+
+	private void generarTableroJugadores() {
+		for(Jugador j:this.jugadores) {
+			if(!this.tablero.containsValue(j) && !this.tablero.containsKey(j.getCoordenadas())) {
+				this.tablero.put(j.getCoordenadas(), j);
+			}
+		}
 	}
 	
+	
+	private void generarTableroItems() {
+		List<ElementType> items = new ArrayList<>(Arrays.asList(
+				ElementType.DINERO,
+				ElementType.GEMA,
+				ElementType.POCION,
+				ElementType.ROCA
+				));
+		
+		for(ElementType eType:items) {
+			int cantidad=0;
+			Coordenada generada = new Coordenada();
+			while(this.tablero.containsKey(generada)) {
+				generada = new Coordenada();
+			}
+			
+			if(cantidad<eType.getCantidad()) {
+				this.tablero.put(generada, new Element(eType));
+				cantidad++;
+			}
+		}
+		
+	}
 
-
+	private void establecerCoords() {
+		for(Jugador j:jugadores) this.coordenadaJugadores.add(j.getCoordenadas());
+		
+	}
 
 	/**
 	 * Mueve el jugador en el tablero
@@ -139,17 +187,38 @@ public class Juego {
 		return resultado;
 	}
 
-	//TODO
+
 	private Coordenada getNextPosition(char direction) {
-		return null;
+		Coordenada nextPos = null;
+		if(direction=='N') {
+			obtenerCoordenadaJugadorJuega().goUp();
+			nextPos = this.obtenerCoordenadaJugadorJuega();
+		}else if(direction=='S') {
+			obtenerCoordenadaJugadorJuega().goDown();
+			nextPos = this.obtenerCoordenadaJugadorJuega();
+		}else if(direction=='E') {
+			obtenerCoordenadaJugadorJuega().goRight();
+			nextPos = this.obtenerCoordenadaJugadorJuega();
+		}else {
+			obtenerCoordenadaJugadorJuega().goLeft();
+			nextPos = this.obtenerCoordenadaJugadorJuega();
+		}
+		
+		return nextPos;
 	}
 
-	//TODO
 	private void cambiaJugadorAPosicion(Coordenada coordDestino) {
+		Coordenada antiguo = jugadores.get(jugadorJuega).getCoordenadas().clone();
+		jugadores.get(jugadorJuega).moverJugador(coordDestino);
+		this.coordenadaJugadores.remove(antiguo);
+		this.coordenadaJugadores.add(jugadores.get(jugadorJuega).getCoordenadas());
 	}
 
-	//TODO
 	private void eliminarJugador(Coordenada coordDestino) {
+		if(this.tablero.get(coordDestino) instanceof Jugador j) {
+			this.tablero.remove(coordDestino);
+			this.jugadores.remove(j);
+		}
 	}
 
 
@@ -181,19 +250,21 @@ public class Juego {
 		return resul.toString();
 	}
 
-	//TODO
 	public String imprimeValoresJugadores() {
-		return "";
+		return this.jugadores.toString();
 	}
 
-	//TODO
 	public String imprimeNombreJugadores() {
-		return "";
+		StringBuilder sb = new StringBuilder();
+		
+		for(Jugador j: jugadores) {
+			sb.append(j.getNombre()+"\n");
+		}
+		return sb.toString();
 	}
 
-	//TODO
 	public boolean isTerminado() {
-		return false;
+		return this.jugadores.size()==1;
 	}
 
 
@@ -208,31 +279,30 @@ public class Juego {
 		this.dado=caraDado;
 	}
 
-	//TODO
 	public String getNombreJuegadorQueJuega() {
-		return String.valueOf(Constantes.NOMBRE_JUGADORES[this.jugadorJuega]);
+		return this.jugadores.get(jugadorJuega).getNombre();
 	}
 
-	//TODO
 	public void proximoJugador() {
+		this.jugadorJuega++;
 	}
 
-	//TODO
 	public String getGanador() {
-		return null;
+		String nombre = "";
+		if(this.jugadores.size()==1) {
+			nombre = this.jugadores.get(0).getNombre();
+		}
+		return nombre;
 	}
 
-	//TODO
 	public Element obtenerElementoTablero(Coordenada coordenada) {
-		return null;
+		return this.tablero.get(coordenada);
 	}
 
-	//TODO
 	public Coordenada obtenerCoordenadaJugadorJuega() {
-		return null;
+		return this.jugadores.get(jugadorJuega).getCoordenadas();
 	}
 
-	//TODO
 	public void decrementaDado() {
 		this.dado--;
 	}
