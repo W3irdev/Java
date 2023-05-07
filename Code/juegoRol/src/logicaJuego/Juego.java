@@ -65,11 +65,11 @@ public class Juego {
 		for(ElementType eType:items) {
 			int cantidad=0;
 			Coordenada generada = new Coordenada();
-			while(this.tablero.containsKey(generada)) {
-				generada = new Coordenada();
-			}
 			
-			if(cantidad<eType.getCantidad()) {
+			while(cantidad<eType.getCantidad()) {
+				while(this.tablero.containsKey(generada)) {
+					generada = new Coordenada();
+				}
 				this.tablero.put(generada, new Element(eType));
 				cantidad++;
 			}
@@ -251,7 +251,7 @@ public class Juego {
 	}
 
 	public String imprimeValoresJugadores() {
-		return this.jugadores.toString();
+		return this.jugadores.toString()+ "\n      DADO: " +getValorDado();
 	}
 
 	public String imprimeNombreJugadores() {
