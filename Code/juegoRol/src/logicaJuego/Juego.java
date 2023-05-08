@@ -19,7 +19,6 @@ import elementos.PlayerType;
 public class Juego {
 
 	private Map<Coordenada, Element> tablero;
-	//private List<Coordenada> coordenadaJugadores; ELIMINAR
 	private int jugadorJuega;
 	private int dado; // Dado para ver los movimientos del jugador que juega
 	private List<Jugador> jugadores;
@@ -77,11 +76,7 @@ public class Juego {
 		
 	}
 
-	/*private void establecerCoords() {
-		for(Jugador j:jugadores) this.coordenadaJugadores.add(j.getCoordenadas());
-		
-	}*/ //ELIMINAR
-
+	
 	/**
 	 * Mueve el jugador en el tablero
 	 * 
@@ -216,16 +211,15 @@ public class Juego {
 	}
 
 	private void cambiaJugadorAPosicion(Coordenada coordDestino) {
+		//Obtenemos ambas coordenadas para poder reemplazar.
 		Coordenada antiguo = jugadores.get(jugadorJuega).getCoordenadas().clone();
 		getJugadorJuega().moverJugador(coordDestino);
-		//this.coordenadaJugadores.remove(antiguo); ELIMINAR
-		//this.coordenadaJugadores.add(jugadores.get(jugadorJuega).getCoordenadas()); ELIMINAR
 		Coordenada nueva = getJugadorJuega().getCoordenadas();
 		
-		if(!tablero.containsKey(nueva)) {
-			tablero.remove(antiguo);
-			tablero.put(nueva, getJugadorJuega());
-		}
+		//Reemplazamos las casillas con los nuevos movimientos.
+		tablero.remove(antiguo);
+		tablero.put(nueva, getJugadorJuega());
+		
 	}
 
 	private void eliminarJugador(Coordenada coordDestino) {
