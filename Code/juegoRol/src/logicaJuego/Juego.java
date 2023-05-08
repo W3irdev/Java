@@ -19,7 +19,7 @@ import elementos.PlayerType;
 public class Juego {
 
 	private Map<Coordenada, Element> tablero;
-	private List<Coordenada> coordenadaJugadores;
+	//private List<Coordenada> coordenadaJugadores; ELIMINAR
 	private int jugadorJuega;
 	private int dado; // Dado para ver los movimientos del jugador que juega
 	private List<Jugador> jugadores;
@@ -28,11 +28,11 @@ public class Juego {
 	public Juego(PlayerType[] tipos) {
 		super();
 		this.tablero= new HashMap<>();
-		this.coordenadaJugadores = new ArrayList<>();
+		//this.coordenadaJugadores = new ArrayList<>(); ELIMINAR
 		this.jugadorJuega=0;
 		jugadores= new ArrayList<>();
 		generarJugadores(tipos);
-		establecerCoords();
+		//establecerCoords(); ELIMINAR
 		generarTableroJugadores();
 		generarTableroItems();
 		
@@ -77,14 +77,10 @@ public class Juego {
 		
 	}
 
-	private void establecerCoords() {
+	/*private void establecerCoords() {
 		for(Jugador j:jugadores) this.coordenadaJugadores.add(j.getCoordenadas());
 		
-	}
-	
-	public Jugador getJugadorJuega() {
-		return jugadores.get(jugadorJuega);
-	}
+	}*/ //ELIMINAR
 
 	/**
 	 * Mueve el jugador en el tablero
@@ -97,8 +93,8 @@ public class Juego {
 	public String moverJugador(char direccion) throws JuegoException, JugadorException {
 
 		String resultado = "";
-		//Jugador jugador = (Jugador) this.tablero.get(this.coordenadaJugadores.get(jugadorJuega));
-		Jugador jugador = getJugadorJuega();
+		Jugador jugador = (Jugador) this.tablero.get(getJugadorJuega().getCoordenadas());
+
 		Coordenada coordDestino = getNextPosition(direccion);
 
 		// Tengo que ver que hay en la nueva casilla
@@ -180,7 +176,7 @@ public class Juego {
 			break;
 		case Constantes.PIERDE_MUERE:
 			resultado = "El enemigo " + enemigo.getNombre() + " gana. El jugador muere";
-			this.eliminarJugador(this.coordenadaJugadores.get(jugadorJuega));
+			this.eliminarJugador(getJugadorJuega().getCoordenadas());
 			dado = 0;
 			// Decrementamos en uno el jugador, para que no se salte al siguiente
 			// ya que al borrarlo el siguiente apunta al siguiente, y al incrementarlo
@@ -214,15 +210,22 @@ public class Juego {
 		
 		return nextPos;
 	}
+	
+	private Jugador getJugadorJuega() {
+		return this.jugadores.get(jugadorJuega);
+	}
 
 	private void cambiaJugadorAPosicion(Coordenada coordDestino) {
 		Coordenada antiguo = jugadores.get(jugadorJuega).getCoordenadas().clone();
-		jugadores.get(jugadorJuega).moverJugador(coordDestino);
-		this.coordenadaJugadores.remove(antiguo);
-		this.coordenadaJugadores.add(jugadores.get(jugadorJuega).getCoordenadas());
-		Coordenada nueva = jugadores.get(jugadorJuega).getCoordenadas();
-		if(!tablero.containsKey(nueva)) tablero.put(nueva, jugadores.get(jugadorJuega));
-		tablero.remove(antiguo);
+		getJugadorJuega().moverJugador(coordDestino);
+		//this.coordenadaJugadores.remove(antiguo); ELIMINAR
+		//this.coordenadaJugadores.add(jugadores.get(jugadorJuega).getCoordenadas()); ELIMINAR
+		Coordenada nueva = getJugadorJuega().getCoordenadas();
+		
+		if(!tablero.containsKey(nueva)) {
+			tablero.remove(antiguo);
+			tablero.put(nueva, getJugadorJuega());
+		}
 	}
 
 	private void eliminarJugador(Coordenada coordDestino) {
