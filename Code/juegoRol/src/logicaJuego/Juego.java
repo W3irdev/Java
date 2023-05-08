@@ -81,6 +81,10 @@ public class Juego {
 		for(Jugador j:jugadores) this.coordenadaJugadores.add(j.getCoordenadas());
 		
 	}
+	
+	public Jugador getJugadorJuega() {
+		return jugadores.get(jugadorJuega);
+	}
 
 	/**
 	 * Mueve el jugador en el tablero
@@ -93,8 +97,8 @@ public class Juego {
 	public String moverJugador(char direccion) throws JuegoException, JugadorException {
 
 		String resultado = "";
-		Jugador jugador = (Jugador) this.tablero.get(this.coordenadaJugadores.get(jugadorJuega));
-
+		//Jugador jugador = (Jugador) this.tablero.get(this.coordenadaJugadores.get(jugadorJuega));
+		Jugador jugador = getJugadorJuega();
 		Coordenada coordDestino = getNextPosition(direccion);
 
 		// Tengo que ver que hay en la nueva casilla
@@ -191,17 +195,21 @@ public class Juego {
 	private Coordenada getNextPosition(char direction) {
 		Coordenada nextPos = null;
 		if(direction=='N') {
-			obtenerCoordenadaJugadorJuega().goUp();
-			nextPos = this.obtenerCoordenadaJugadorJuega();
+			//obtenerCoordenadaJugadorJuega().goUp();
+			nextPos = this.obtenerCoordenadaJugadorJuega().clone();
+			nextPos.goUp();
 		}else if(direction=='S') {
-			obtenerCoordenadaJugadorJuega().goDown();
-			nextPos = this.obtenerCoordenadaJugadorJuega();
+			//obtenerCoordenadaJugadorJuega().goDown();
+			nextPos = this.obtenerCoordenadaJugadorJuega().clone();
+			nextPos.goDown();
 		}else if(direction=='E') {
-			obtenerCoordenadaJugadorJuega().goRight();
-			nextPos = this.obtenerCoordenadaJugadorJuega();
+			//obtenerCoordenadaJugadorJuega().goRight();
+			nextPos = this.obtenerCoordenadaJugadorJuega().clone();
+			nextPos.goRight();
 		}else {
-			obtenerCoordenadaJugadorJuega().goLeft();
+			//obtenerCoordenadaJugadorJuega().goLeft();
 			nextPos = this.obtenerCoordenadaJugadorJuega();
+			nextPos.goLeft();
 		}
 		
 		return nextPos;
@@ -212,6 +220,9 @@ public class Juego {
 		jugadores.get(jugadorJuega).moverJugador(coordDestino);
 		this.coordenadaJugadores.remove(antiguo);
 		this.coordenadaJugadores.add(jugadores.get(jugadorJuega).getCoordenadas());
+		Coordenada nueva = jugadores.get(jugadorJuega).getCoordenadas();
+		if(!tablero.containsKey(nueva)) tablero.put(nueva, jugadores.get(jugadorJuega));
+		tablero.remove(antiguo);
 	}
 
 	private void eliminarJugador(Coordenada coordDestino) {

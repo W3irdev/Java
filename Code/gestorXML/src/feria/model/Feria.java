@@ -31,7 +31,7 @@ public class Feria {
 	}
 
 
-	public void cargarCasetas(String path){
+	private void cargarCasetas(String path){
 		File fichero = new File(path);
 		
 		try {

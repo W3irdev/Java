@@ -145,6 +145,7 @@ public class JuegoGUI extends Juego implements ActionListener {
 						if (j - coord.getY() == 1) {
 							try {
 								resul = super.moverJugador('S');
+								actualizarIconos();
 							} catch (JuegoException | JugadorException e1) {
 								// TODO Auto-generated catch block
 								e1.printStackTrace();
@@ -152,6 +153,7 @@ public class JuegoGUI extends Juego implements ActionListener {
 						} else if (j - coord.getY() == -1) {
 							try {
 								resul = super.moverJugador('N');
+								actualizarIconos();
 							} catch (JuegoException | JugadorException e1) {
 								// TODO Auto-generated catch block
 								e1.printStackTrace();
@@ -163,6 +165,7 @@ public class JuegoGUI extends Juego implements ActionListener {
 						if (i - coord.getX() == 1) {
 							try {
 								resul = super.moverJugador('E');
+								actualizarIconos();
 							} catch (JuegoException | JugadorException e1) {
 								// TODO Auto-generated catch block
 								e1.printStackTrace();
@@ -170,6 +173,7 @@ public class JuegoGUI extends Juego implements ActionListener {
 						} else if (i - coord.getX() == -1) {
 							try {
 								resul = super.moverJugador('O');
+								actualizarIconos();
 							} catch (JuegoException | JugadorException e1) {
 								// TODO Auto-generated catch block
 								e1.printStackTrace();
