@@ -151,19 +151,7 @@ public class Temporada implements Comparable<Temporada>{
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Temporada other = (Temporada) obj;
-		if (nombreTemporada == null) {
-			if (other.nombreTemporada != null)
-				return false;
-		} else if (!nombreTemporada.equals(other.nombreTemporada))
-			return false;
-		return true;
+		return obj == this || obj!=null && obj instanceof Temporada && this.hashCode()==obj.hashCode();
 	}
 
 	@Override

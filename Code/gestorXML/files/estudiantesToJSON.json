@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "jm",
+    "apellidos": "c",
+    "fechaNacimiento": "2002-1-1",
+    "genero": "HOMBRE"
+  },
+  {
+    "id": 2,
+    "nombre": "jma",
+    "apellidos": "cd",
+    "fechaNacimiento": "2002-1-2",
+    "genero": "HOMBRE"
+  },
+  {
+    "id": 3,
+    "nombre": "jmb",
+    "apellidos": "cc",
+    "fechaNacimiento": "2002-1-3",
+    "genero": "HOMBRE"
+  }
+]

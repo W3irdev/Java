@@ -12,7 +12,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		/*Series series = new Series();
+		Series series = new Series();
 		try {
 			series.annadirSerie("This is us", 2015, Tema.DRAMA);
 			series.annadirSerie("Friends", 1990, Tema.COMEDIA);
@@ -25,13 +25,17 @@ public class Main {
 			series.annadirCapituloTemporada("This is us", "Empezamos", "Los niños");
 			series.annadirCapituloTemporada("This is us", "Empezamos", "CAsi el final");
 			series.annadirCapituloTemporada("This is us", "Empezamos", "El final");
+			series.annadirCapituloTemporada("This is us", "Seguimos", "La familia2");
+			series.annadirCapituloTemporada("This is us", "Seguimos", "El problema2");
+			series.annadirCapituloTemporada("This is us", "Seguimos", "Los niños2");
+			series.annadirCapituloTemporada("This is us", "Seguimos", "CAsi el final2");
+			series.annadirCapituloTemporada("This is us", "Seguimos", "El final2");
 			
 			series.generarCapitulosCSV();
 			series.generarSeriesCSV();
 		} catch (SerieException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
+		}
 		
 		Series archivo = new Series("files/Series.csv");
 		try {
