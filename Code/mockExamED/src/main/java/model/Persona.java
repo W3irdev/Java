@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 public class Persona {
 	
+	private static final int TOPE_JOVEN = 30;
+	private static final int MAYORIA_EDAD = 18;
 	private String nombre;
 	private String apellido;
 	private String dni;
@@ -43,81 +45,38 @@ public class Persona {
 	
 	
 	public boolean validarDatos(String nombre, String apellido, String dni) {
-		if (nombre == null || nombre.isEmpty()) {
-			return false;
+		boolean esValido = true;
+		if (dni == null || nombre == null  || apellido == null || nombre.isEmpty()  || apellido.isEmpty()  || dni.isEmpty()) {
+			esValido = false;
+		}else if(dni.length() < 9 || Character.isDigit(dni.charAt(8))
+				|| "TRWAGMYFPDXBNJZSQVHLCKE".charAt(Integer.valueOf(dni.substring(0, 8))%23)!= dni.toUpperCase().charAt(8)) {
+			esValido=false;
+			for(int i=0; i<dni.length()-1; i++) {
+				if(Character.isAlphabetic(dni.charAt(i))) 
+					esValido =  false;
+				
+			}
 		}
-
-		if (apellido == null || apellido.isEmpty()) {
-			return false;
-		}
-
-		if (dni == null || dni.isEmpty()) {
-			return false;
-		}
-
-		if(dni.length() < 9 || Character.isDigit(dni.charAt(8)))
-			return false;
-		
-		for(int i=0; i<dni.length()-1; i++) 
-			if(Character.isAlphabetic(dni.charAt(i))) 
-				return false;
-
-		if ("TRWAGMYFPDXBNJZSQVHLCKE".charAt(Integer.valueOf(dni.substring(0, 8))%23)!= dni.toUpperCase().charAt(8))
-			return false;
-		
-		return true;
+		return esValido;
 	}
 	
 	public boolean validarDatos(String nombre, String apellido, String dni, LocalDate fechaNacimiento, String genero) {
-		if (nombre == null || nombre.isEmpty()) {
-			return false;
-		}
-
-		if (apellido == null || apellido.isEmpty()) {
-			return false;
-		}
-
-		if (dni == null || dni.isEmpty()) {
-			return false;
-		}
-
-		if(dni.length() < 9 || Character.isDigit(dni.charAt(8)))
-			return false;
+		boolean esValido = validarDatos(nombre, apellido, dni);
 		
-		for(int i=0; i<dni.length()-1; i++) 
-			if(Character.isAlphabetic(dni.charAt(i))) 
-				return false;
-
-		if ("TRWAGMYFPDXBNJZSQVHLCKE".charAt(Integer.valueOf(dni.substring(0, 8))%23)!= dni.toUpperCase().charAt(8))
-			return false;
-		
-		if (fechaNacimiento == null) {
-			return false;
-		}
-		if(fechaNacimiento.isAfter(LocalDate.now())) {
-			return false;
-		}
-		if (genero == null || genero.isEmpty()) {
-			return false;
+		if (fechaNacimiento == null || fechaNacimiento.isAfter(LocalDate.now()) || genero == null || genero.isEmpty()
+				|| !Genero.HOMBRE.equals(Genero.valueOf(genero)) && !Genero.MUJER.equals(Genero.valueOf(genero)) && esValido) {
+			esValido = false;
 		}
 
-		if(!Genero.HOMBRE.equals(Genero.valueOf(genero)) && !Genero.MUJER.equals(Genero.valueOf(genero))) {
-			return false;
-		}
 		
-		return true;
+		return esValido;
 	}
 	
 	
 	
 	public boolean bonoJovenDisponible() {
-		if(LocalDate.now().getYear()-this.fechaNacimiento.getYear()> 18) {
-			if(LocalDate.now().getYear()-this.fechaNacimiento.getYear()< 30) {
-				return true;
-			}
-		}
-
-		return false;
+		return (LocalDate.now().getYear()-this.fechaNacimiento.getYear()> MAYORIA_EDAD) && 
+				(LocalDate.now().getYear()-this.fechaNacimiento.getYear()< TOPE_JOVEN);
 		
 	}
 	

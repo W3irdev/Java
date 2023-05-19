@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Series>
+    <Serie Name="Friends">
+        <Year>1990</Year>
+        <Tema>COMEDIA</Tema>
+        <Temporadas/>
+    </Serie>
+    <Serie Name="This is us">
+        <Year>2015</Year>
+        <Tema>DRAMA</Tema>
+        <Temporadas>
+            <Temporada Name="Empezamos">
+                <Capitulos>La familia, El problema, El problema no es problema, Los niños, CAsi el final, El final, </Capitulos>
+            </Temporada>
+            <Temporada Name="Seguimos">
+                <Capitulos/>
+            </Temporada>
+            <Temporada Name="Finalizamos">
+                <Capitulos/>
+            </Temporada>
+        </Temporadas>
+    </Serie>
+    <Serie Name="Dallas">
+        <Year>1970</Year>
+        <Tema>INTRIGA</Tema>
+        <Temporadas>
+            <Temporada Name="Empezamos Dallas">
+                <Capitulos>La familia de Dallas, La familia de Dallas2, </Capitulos>
+            </Temporada>
+        </Temporadas>
+    </Serie>
+</Series>

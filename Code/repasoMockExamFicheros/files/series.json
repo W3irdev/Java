@@ -1,0 +1,45 @@
+{
+  "Friends": {
+    "nombreSerie": "Friends",
+    "anno": 1990,
+    "tema": "COMEDIA",
+    "temporadas": []
+  },
+  "This is us": {
+    "nombreSerie": "This is us",
+    "anno": 2015,
+    "tema": "DRAMA",
+    "temporadas": [
+      {
+        "nombreTemporada": "Empezamos",
+        "capitulos": [
+          "La familia",
+          "El problema",
+          "Los niños",
+          "CAsi el final",
+          "El final"
+        ],
+        "sumaOpiniones": 0,
+        "numeroOpiniones": 1
+      },
+      {
+        "nombreTemporada": "Seguimos",
+        "capitulos": [],
+        "sumaOpiniones": 0,
+        "numeroOpiniones": 1
+      },
+      {
+        "nombreTemporada": "Finalizamos",
+        "capitulos": [],
+        "sumaOpiniones": 0,
+        "numeroOpiniones": 1
+      }
+    ]
+  },
+  "Dallas": {
+    "nombreSerie": "Dallas",
+    "anno": 1970,
+    "tema": "INTRIGA",
+    "temporadas": []
+  }
+}

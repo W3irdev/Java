@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Countries>
+    <Country id="1" name="Afghanistan">
+        <Ciudades>
+            <Ciudad id="251">Kabul</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="2" name="Algeria">
+        <Ciudades>
+            <Ciudad id="59">Batna</Ciudad>
+            <Ciudad id="63">Bchar</Ciudad>
+            <Ciudad id="483">Skikda</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="3" name="American Samoa">
+        <Ciudades>
+            <Ciudad id="516">Tafuna</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="4" name="Angola">
+        <Ciudades>
+            <Ciudad id="67">Benguela</Ciudad>
+            <Ciudad id="360">Namibe</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="5" name="Anguilla">
+        <Ciudades>
+            <Ciudad id="493">South Hill</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="6" name="Argentina">
+        <Ciudades>
+            <Ciudad id="20">Almirante Brown</Ciudad>
+            <Ciudad id="43">Avellaneda</Ciudad>
+            <Ciudad id="45">Baha Blanca</Ciudad>
+            <Ciudad id="128">Crdoba</Ciudad>
+            <Ciudad id="161">Escobar</Ciudad>
+            <Ciudad id="165">Ezeiza</Ciudad>
+            <Ciudad id="289">La Plata</Ciudad>
+            <Ciudad id="334">Merlo</Ciudad>
+            <Ciudad id="424">Quilmes</Ciudad>
+            <Ciudad id="454">San Miguel de Tucumn</Ciudad>
+            <Ciudad id="457">Santa F</Ciudad>
+            <Ciudad id="524">Tandil</Ciudad>
+            <Ciudad id="567">Vicente Lpez</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="7" name="Armenia">
+        <Ciudades>
+            <Ciudad id="586">Yerevan</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="8" name="Australia">
+        <Ciudades>
+            <Ciudad id="576">Woodridge</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="9" name="Austria">
+        <Ciudades>
+            <Ciudad id="186">Graz</Ciudad>
+            <Ciudad id="307">Linz</Ciudad>
+            <Ciudad id="447">Salzburg</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="10" name="Azerbaijan">
+        <Ciudades>
+            <Ciudad id="48">Baku</Ciudad>
+            <Ciudad id="505">Sumqayit</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="11" name="Bahrain">
+        <Ciudades>
+            <Ciudad id="14">al-Manama</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="12" name="Bangladesh">
+        <Ciudades>
+            <Ciudad id="143">Dhaka</Ciudad>
+            <Ciudad id="234">Jamalpur</Ciudad>
+            <Ciudad id="525">Tangail</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="13" name="Belarus">
+        <Ciudades>
+            <Ciudad id="339">Mogiljov</Ciudad>
+            <Ciudad id="340">Molodetno</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="14" name="Bolivia">
+        <Ciudades>
+            <Ciudad id="153">El Alto</Ciudad>
+            <Ciudad id="501">Sucre</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="15" name="Brazil">
+        <Ciudades>
+            <Ciudad id="21">Alvorada</Ciudad>
+            <Ciudad id="25">Angra dos Reis</Ciudad>
+            <Ciudad id="26">Anpolis</Ciudad>
+            <Ciudad id="28">Aparecida de Goinia</Ciudad>
+            <Ciudad id="30">Araatuba</Ciudad>
+            <Ciudad id="44">Bag</Ciudad>
+            <Ciudad id="66">Belm</Ciudad>
+            <Ciudad id="83">Blumenau</Ciudad>
+            <Ciudad id="84">Boa Vista</Ciudad>
+            <Ciudad id="89">Braslia</Ciudad>
+            <Ciudad id="183">Goinia</Ciudad>
+            <Ciudad id="189">Guaruj</Ciudad>
+            <Ciudad id="190">guas Lindas de Gois</Ciudad>
+            <Ciudad id="215">Ibirit</Ciudad>
+            <Ciudad id="247">Juazeiro do Norte</Ciudad>
+            <Ciudad id="248">Juiz de Fora</Ciudad>
+            <Ciudad id="317">Luzinia</Ciudad>
+            <Ciudad id="328">Maring</Ciudad>
+            <Ciudad id="410">Po</Ciudad>
+            <Ciudad id="413">Poos de Caldas</Ciudad>
+            <Ciudad id="431">Rio Claro</Ciudad>
+            <Ciudad id="456">Santa Brbara dOeste</Ciudad>
+            <Ciudad id="461">Santo Andr</Ciudad>
+            <Ciudad id="485">So Bernardo do Campo</Ciudad>
+            <Ciudad id="486">So Leopoldo</Ciudad>
+            <Ciudad id="490">Sorocaba</Ciudad>
+            <Ciudad id="569">Vila Velha</Ciudad>
+            <Ciudad id="572">Vitria de Santo Anto</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="16" name="Brunei">
+        <Ciudades>
+            <Ciudad id="53">Bandar Seri Begawan</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="17" name="Bulgaria">
+        <Ciudades>
+            <Ciudad id="436">Ruse</Ciudad>
+            <Ciudad id="498">Stara Zagora</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="18" name="Cambodia">
+        <Ciudades>
+            <Ciudad id="60">Battambang</Ciudad>
+            <Ciudad id="406">Phnom Penh</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="19" name="Cameroon">
+        <Ciudades>
+            <Ciudad id="52">Bamenda</Ciudad>
+            <Ciudad id="585">Yaound</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="20" name="Canada">
+        <Ciudades>
+            <Ciudad id="179">Gatineau</Ciudad>
+            <Ciudad id="196">Halifax</Ciudad>
+            <Ciudad id="300">Lethbridge</Ciudad>
+            <Ciudad id="313">London</Ciudad>
+            <Ciudad id="383">Oshawa</Ciudad>
+            <Ciudad id="430">Richmond Hill</Ciudad>
+            <Ciudad id="565">Vancouver</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="21" name="Chad">
+        <Ciudades>
+            <Ciudad id="363">NDjamna</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="22" name="Chile">
+        <Ciudades>
+            <Ciudad id="27">Antofagasta</Ciudad>
+            <Ciudad id="127">Coquimbo</Ciudad>
+            <Ciudad id="428">Rancagua</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="23" name="China">
+        <Ciudades>
+            <Ciudad id="46">Baicheng</Ciudad>
+            <Ciudad id="47">Baiyin</Ciudad>
+            <Ciudad id="80">Binzhou</Ciudad>
+            <Ciudad id="109">Changzhou</Ciudad>
+            <Ciudad id="136">Datong</Ciudad>
+            <Ciudad id="139">Daxian</Ciudad>
+            <Ciudad id="145">Dongying</Ciudad>
+            <Ciudad id="157">Emeishan</Ciudad>
+            <Ciudad id="159">Enshi</Ciudad>
+            <Ciudad id="166">Ezhou</Ciudad>
+            <Ciudad id="174">Fuyu</Ciudad>
+            <Ciudad id="175">Fuzhou</Ciudad>
+            <Ciudad id="193">Haining</Ciudad>
+            <Ciudad id="199">Hami</Ciudad>
+            <Ciudad id="207">Hohhot</Ciudad>
+            <Ciudad id="210">Huaian</Ciudad>
+            <Ciudad id="240">Jinchang</Ciudad>
+            <Ciudad id="241">Jining</Ciudad>
+            <Ciudad id="242">Jinzhou</Ciudad>
+            <Ciudad id="249">Junan</Ciudad>
+            <Ciudad id="277">Korla</Ciudad>
+            <Ciudad id="291">Laiwu</Ciudad>
+            <Ciudad id="293">Laohekou</Ciudad>
+            <Ciudad id="298">Lengshuijiang</Ciudad>
+            <Ciudad id="299">Leshan</Ciudad>
+            <Ciudad id="302">Liaocheng</Ciudad>
+            <Ciudad id="332">Meixian</Ciudad>
+            <Ciudad id="362">Nanyang</Ciudad>
+            <Ciudad id="407">Pingxiang</Ciudad>
+            <Ciudad id="422">Qinhuangdao</Ciudad>
+            <Ciudad id="432">Rizhao</Ciudad>
+            <Ciudad id="462">Sanya</Ciudad>
+            <Ciudad id="468">Shanwei</Ciudad>
+            <Ciudad id="469">Shaoguan</Ciudad>
+            <Ciudad id="471">Shenzhen</Ciudad>
+            <Ciudad id="502">Suihua</Ciudad>
+            <Ciudad id="535">Tianjin</Ciudad>
+            <Ciudad id="536">Tiefa</Ciudad>
+            <Ciudad id="537">Tieli</Ciudad>
+            <Ciudad id="540">Tongliao</Ciudad>
+            <Ciudad id="574">Weifang</Ciudad>
+            <Ciudad id="578">Xiangfan</Ciudad>
+            <Ciudad id="579">Xiangtan</Ciudad>
+            <Ciudad id="580">Xintai</Ciudad>
+            <Ciudad id="581">Xinxiang</Ciudad>
+            <Ciudad id="584">Yantai</Ciudad>
+            <Ciudad id="587">Yinchuan</Ciudad>
+            <Ciudad id="588">Yingkou</Ciudad>
+            <Ciudad id="590">Yuncheng</Ciudad>
+            <Ciudad id="591">Yuzhou</Ciudad>
+            <Ciudad id="592">Zalantun</Ciudad>
+            <Ciudad id="594">Zaoyang</Ciudad>
+            <Ciudad id="599">Zhoushan</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="24" name="Colombia">
+        <Ciudades>
+            <Ciudad id="96">Buenaventura</Ciudad>
+            <Ciudad id="147">Dos Quebradas</Ciudad>
+            <Ciudad id="170">Florencia</Ciudad>
+            <Ciudad id="405">Pereira</Ciudad>
+            <Ciudad id="480">Sincelejo</Ciudad>
+            <Ciudad id="487">Sogamoso</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="25" name="Congo">
+        <Ciudades>
+            <Ciudad id="315">Lubumbashi</Ciudad>
+            <Ciudad id="348">Mwene-Ditu</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="26" name="Czech Republic">
+        <Ciudades>
+            <Ciudad id="378">Olomouc</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="27" name="Dominican Republic">
+        <Ciudades>
+            <Ciudad id="290">La Romana</Ciudad>
+            <Ciudad id="450">San Felipe de Puerto Plata</Ciudad>
+            <Ciudad id="460">Santiago de los Caballeros</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="28" name="Ecuador">
+        <Ciudades>
+            <Ciudad id="311">Loja</Ciudad>
+            <Ciudad id="414">Portoviejo</Ciudad>
+            <Ciudad id="434">Robamba</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="29" name="Egypt">
+        <Ciudades>
+            <Ciudad id="79">Bilbays</Ciudad>
+            <Ciudad id="216">Idfu</Ciudad>
+            <Ciudad id="337">Mit Ghamr</Ciudad>
+            <Ciudad id="421">Qalyub</Ciudad>
+            <Ciudad id="465">Sawhaj</Ciudad>
+            <Ciudad id="476">Shubra al-Khayma</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="30" name="Estonia">
+        <Ciudades>
+            <Ciudad id="530">Tartu</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="31" name="Ethiopia">
+        <Ciudades>
+            <Ciudad id="6">Addis Abeba</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="32" name="Faroe Islands">
+        <Ciudades>
+            <Ciudad id="545">Trshavn</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="33" name="Finland">
+        <Ciudades>
+            <Ciudad id="387">Oulu</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="34" name="France">
+        <Ciudades>
+            <Ciudad id="92">Brest</Ciudad>
+            <Ciudad id="297">Le Mans</Ciudad>
+            <Ciudad id="543">Toulon</Ciudad>
+            <Ciudad id="544">Toulouse</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="35" name="French Guiana">
+        <Ciudades>
+            <Ciudad id="105">Cayenne</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="36" name="French Polynesia">
+        <Ciudades>
+            <Ciudad id="167">Faaa</Ciudad>
+            <Ciudad id="397">Papeete</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="37" name="Gambia">
+        <Ciudades>
+            <Ciudad id="54">Banjul</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="38" name="Germany">
+        <Ciudades>
+            <Ciudad id="148">Duisburg</Ciudad>
+            <Ciudad id="160">Erlangen</Ciudad>
+            <Ciudad id="198">Halle/Saale</Ciudad>
+            <Ciudad id="325">Mannheim</Ciudad>
+            <Ciudad id="439">Saarbrcken</Ciudad>
+            <Ciudad id="477">Siegen</Ciudad>
+            <Ciudad id="575">Witten</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="39" name="Greece">
+        <Ciudades>
+            <Ciudad id="38">Athenai</Ciudad>
+            <Ciudad id="401">Patras</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="40" name="Greenland">
+        <Ciudades>
+            <Ciudad id="371">Nuuk</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="41" name="Holy See Vatican City State">
+        <Ciudades>
+            <Ciudad id="121">Citt del Vaticano</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="42" name="Hong Kong">
+        <Ciudades>
+            <Ciudad id="279">Kowloon and New Kowloon</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="43" name="Hungary">
+        <Ciudades>
+            <Ciudad id="512">Szkesfehrvr</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="44" name="India">
+        <Ciudades>
+            <Ciudad id="8">Adoni</Ciudad>
+            <Ciudad id="9">Ahmadnagar</Ciudad>
+            <Ciudad id="18">Allappuzha Alleppey</Ciudad>
+            <Ciudad id="22">Ambattur</Ciudad>
+            <Ciudad id="24">Amroha</Ciudad>
+            <Ciudad id="51">Balurghat</Ciudad>
+            <Ciudad id="71">Berhampore Baharampur</Ciudad>
+            <Ciudad id="73">Bhavnagar</Ciudad>
+            <Ciudad id="74">Bhilwara</Ciudad>
+            <Ciudad id="75">Bhimavaram</Ciudad>
+            <Ciudad id="76">Bhopal</Ciudad>
+            <Ciudad id="77">Bhusawal</Ciudad>
+            <Ciudad id="78">Bijapur</Ciudad>
+            <Ciudad id="107">Chandrapur</Ciudad>
+            <Ciudad id="110">Chapra</Ciudad>
+            <Ciudad id="144">Dhule Dhulia</Ciudad>
+            <Ciudad id="164">Etawah</Ciudad>
+            <Ciudad id="169">Firozabad</Ciudad>
+            <Ciudad id="176">Gandhinagar</Ciudad>
+            <Ciudad id="191">Gulbarga</Ciudad>
+            <Ciudad id="195">Haldia</Ciudad>
+            <Ciudad id="197">Halisahar</Ciudad>
+            <Ciudad id="208">Hoshiarpur</Ciudad>
+            <Ciudad id="211">Hubli-Dharwad</Ciudad>
+            <Ciudad id="231">Jaipur</Ciudad>
+            <Ciudad id="239">Jhansi</Ciudad>
+            <Ciudad id="243">Jodhpur</Ciudad>
+            <Ciudad id="257">Kamarhati</Ciudad>
+            <Ciudad id="261">Kanchrapara</Ciudad>
+            <Ciudad id="263">Karnal</Ciudad>
+            <Ciudad id="264">Katihar</Ciudad>
+            <Ciudad id="283">Kumbakonam</Ciudad>
+            <Ciudad id="336">Miraj</Ciudad>
+            <Ciudad id="346">Munger Monghyr</Ciudad>
+            <Ciudad id="350">Mysore</Ciudad>
+            <Ciudad id="354">Nagaon</Ciudad>
+            <Ciudad id="395">Palghat Palakkad</Ciudad>
+            <Ciudad id="398">Parbhani</Ciudad>
+            <Ciudad id="399">Pathankot</Ciudad>
+            <Ciudad id="400">Patiala</Ciudad>
+            <Ciudad id="416">Pudukkottai</Ciudad>
+            <Ciudad id="417">Pune</Ciudad>
+            <Ciudad id="418">Purnea Purnia</Ciudad>
+            <Ciudad id="425">Rae Bareli</Ciudad>
+            <Ciudad id="426">Rajkot</Ciudad>
+            <Ciudad id="427">Rampur</Ciudad>
+            <Ciudad id="429">Ranchi</Ciudad>
+            <Ciudad id="448">Sambhal</Ciudad>
+            <Ciudad id="464">Satna</Ciudad>
+            <Ciudad id="473">Shimoga</Ciudad>
+            <Ciudad id="475">Shivapuri</Ciudad>
+            <Ciudad id="478">Siliguri Shiliguri</Ciudad>
+            <Ciudad id="522">Tambaram</Ciudad>
+            <Ciudad id="550">Udaipur</Ciudad>
+            <Ciudad id="554">Uluberia</Ciudad>
+            <Ciudad id="559">Uttarpara-Kotrung</Ciudad>
+            <Ciudad id="564">Valparai</Ciudad>
+            <Ciudad id="566">Varanasi Benares</Ciudad>
+            <Ciudad id="568">Vijayawada</Ciudad>
+            <Ciudad id="582">Yamuna Nagar</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="45" name="Indonesia">
+        <Ciudades>
+            <Ciudad id="117">Cianjur</Ciudad>
+            <Ciudad id="118">Ciomas</Ciudad>
+            <Ciudad id="119">Ciparay</Ciudad>
+            <Ciudad id="184">Gorontalo</Ciudad>
+            <Ciudad id="232">Jakarta</Ciudad>
+            <Ciudad id="301">Lhokseumawe</Ciudad>
+            <Ciudad id="318">Madiun</Ciudad>
+            <Ciudad id="396">Pangkal Pinang</Ciudad>
+            <Ciudad id="403">Pemalang</Ciudad>
+            <Ciudad id="412">Pontianak</Ciudad>
+            <Ciudad id="415">Probolinggo</Ciudad>
+            <Ciudad id="419">Purwakarta</Ciudad>
+            <Ciudad id="509">Surakarta</Ciudad>
+            <Ciudad id="532">Tegal</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="46" name="Iran">
+        <Ciudades>
+            <Ciudad id="31">Arak</Ciudad>
+            <Ciudad id="162">Esfahan</Ciudad>
+            <Ciudad id="265">Kermanshah</Ciudad>
+            <Ciudad id="356">Najafabad</Ciudad>
+            <Ciudad id="423">Qomsheh</Ciudad>
+            <Ciudad id="467">Shahr-e Kord</Ciudad>
+            <Ciudad id="481">Sirjan</Ciudad>
+            <Ciudad id="514">Tabriz</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="47" name="Iraq">
+        <Ciudades>
+            <Ciudad id="344">Mosul</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="48" name="Israel">
+        <Ciudades>
+            <Ciudad id="34">Ashdod</Ciudad>
+            <Ciudad id="36">Ashqelon</Ciudad>
+            <Ciudad id="57">Bat Yam</Ciudad>
+            <Ciudad id="533">Tel Aviv-Jaffa</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="49" name="Italy">
+        <Ciudades>
+            <Ciudad id="17">Alessandria</Ciudad>
+            <Ciudad id="70">Bergamo</Ciudad>
+            <Ciudad id="91">Brescia</Ciudad>
+            <Ciudad id="93">Brindisi</Ciudad>
+            <Ciudad id="309">Livorno</Ciudad>
+            <Ciudad id="511">Syrakusa</Ciudad>
+            <Ciudad id="551">Udine</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="50" name="Japan">
+        <Ciudades>
+            <Ciudad id="10">Akishima</Ciudad>
+            <Ciudad id="172">Fukuyama</Ciudad>
+            <Ciudad id="203">Higashiosaka</Ciudad>
+            <Ciudad id="204">Hino</Ciudad>
+            <Ciudad id="205">Hiroshima</Ciudad>
+            <Ciudad id="224">Isesaki</Ciudad>
+            <Ciudad id="226">Iwaki</Ciudad>
+            <Ciudad id="227">Iwakuni</Ciudad>
+            <Ciudad id="228">Iwatsuki</Ciudad>
+            <Ciudad id="229">Izumisano</Ciudad>
+            <Ciudad id="253">Kakamigahara</Ciudad>
+            <Ciudad id="256">Kamakura</Ciudad>
+            <Ciudad id="260">Kanazawa</Ciudad>
+            <Ciudad id="276">Koriyama</Ciudad>
+            <Ciudad id="284">Kurashiki</Ciudad>
+            <Ciudad id="287">Kuwana</Ciudad>
+            <Ciudad id="331">Matsue</Ciudad>
+            <Ciudad id="338">Miyakonojo</Ciudad>
+            <Ciudad id="355">Nagareyama</Ciudad>
+            <Ciudad id="376">Okayama</Ciudad>
+            <Ciudad id="377">Okinawa</Ciudad>
+            <Ciudad id="380">Omiya</Ciudad>
+            <Ciudad id="382">Onomichi</Ciudad>
+            <Ciudad id="386">Otsu</Ciudad>
+            <Ciudad id="440">Sagamihara</Ciudad>
+            <Ciudad id="463">Sasebo</Ciudad>
+            <Ciudad id="474">Shimonoseki</Ciudad>
+            <Ciudad id="521">Tama</Ciudad>
+            <Ciudad id="547">Tsuyama</Ciudad>
+            <Ciudad id="552">Ueda</Ciudad>
+            <Ciudad id="555">Urawa</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="51" name="Kazakstan">
+        <Ciudades>
+            <Ciudad id="402">Pavlodar</Ciudad>
+            <Ciudad id="598">Zhezqazghan</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="52" name="Kenya">
+        <Ciudades>
+            <Ciudad id="271">Kisumu</Ciudad>
+            <Ciudad id="372">Nyeri</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="53" name="Kuwait">
+        <Ciudades>
+            <Ciudad id="233">Jalib al-Shuyukh</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="54" name="Latvia">
+        <Ciudades>
+            <Ciudad id="137">Daugavpils</Ciudad>
+            <Ciudad id="303">Liepaja</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="55" name="Liechtenstein">
+        <Ciudades>
+            <Ciudad id="560">Vaduz</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="56" name="Lithuania">
+        <Ciudades>
+            <Ciudad id="570">Vilnius</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="57" name="Madagascar">
+        <Ciudades>
+            <Ciudad id="319">Mahajanga</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="58" name="Malawi">
+        <Ciudades>
+            <Ciudad id="304">Lilongwe</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="59" name="Malaysia">
+        <Ciudades>
+            <Ciudad id="223">Ipoh</Ciudad>
+            <Ciudad id="282">Kuching</Ciudad>
+            <Ciudad id="507">Sungai Petani</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="60" name="Mexico">
+        <Ciudades>
+            <Ciudad id="4">Acua</Ciudad>
+            <Ciudad id="19">Allende</Ciudad>
+            <Ciudad id="40">Atlixco</Ciudad>
+            <Ciudad id="103">Carmen</Ciudad>
+            <Ciudad id="106">Celaya</Ciudad>
+            <Ciudad id="124">Coacalco de Berriozbal</Ciudad>
+            <Ciudad id="125">Coatzacoalcos</Ciudad>
+            <Ciudad id="129">Cuauhtmoc</Ciudad>
+            <Ciudad id="130">Cuautla</Ciudad>
+            <Ciudad id="131">Cuernavaca</Ciudad>
+            <Ciudad id="154">El Fuerte</Ciudad>
+            <Ciudad id="188">Guadalajara</Ciudad>
+            <Ciudad id="202">Hidalgo</Ciudad>
+            <Ciudad id="212">Huejutla de Reyes</Ciudad>
+            <Ciudad id="213">Huixquilucan</Ciudad>
+            <Ciudad id="246">Jos Azueta</Ciudad>
+            <Ciudad id="250">Jurez</Ciudad>
+            <Ciudad id="288">La Paz</Ciudad>
+            <Ciudad id="330">Matamoros</Ciudad>
+            <Ciudad id="335">Mexicali</Ciudad>
+            <Ciudad id="341">Monclova</Ciudad>
+            <Ciudad id="365">Nezahualcyotl</Ciudad>
+            <Ciudad id="393">Pachuca de Soto</Ciudad>
+            <Ciudad id="445">Salamanca</Ciudad>
+            <Ciudad id="451">San Felipe del Progreso</Ciudad>
+            <Ciudad id="452">San Juan Bautista Tuxtepec</Ciudad>
+            <Ciudad id="541">Torren</Ciudad>
+            <Ciudad id="556">Uruapan</Ciudad>
+            <Ciudad id="563">Valle de Santiago</Ciudad>
+            <Ciudad id="595">Zapopan</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="61" name="Moldova">
+        <Ciudades>
+            <Ciudad id="115">Chisinau</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="62" name="Morocco">
+        <Ciudades>
+            <Ciudad id="68">Beni-Mellal</Ciudad>
+            <Ciudad id="353">Nador</Ciudad>
+            <Ciudad id="443">Sal</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="63" name="Mozambique">
+        <Ciudades>
+            <Ciudad id="64">Beira</Ciudad>
+            <Ciudad id="351">Naala-Porto</Ciudad>
+            <Ciudad id="534">Tete</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="64" name="Myanmar">
+        <Ciudades>
+            <Ciudad id="342">Monywa</Ciudad>
+            <Ciudad id="349">Myingyan</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="65" name="Nauru">
+        <Ciudades>
+            <Ciudad id="583">Yangor</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="66" name="Nepal">
+        <Ciudades>
+            <Ciudad id="81">Birgunj</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="67" name="Netherlands">
+        <Ciudades>
+            <Ciudad id="23">Amersfoort</Ciudad>
+            <Ciudad id="29">Apeldoorn</Ciudad>
+            <Ciudad id="151">Ede</Ciudad>
+            <Ciudad id="158">Emmen</Ciudad>
+            <Ciudad id="438">s-Hertogenbosch</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="68" name="New Zealand">
+        <Ciudades>
+            <Ciudad id="200">Hamilton</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="69" name="Nigeria">
+        <Ciudades>
+            <Ciudad id="69">Benin City</Ciudad>
+            <Ciudad id="141">Deba Habe</Ciudad>
+            <Ciudad id="152">Effon-Alaiye</Ciudad>
+            <Ciudad id="217">Ife</Ciudad>
+            <Ciudad id="218">Ikerre</Ciudad>
+            <Ciudad id="220">Ilorin</Ciudad>
+            <Ciudad id="252">Kaduna</Ciudad>
+            <Ciudad id="374">Ogbomosho</Ciudad>
+            <Ciudad id="381">Ondo</Ciudad>
+            <Ciudad id="389">Owo</Ciudad>
+            <Ciudad id="390">Oyo</Ciudad>
+            <Ciudad id="488">Sokoto</Ciudad>
+            <Ciudad id="596">Zaria</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="70" name="North Korea">
+        <Ciudades>
+            <Ciudad id="420">Pyongyang</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="71" name="Oman">
+        <Ciudades>
+            <Ciudad id="329">Masqat</Ciudad>
+            <Ciudad id="444">Salala</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="72" name="Pakistan">
+        <Ciudades>
+            <Ciudad id="134">Dadu</Ciudad>
+            <Ciudad id="324">Mandi Bahauddin</Ciudad>
+            <Ciudad id="327">Mardan</Ciudad>
+            <Ciudad id="375">Okara</Ciudad>
+            <Ciudad id="472">Shikarpur</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="73" name="Paraguay">
+        <Ciudades>
+            <Ciudad id="37">Asuncin</Ciudad>
+            <Ciudad id="122">Ciudad del Este</Ciudad>
+            <Ciudad id="453">San Lorenzo</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="74" name="Peru">
+        <Ciudades>
+            <Ciudad id="99">Callao</Ciudad>
+            <Ciudad id="214">Hunuco</Ciudad>
+            <Ciudad id="305">Lima</Ciudad>
+            <Ciudad id="503">Sullana</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="75" name="Philippines">
+        <Ciudades>
+            <Ciudad id="61">Baybay</Ciudad>
+            <Ciudad id="62">Bayugan</Ciudad>
+            <Ciudad id="82">Bislig</Ciudad>
+            <Ciudad id="98">Cabuyao</Ciudad>
+            <Ciudad id="104">Cavite</Ciudad>
+            <Ciudad id="138">Davao</Ciudad>
+            <Ciudad id="182">Gingoog</Ciudad>
+            <Ciudad id="192">Hagonoy</Ciudad>
+            <Ciudad id="219">Iligan</Ciudad>
+            <Ciudad id="221">Imus</Ciudad>
+            <Ciudad id="294">Lapu-Lapu</Ciudad>
+            <Ciudad id="323">Mandaluyong</Ciudad>
+            <Ciudad id="391">Ozamis</Ciudad>
+            <Ciudad id="458">Santa Rosa</Ciudad>
+            <Ciudad id="517">Taguig</Ciudad>
+            <Ciudad id="519">Talavera</Ciudad>
+            <Ciudad id="523">Tanauan</Ciudad>
+            <Ciudad id="527">Tanza</Ciudad>
+            <Ciudad id="528">Tarlac</Ciudad>
+            <Ciudad id="548">Tuguegarao</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="76" name="Poland">
+        <Ciudades>
+            <Ciudad id="97">Bydgoszcz</Ciudad>
+            <Ciudad id="133">Czestochowa</Ciudad>
+            <Ciudad id="236">Jastrzebie-Zdrj</Ciudad>
+            <Ciudad id="255">Kalisz</Ciudad>
+            <Ciudad id="314">Lublin</Ciudad>
+            <Ciudad id="409">Plock</Ciudad>
+            <Ciudad id="549">Tychy</Ciudad>
+            <Ciudad id="577">Wroclaw</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="77" name="Puerto Rico">
+        <Ciudades>
+            <Ciudad id="32">Arecibo</Ciudad>
+            <Ciudad id="411">Ponce</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="78" name="Romania">
+        <Ciudades>
+            <Ciudad id="86">Botosani</Ciudad>
+            <Ciudad id="95">Bucuresti</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="79" name="Runion">
+        <Ciudades>
+            <Ciudad id="442">Saint-Denis</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="80" name="Russian Federation">
+        <Ciudades>
+            <Ciudad id="39">Atinsk</Ciudad>
+            <Ciudad id="49">Balaiha</Ciudad>
+            <Ciudad id="150">Dzerzinsk</Ciudad>
+            <Ciudad id="156">Elista</Ciudad>
+            <Ciudad id="225">Ivanovo</Ciudad>
+            <Ciudad id="235">Jaroslavl</Ciudad>
+            <Ciudad id="238">Jelets</Ciudad>
+            <Ciudad id="254">Kaliningrad</Ciudad>
+            <Ciudad id="259">Kamyin</Ciudad>
+            <Ciudad id="270">Kirovo-Tepetsk</Ciudad>
+            <Ciudad id="274">Kolpino</Ciudad>
+            <Ciudad id="278">Korolev</Ciudad>
+            <Ciudad id="285">Kurgan</Ciudad>
+            <Ciudad id="286">Kursk</Ciudad>
+            <Ciudad id="308">Lipetsk</Ciudad>
+            <Ciudad id="310">Ljubertsy</Ciudad>
+            <Ciudad id="320">Maikop</Ciudad>
+            <Ciudad id="343">Moscow</Ciudad>
+            <Ciudad id="352">Nabereznyje Telny</Ciudad>
+            <Ciudad id="367">Niznekamsk</Ciudad>
+            <Ciudad id="369">Novoterkassk</Ciudad>
+            <Ciudad id="408">Pjatigorsk</Ciudad>
+            <Ciudad id="466">Serpuhov</Ciudad>
+            <Ciudad id="484">Smolensk</Ciudad>
+            <Ciudad id="510">Syktyvkar</Ciudad>
+            <Ciudad id="531">Teboksary</Ciudad>
+            <Ciudad id="558">Usolje-Sibirskoje</Ciudad>
+            <Ciudad id="597">Zeleznogorsk</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="81" name="Saint Vincent and the Grenadines">
+        <Ciudades>
+            <Ciudad id="269">Kingstown</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="82" name="Saudi Arabia">
+        <Ciudades>
+            <Ciudad id="2">Abha</Ciudad>
+            <Ciudad id="13">al-Hawiya</Ciudad>
+            <Ciudad id="16">al-Qatif</Ciudad>
+            <Ciudad id="237">Jedda</Ciudad>
+            <Ciudad id="515">Tabuk</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="83" name="Senegal">
+        <Ciudades>
+            <Ciudad id="600">Ziguinchor</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="84" name="Slovakia">
+        <Ciudades>
+            <Ciudad id="90">Bratislava</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="85" name="South Africa">
+        <Ciudades>
+            <Ciudad id="85">Boksburg</Ciudad>
+            <Ciudad id="87">Botshabelo</Ciudad>
+            <Ciudad id="112">Chatsworth</Ciudad>
+            <Ciudad id="244">Johannesburg</Ciudad>
+            <Ciudad id="267">Kimberley</Ciudad>
+            <Ciudad id="273">Klerksdorp</Ciudad>
+            <Ciudad id="364">Newcastle</Ciudad>
+            <Ciudad id="392">Paarl</Ciudad>
+            <Ciudad id="437">Rustenburg</Ciudad>
+            <Ciudad id="491">Soshanguve</Ciudad>
+            <Ciudad id="497">Springs</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="86" name="South Korea">
+        <Ciudades>
+            <Ciudad id="113">Cheju</Ciudad>
+            <Ciudad id="268">Kimchon</Ciudad>
+            <Ciudad id="357">Naju</Ciudad>
+            <Ciudad id="539">Tonghae</Ciudad>
+            <Ciudad id="553">Uijongbu</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="87" name="Spain">
+        <Ciudades>
+            <Ciudad id="1">A Corua La Corua</Ciudad>
+            <Ciudad id="146">Donostia-San Sebastin</Ciudad>
+            <Ciudad id="181">Gijn</Ciudad>
+            <Ciudad id="388">Ourense Orense</Ciudad>
+            <Ciudad id="459">Santiago de Compostela</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="88" name="Sri Lanka">
+        <Ciudades>
+            <Ciudad id="230">Jaffna</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="89" name="Sudan">
+        <Ciudades>
+            <Ciudad id="15">al-Qadarif</Ciudad>
+            <Ciudad id="379">Omdurman</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="90" name="Sweden">
+        <Ciudades>
+            <Ciudad id="321">Malm</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="91" name="Switzerland">
+        <Ciudades>
+            <Ciudad id="56">Basel</Ciudad>
+            <Ciudad id="72">Bern</Ciudad>
+            <Ciudad id="296">Lausanne</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="92" name="Taiwan">
+        <Ciudades>
+            <Ciudad id="108">Changhwa</Ciudad>
+            <Ciudad id="114">Chiayi</Ciudad>
+            <Ciudad id="116">Chungho</Ciudad>
+            <Ciudad id="168">Fengshan</Ciudad>
+            <Ciudad id="209">Hsichuh</Ciudad>
+            <Ciudad id="316">Lungtan</Ciudad>
+            <Ciudad id="361">Nantou</Ciudad>
+            <Ciudad id="526">Tanshui</Ciudad>
+            <Ciudad id="542">Touliu</Ciudad>
+            <Ciudad id="546">Tsaotun</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="93" name="Tanzania">
+        <Ciudades>
+            <Ciudad id="347">Mwanza</Ciudad>
+            <Ciudad id="513">Tabora</Ciudad>
+            <Ciudad id="593">Zanzibar</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="94" name="Thailand">
+        <Ciudades>
+            <Ciudad id="358">Nakhon Sawan</Ciudad>
+            <Ciudad id="394">Pak Kret</Ciudad>
+            <Ciudad id="489">Songkhla</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="95" name="Tonga">
+        <Ciudades>
+            <Ciudad id="370">Nukualofa</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="96" name="Tunisia">
+        <Ciudades>
+            <Ciudad id="492">Sousse</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="97" name="Turkey">
+        <Ciudades>
+            <Ciudad id="5">Adana</Ciudad>
+            <Ciudad id="50">Balikesir</Ciudad>
+            <Ciudad id="58">Batman</Ciudad>
+            <Ciudad id="142">Denizli</Ciudad>
+            <Ciudad id="163">Eskisehir</Ciudad>
+            <Ciudad id="180">Gaziantep</Ciudad>
+            <Ciudad id="222">Inegl</Ciudad>
+            <Ciudad id="266">Kilis</Ciudad>
+            <Ciudad id="281">Ktahya</Ciudad>
+            <Ciudad id="384">Osmaniye</Ciudad>
+            <Ciudad id="482">Sivas</Ciudad>
+            <Ciudad id="504">Sultanbeyli</Ciudad>
+            <Ciudad id="529">Tarsus</Ciudad>
+            <Ciudad id="538">Tokat</Ciudad>
+            <Ciudad id="557">Usak</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="98" name="Turkmenistan">
+        <Ciudades>
+            <Ciudad id="35">Ashgabat</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="99" name="Tuvalu">
+        <Ciudades>
+            <Ciudad id="173">Funafuti</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="100" name="Ukraine">
+        <Ciudades>
+            <Ciudad id="258">Kamjanets-Podilskyi</Ciudad>
+            <Ciudad id="275">Konotop</Ciudad>
+            <Ciudad id="345">Mukateve</Ciudad>
+            <Ciudad id="385">ostka</Ciudad>
+            <Ciudad id="479">Simferopol</Ciudad>
+            <Ciudad id="506">Sumy</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="101" name="United Arab Emirates">
+        <Ciudades>
+            <Ciudad id="3">Abu Dhabi</Ciudad>
+            <Ciudad id="12">al-Ayn</Ciudad>
+            <Ciudad id="470">Sharja</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="102" name="United Kingdom">
+        <Ciudades>
+            <Ciudad id="88">Bradford</Ciudad>
+            <Ciudad id="149">Dundee</Ciudad>
+            <Ciudad id="312">London</Ciudad>
+            <Ciudad id="494">Southampton</Ciudad>
+            <Ciudad id="495">Southend-on-Sea</Ciudad>
+            <Ciudad id="496">Southport</Ciudad>
+            <Ciudad id="500">Stockport</Ciudad>
+            <Ciudad id="589">York</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="103" name="United States">
+        <Ciudades>
+            <Ciudad id="11">Akron</Ciudad>
+            <Ciudad id="33">Arlington</Ciudad>
+            <Ciudad id="41">Augusta-Richmond County</Ciudad>
+            <Ciudad id="42">Aurora</Ciudad>
+            <Ciudad id="65">Bellevue</Ciudad>
+            <Ciudad id="94">Brockton</Ciudad>
+            <Ciudad id="101">Cape Coral</Ciudad>
+            <Ciudad id="120">Citrus Heights</Ciudad>
+            <Ciudad id="123">Clarksville</Ciudad>
+            <Ciudad id="126">Compton</Ciudad>
+            <Ciudad id="135">Dallas</Ciudad>
+            <Ciudad id="140">Dayton</Ciudad>
+            <Ciudad id="155">El Monte</Ciudad>
+            <Ciudad id="171">Fontana</Ciudad>
+            <Ciudad id="177">Garden Grove</Ciudad>
+            <Ciudad id="178">Garland</Ciudad>
+            <Ciudad id="185">Grand Prairie</Ciudad>
+            <Ciudad id="187">Greensboro</Ciudad>
+            <Ciudad id="245">Joliet</Ciudad>
+            <Ciudad id="262">Kansas City</Ciudad>
+            <Ciudad id="292">Lancaster</Ciudad>
+            <Ciudad id="295">Laredo</Ciudad>
+            <Ciudad id="306">Lincoln</Ciudad>
+            <Ciudad id="322">Manchester</Ciudad>
+            <Ciudad id="333">Memphis</Ciudad>
+            <Ciudad id="404">Peoria</Ciudad>
+            <Ciudad id="433">Roanoke</Ciudad>
+            <Ciudad id="435">Rockford</Ciudad>
+            <Ciudad id="441">Saint Louis</Ciudad>
+            <Ciudad id="446">Salinas</Ciudad>
+            <Ciudad id="449">San Bernardino</Ciudad>
+            <Ciudad id="499">Sterling Heights</Ciudad>
+            <Ciudad id="508">Sunnyvale</Ciudad>
+            <Ciudad id="520">Tallahassee</Ciudad>
+            <Ciudad id="573">Warren</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="104" name="Venezuela">
+        <Ciudades>
+            <Ciudad id="55">Barcelona</Ciudad>
+            <Ciudad id="102">Caracas</Ciudad>
+            <Ciudad id="132">Cuman</Ciudad>
+            <Ciudad id="326">Maracabo</Ciudad>
+            <Ciudad id="373">Ocumare del Tuy</Ciudad>
+            <Ciudad id="561">Valencia</Ciudad>
+            <Ciudad id="562">Valle de la Pascua</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="105" name="Vietnam">
+        <Ciudades>
+            <Ciudad id="100">Cam Ranh</Ciudad>
+            <Ciudad id="194">Haiphong</Ciudad>
+            <Ciudad id="201">Hanoi</Ciudad>
+            <Ciudad id="359">Nam Dinh</Ciudad>
+            <Ciudad id="366">Nha Trang</Ciudad>
+            <Ciudad id="571">Vinh</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="106" name="Virgin Islands">
+        <Ciudades>
+            <Ciudad id="111">Charlotte Amalie</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="107" name="Yemen">
+        <Ciudades>
+            <Ciudad id="7">Aden</Ciudad>
+            <Ciudad id="206">Hodeida</Ciudad>
+            <Ciudad id="455">Sanaa</Ciudad>
+            <Ciudad id="518">Taizz</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="108" name="Yugoslavia">
+        <Ciudades>
+            <Ciudad id="280">Kragujevac</Ciudad>
+            <Ciudad id="368">Novi Sad</Ciudad>
+        </Ciudades>
+    </Country>
+    <Country id="109" name="Zambia">
+        <Ciudades>
+            <Ciudad id="272">Kitwe</Ciudad>
+        </Ciudades>
+    </Country>
+</Countries>

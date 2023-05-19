@@ -184,6 +184,7 @@ public class Series {
 			for(Serie s:this.mapSeries.values()) {
 				bw.append(String.format("%s,%s,%s", s.getNombreSerie(),s.getAnno(),s.getTema().toString()));
 				bw.newLine();
+
 			}
 			bw.close();
 			fw.close();

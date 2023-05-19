@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Oficina codigoOficina="STI1" ubicacion="Sevilla">
+    <departamentos>
+        <Empleados>
+            <Empleado>
+                <nombreCompleto>Jacinto Jiménez</nombreCompleto>
+                <codigoEmpleado>SEVEMP_4</codigoEmpleado>
+                <fechaNacimiento>1971-05-13</fechaNacimiento>
+                <rol>PROGRAMADOR</rol>
+            </Empleado>
+            <Empleado>
+                <nombreCompleto>Rodrigo Rodríguez</nombreCompleto>
+                <codigoEmpleado>SEVEMP_2</codigoEmpleado>
+                <fechaNacimiento>1977-05-13</fechaNacimiento>
+                <rol>ANALISTA</rol>
+            </Empleado>
+            <Empleado>
+                <nombreCompleto>Ernesto Echevarne</nombreCompleto>
+                <codigoEmpleado>SEVEMP_1</codigoEmpleado>
+                <fechaNacimiento>1983-05-13</fechaNacimiento>
+                <rol>JEFE_DEPARTAMENTO</rol>
+            </Empleado>
+            <Empleado>
+                <nombreCompleto>Melania Maldívar</nombreCompleto>
+                <codigoEmpleado>SEVEMP_3</codigoEmpleado>
+                <fechaNacimiento>1973-05-13</fechaNacimiento>
+                <rol>PROGRAMADOR</rol>
+            </Empleado>
+        </Empleados>
+        <Empleados>
+            <Empleado>
+                <nombreCompleto>Fernanda Fernández</nombreCompleto>
+                <codigoEmpleado>SEVEMP_8</codigoEmpleado>
+                <fechaNacimiento>1991-05-13</fechaNacimiento>
+                <rol>PROGRAMADOR</rol>
+            </Empleado>
+            <Empleado>
+                <nombreCompleto>Carla Costa</nombreCompleto>
+                <codigoEmpleado>SEVEMP_7</codigoEmpleado>
+                <fechaNacimiento>1993-05-13</fechaNacimiento>
+                <rol>PROGRAMADOR</rol>
+            </Empleado>
+            <Empleado>
+                <nombreCompleto>Gabino Gámez</nombreCompleto>
+                <codigoEmpleado>SEVEMP_5</codigoEmpleado>
+                <fechaNacimiento>2003-05-13</fechaNacimiento>
+                <rol>JEFE_DEPARTAMENTO</rol>
+            </Empleado>
+            <Empleado>
+                <nombreCompleto>Lucrecia Lusa</nombreCompleto>
+                <codigoEmpleado>SEVEMP_6</codigoEmpleado>
+                <fechaNacimiento>1997-05-13</fechaNacimiento>
+                <rol>ANALISTA</rol>
+            </Empleado>
+        </Empleados>
+    </departamentos>
+</Oficina>

@@ -1,16 +1,17 @@
 package PlataformaOnline.jacaranda.com;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Iterator;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Temporada implements Comparable<Temporada>{
 	
 	private String nombreTemporada;  // Nombre de las temporada
-	private LinkedList<String> capitulos; // Lista donde etán los nombres de los capítulos de la temporada
+	private List<String> capitulos; // Lista donde etán los nombres de los capítulos de la temporada
 	private int sumaOpiniones;  // Suma de todas las opiniones que se han realizado de la temporada
 	private int numeroOpiniones; // Número de opiniones que se han realizado de la temporada
 	
@@ -27,9 +28,7 @@ public class Temporada implements Comparable<Temporada>{
 		numeroOpiniones=1;
 	}
 	
-	public int getNumCapitulos() {
-		return this.capitulos.size();
-	}
+
 	
 	/**
 	 * Método que añade un capítulo a la temporada. Se añade al final de los capítulos existente.
@@ -54,20 +53,9 @@ public class Temporada implements Comparable<Temporada>{
 		return borrado;
 	}
 	
-	public String getNombreTemporada() {
-		return this.nombreTemporada;
-	}
-	
-	public int getSumaOpiniones() {
-		return this.sumaOpiniones;
-	}
-	
-	public int getNumOpiniones() {
-		return this.numeroOpiniones;
-	}
-	
-	public List<String> getCapitulos(){
-		return this.capitulos;
+	public List<String> toList(){
+		return capitulos;
+		
 	}
 	
 	/**
@@ -96,11 +84,16 @@ public class Temporada implements Comparable<Temporada>{
 	 * @throws SerieException: si no encuentra el capítulo que indica la posición para añadir.
 	 */
 	public void anadirCapituloDespues(String nombreCapituloAnnadir, String nombreCapituloAnterior) throws SerieException{
-		if(!this.capitulos.contains(nombreCapituloAnterior)) throw new SerieException("No existe capitulo anterior");
-		this.capitulos.add(this.capitulos.indexOf(nombreCapituloAnterior)+1, nombreCapituloAnnadir);
-		
+		if(indiceCapitulo(nombreCapituloAnterior)==-1) {
+			throw new SerieException("Ese capitulo no existe");
+		}
+		this.capitulos.add(indiceCapitulo(nombreCapituloAnterior+1), nombreCapituloAnnadir);
 	}
 	
+	public int indiceCapitulo(String nombre) {
+		return this.capitulos.indexOf(nombre);
+				
+	}
 
 	/**
 	 * Devuleve el nombre del primer capítulo que contiene la palabra que  pasa por parámetro.
@@ -110,19 +103,21 @@ public class Temporada implements Comparable<Temporada>{
 	 * @throws SerieException
 	 */
 	public String primerCapituloQueContieneEstaPalabara(String palabra) throws SerieException {
-		String capitulo = null;
-		boolean encontrado=false;
-		for(String cap:this.capitulos) {
-			if(cap.startsWith(palabra) && !encontrado) {
-				capitulo=cap;
-				encontrado=true;
+		String capitulo = "";
+		for(String s:this.capitulos) {
+			if(s.contains(palabra)) {
+				capitulo = s;
 			}
 		}
-		if(capitulo==null) throw new SerieException("No se encuentra capitulo");
-		return capitulo;
+		if(capitulo.isBlank()) {
+			throw new SerieException("No existe capitulo que contenga esa palabra");
+		}
+		return this.capitulos.get(indiceCapitulo(capitulo));
 	}
 	
-	
+	public int getNumCapitulos() {
+		return this.capitulos.size();
+	}
 	
 	public double getNotaMedia() {
 		double notaMedia=-1;
@@ -140,6 +135,24 @@ public class Temporada implements Comparable<Temporada>{
 		return info;
 		
 	}
+	
+
+	public List<String> getCapitulos(){
+		return this.capitulos;
+	}
+	
+
+	public int getNumeroOpiniones() {
+		return numeroOpiniones;
+	}
+
+	public int getSumaOpiniones() {
+		return sumaOpiniones;
+	}
+
+	public String getNombreTemporada() {
+		return nombreTemporada;
+	}
 
 	@Override
 	public int hashCode() {
@@ -151,14 +164,25 @@ public class Temporada implements Comparable<Temporada>{
 
 	@Override
 	public boolean equals(Object obj) {
-		return obj == this || obj!=null && obj instanceof Temporada && this.hashCode()==obj.hashCode();
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Temporada other = (Temporada) obj;
+		if (nombreTemporada == null) {
+			if (other.nombreTemporada != null)
+				return false;
+		} else if (!nombreTemporada.equals(other.nombreTemporada))
+			return false;
+		return true;
 	}
 
 	@Override
 	public int compareTo(Temporada o) {
-		return this.getNumCapitulos()-o.getNumCapitulos();
+		return (int) (this.getNotaMedia()-o.getNotaMedia());
 	}
 	
-
 	
 }

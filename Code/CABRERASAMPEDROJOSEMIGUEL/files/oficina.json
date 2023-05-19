@@ -1,0 +1,64 @@
+{
+  "departamentos": [
+    {
+      "empleados": [
+        {
+          "nombreCompleto": "Jacinto Jiménez",
+          "codigoEmpleado": "SEVEMP_4",
+          "fechaNacimiento": "1971-05-13",
+          "rol": "PROGRAMADOR"
+        },
+        {
+          "nombreCompleto": "Rodrigo Rodríguez",
+          "codigoEmpleado": "SEVEMP_2",
+          "fechaNacimiento": "1977-05-13",
+          "rol": "ANALISTA"
+        },
+        {
+          "nombreCompleto": "Ernesto Echevarne",
+          "codigoEmpleado": "SEVEMP_1",
+          "fechaNacimiento": "1983-05-13",
+          "rol": "JEFE_DEPARTAMENTO"
+        },
+        {
+          "nombreCompleto": "Melania Maldívar",
+          "codigoEmpleado": "SEVEMP_3",
+          "fechaNacimiento": "1973-05-13",
+          "rol": "PROGRAMADOR"
+        }
+      ],
+      "codigoDepartamento": "SEVDEPT_1"
+    },
+    {
+      "empleados": [
+        {
+          "nombreCompleto": "Fernanda Fernández",
+          "codigoEmpleado": "SEVEMP_8",
+          "fechaNacimiento": "1991-05-13",
+          "rol": "PROGRAMADOR"
+        },
+        {
+          "nombreCompleto": "Carla Costa",
+          "codigoEmpleado": "SEVEMP_7",
+          "fechaNacimiento": "1993-05-13",
+          "rol": "PROGRAMADOR"
+        },
+        {
+          "nombreCompleto": "Gabino Gámez",
+          "codigoEmpleado": "SEVEMP_5",
+          "fechaNacimiento": "2003-05-13",
+          "rol": "JEFE_DEPARTAMENTO"
+        },
+        {
+          "nombreCompleto": "Lucrecia Lusa",
+          "codigoEmpleado": "SEVEMP_6",
+          "fechaNacimiento": "1997-05-13",
+          "rol": "ANALISTA"
+        }
+      ],
+      "codigoDepartamento": "SEVDEPT_2"
+    }
+  ],
+  "ubicacion": "Sevilla",
+  "codigoOficina": "STI1"
+}

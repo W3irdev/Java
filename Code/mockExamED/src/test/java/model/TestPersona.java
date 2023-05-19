@@ -6,10 +6,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import main.java.model.Persona;
@@ -64,12 +69,12 @@ class TestPersona {
 	}
 	
 	@Test
-	void testValidarDatosStringStringStringKOEmpty() {
+	void testValidarDatosStringStringStringKOEmpty(){
 		assertFalse(prueba.validarDatos("", "Cabrera", "47349821A"));
 		assertFalse(prueba.validarDatos("Josemi", "", "47349821A"));
 		assertFalse(prueba.validarDatos("Josemi", "Cabrera", ""));
 		assertFalse(prueba.validarDatos("Josemi", "Cabrera", "234523"));
-		assertFalse(prueba.validarDatos("Josemi", "Cabrera", "473D9821C"));
+		assertFalse(prueba.validarDatos("Josemi", "Cabrera", "4739821C"));
 		assertFalse(prueba.validarDatos("Josemi", "Cabrera", "4739821K"));
 		assertFalse(prueba.validarDatos("Josemi", "Cabrera", "473D98212"));
 		
@@ -93,7 +98,7 @@ class TestPersona {
 	void testValidarDatosStringStringStringLocalDateStringKOEmpty() {
 		assertFalse(prueba.validarDatos("", "Miguel", "47349821C", LocalDate.of(1992, 07, 20), "HOMBRE"));
 		assertFalse(prueba.validarDatos("Jose", "Miguel", "473498212", LocalDate.of(1992, 07, 20), "HOMBRE"));
-		assertFalse(prueba.validarDatos("Jose", "Miguel", "47349D21C", LocalDate.of(1992, 07, 20), "HOMBRE"));
+		assertFalse(prueba.validarDatos("Jose", "Miguel", "4734921C", LocalDate.of(1992, 07, 20), "HOMBRE"));
 		assertFalse(prueba.validarDatos("Jose", "Miguel", "4734921A", LocalDate.of(1992, 07, 20), "HOMBRE"));
 		assertFalse(prueba.validarDatos("Jose", "", "47349821C", LocalDate.of(1992, 07, 20), "HOMBRE"));
 		assertFalse(prueba.validarDatos("Jose", "Miguel", "", LocalDate.of(1992, 07, 20), "HOMBRE"));
@@ -139,5 +144,19 @@ class TestPersona {
 	void testObtenerEdadPara(int year, int edad) {
 		assertTrue(prueba.obtenerEdadPara(year)==edad);
 	}
+	
+	@ParameterizedTest
+	@MethodSource("yearList")
+	void testObtenerEdadParaMethod(int year, int edad) {
+		assertTrue(prueba.obtenerEdadPara(year)==edad);
+	}
 
+	static Stream<Arguments> yearList(){
+		return Stream.of(
+				Arguments.of("2030","38"),
+				Arguments.of("2031","39"),
+				Arguments.of("2032","40")
+				);
+	}
+	
 }
