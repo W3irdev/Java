@@ -187,12 +187,25 @@ public class ConnectTienda {
 		int borrado =0;
 		try {
 			connect();
+			PreparedStatement consultaPedido = connect.prepareStatement("SELECT p.id FROM Pedido p , Cliente c  WHERE p.idCliente = c.id and c.nombre = ? and c.apellido = ?;");
+			consultaPedido.setString(1, nombre);
+			consultaPedido.setString(2, apellido);
+			ResultSet pedido = consultaPedido.executeQuery();
+			while(pedido.next()) {
+				PreparedStatement borrarLinea = connect.prepareStatement("DELETE FROM Linea l WHERE l.idPedido = ?;");
+				borrarLinea.setInt(1, pedido.getInt(1));
+				PreparedStatement borrarPedido = connect.prepareStatement("DELETE FROM Pedido p WHERE p.id = ?;");
+				borrarPedido.setInt(1, pedido.getInt(1));
+				borrarLinea.executeUpdate();
+				borrarPedido.executeUpdate();
+			}
 			
 			PreparedStatement ps = connect.prepareStatement("DELETE from Cliente c WHERE c.nombre = ? and c.apellido = ? ;");
 			ps.setString(1, nombre);
 			ps.setString(2, apellido);
 			borrado = ps.executeUpdate();
 		} catch (SQLException e) {
+			e.printStackTrace();
 		} finally {
 			connect.close();
 		}
