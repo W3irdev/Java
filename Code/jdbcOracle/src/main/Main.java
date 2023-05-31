@@ -11,14 +11,6 @@ public class Main {
 		
 		try {
 			ConnectTienda ct = new ConnectTienda();
-			//System.out.println(ct.mostrarClientes());
-			//System.out.println(ct.mostrarPedidosPorPrecio());
-			//System.out.println(ct.addCliente("JM2", "Cabrera", "josemiguel.cabrera3122@gmail.com", "1992-07-20", "H"));
-			//System.out.println(ct.delCliente("JM", "Cabrera"));
-			//System.out.println(ct.addPedido("101", "6073382161", "PROCESANDO", "1"));
-			//System.out.println(ct.actualizarCliente("JM2", "Cabrera", "josemiguel.cabrera3122@gmail.com", "email@pruebas.com"));
-			//System.out.println(ct.addPedido("PROCESANDO", 2009));
-			//System.out.println(ct.incluirLinea(102, "222", "2001", "ElInvento", 1, 25.0));
 	        Scanner sc= new Scanner(System.in);
 	        int opcion=0;
         	String nombre = "";
@@ -109,7 +101,13 @@ public class Main {
 	            	cantidad=Integer.valueOf(sc.nextLine());
 	            	System.out.println("Introduzca precio: ");
 	            	precio=Double.valueOf(sc.nextLine());
-	            	ct.incluirLinea(idPedido, codigoProducto, nombreProducto, cantidad, precio);
+	            	try {
+	            		ct.incluirLinea(idPedido, codigoProducto, nombreProducto, cantidad, precio);
+						main(args);
+					} catch (Exception e) {
+						System.err.println("El pedido no existe");
+						main(args);
+					}
 	                break;
 	               
 	            }

@@ -43,9 +43,7 @@ public class Departamento {
 	public void cambiarRolAEmpleado(String codigoEmpleado, Rol rol) throws DepartamentoException, EmpleadoException{
 		Iterator<Empleado> it = this.empleados.iterator();
 		boolean encontrado = false;
-		if(!this.empleados.contains(codigoEmpleado)) {
-			throw new DepartamentoException("El empleado no existe");
-		}
+
 		while(it.hasNext() && !encontrado) {
 			Empleado empleado = it.next();
 			if(empleado.getCodigoEmpleado().equals(codigoEmpleado)) {

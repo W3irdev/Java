@@ -181,7 +181,7 @@ public class ConnectTienda {
 	/**
 	 * Realiza un DML DELETE para eliminar un cliente de la base de datos.
 	 * @return
-	 * int 1 si elimina, 0 si no consigue eliminar.
+	 * int al menos 1 si elimina, 0 si no consigue eliminar.
 	 */
 	public int delCliente(String nombre, String apellido) throws SQLException {
 		int borrado =0;
